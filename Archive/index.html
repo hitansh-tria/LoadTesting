@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K6 Results Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="chart"></div>
+    <script>
+        // Load the JSON data
+        d3.json('output1.json').then(function(data) {
+            // Process and visualize the data
+            const metrics = data.metrics;
+            const chartData = [];
+
+            for (const metric in metrics) {
+                if (metrics.hasOwnProperty(metric)) {
+                    chartData.push({
+                        name: metric,
+                        value: metrics[metric].values['count']
+                    });
+                }
+            }
+
+            // Create a simple bar chart
+            const width = 800;
+            const height = 400;
+            const margin = {top: 20, right: 20, bottom: 30, left: 40};
+
+            const x = d3.scaleBand()
+                .domain(chartData.map(d => d.name))
+                .range([margin.left, width - margin.right])
+                .padding(0.1);
+
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(chartData, d => d.value)]).nice()
+                .range([height - margin.bottom, margin.top]);
+
+            const svg = d3.select("#chart").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            svg.append("g")
+                .attr("fill", "steelblue")
+                .selectAll("rect")
+                .data(chartData)
+                .enter().append("rect")
+                .attr("x", d => x(d.name))
+                .attr("y", d => y(d.value))
+                .attr("height", d => y(0) - y(d.value))
+                .attr("width", x.bandwidth());
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickSizeOuter(0));
+
+            svg.append("g")
+                .attr("transform", `translate(${margin.left},0)`)
+                .call(d3.axisLeft(y));
+        });
+    </script>
+</body>
+</html>

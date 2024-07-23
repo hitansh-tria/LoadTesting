@@ -1,0 +1,21 @@
+execution:
+  - executor: locust
+    concurrency:
+      local: 1
+      cloud: 1
+    locations:
+      us-west-1: 1
+    hold-for: 5m
+    scenario:
+      script: emailOTPSignUp.py
+
+modules:
+  cloud:
+    token: '4870af55b93d643f7f5f16f4:6a66eedcb22855d032805cf309fd19ae78f113bb5536aeb839daa31eebd51d5ff3855710'
+  console:
+    disable:
+
+services:
+  - module: shellexec
+    prepare:
+    - pip3 install faker
