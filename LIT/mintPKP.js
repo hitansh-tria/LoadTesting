@@ -2,11 +2,13 @@
 //import { AuthMethodScope } from "@lit-protocol/constants";
 const { Email } = require('./litCustomAuth/Providers/emailProvider.js');
 const { AuthMethodScope } = require('@lit-protocol/constants');
+const io = require('socket.io-client');
 
 
-const mintPKP = async (authMethod) => {
+
+const mintPKP = async (authMethod, socket) => {
   try {
-    const provider = new Email({ relayApiKey: "test-api-key", relayUrl: "https://7fd7-2401-4900-1c1a-42c3-f447-5b83-b646-87b.ngrok-free.app"});
+    const provider = new Email({ relayApiKey: "test-api-key", relayUrl: "https://datil-dev-relayer.tria.so"});
     if (!provider) {
       throw new Error("Invalid Provider");
     }
@@ -14,12 +16,18 @@ const mintPKP = async (authMethod) => {
       permittedAuthMethodScopes: [[AuthMethodScope.SignAnything]],
     };
 
-    let txHash = await provider.mintPKPThroughRelayer(authMethod, options);
-    const { status, pkpEthAddress, pkpPublicKey, pkpTokenId, error } =
-      await provider.relay.pollRequestUntilTerminalState(txHash);
+    let {queueId, uuid} = await provider.mintPKPThroughRelayer(authMethod, options);
+    const { requestId, queueId: queueIdFromSockets } = await waitForSocketResponse(socket);
+    if(queueId !== queueIdFromSockets) {
+      throw new Error("Minting succecced, keys undefine");
+    }
+    const { queueId: delegateTxQueueId, status, pkpEthAddress, pkpPublicKey, pkpTokenId, error } =
+      await provider.relay.pollRequestUntilTerminalState(requestId, uuid);
     if (status !== "Succeeded") {
       throw new Error("Minting failed");
     }
+
+    await waitForSocketResponse(socket, delegateTxQueueId);
 
     if (!pkpEthAddress || !pkpPublicKey || !pkpTokenId) {
       throw new Error("Minting succecced, keys undefine");
@@ -33,6 +41,23 @@ const mintPKP = async (authMethod) => {
   } catch (err) {
     throw err;
   }
+};
+
+
+const waitForSocketResponse = (socket, queueId) => {
+  return new Promise((resolve, reject) => {
+    socket.on('transactionComplete', (data) => {
+      console.log("transactionComplete", data);
+      socket.off('transactionComplete'); // Remove the event listener after receiving the response
+      resolve(data);
+
+    });
+    // Timeout after 35 seconds if no response is received
+    setTimeout(() => {
+      socket.off('transactionComplete');
+      reject(new Error('No response from socket within 35 seconds'));
+    }, 35000);
+  });
 };
 
 //const authMethod = {

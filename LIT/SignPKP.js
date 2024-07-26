@@ -26,12 +26,12 @@ const signMessage = async (publicKey, message, authMethod) => {
     )
   );
   try {
-    const litNodeClient = new LitNodeClientNodeJs({
-      alertWhenUnauthorized: false,
-      litNetwork: network,
-      debug: false,
-    });
-    await litNodeClient.connect();
+    // const litNodeClient = new LitNodeClientNodeJs({
+    //   alertWhenUnauthorized: false,
+    //   litNetwork: network,
+    //   debug: false,
+    // });
+    // await litNodeClient.connect();
     const litActionSessionSigs = await litNodeClient.getLitActionSessionSigs({
       pkpPublicKey: publicKey,
       resourceAbilityRequests: [

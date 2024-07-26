@@ -4,8 +4,10 @@ const { getCreateDIDData } = require('./createDIDData.js');
 const { Email } = require('./litCustomAuth/Providers/emailProvider.js');
 //const AWS = require('aws-sdk');
 const fs = require('fs');
-const path = '/tmp/responses.csv';
-
+const path = './responses.csv';
+const io = require('socket.io-client');
+const { LitNodeClientNodeJs } = require('@lit-protocol/lit-node-client-nodejs');
+const jose = require('jose');
 //const s3 = new AWS.S3();
 //const bucketName = 'artilleryio-test-data-741878071414-us-west-1';
 //const objectKey = 'responses.csv';
@@ -22,6 +24,27 @@ module.exports = {
     context.vars.username = `${randomName}${randomNum}`;
     return done();
   },
+  connectSocket: function (context, events, done) {
+    const accessToken = context.vars.accessToken;
+    const decodedPayload = jose.decodeJwt(accessToken);
+
+    // Create a new socket instance for each user and store it in the context
+    context.vars.socket = io('https://datil-dev-relayer.tria.so');
+
+    context.vars.socket.on('connect', () => {
+      console.log('Socket connected');
+      console.log("uuid", decodedPayload.uuid);
+      context.vars.socket.emit('register', decodedPayload.uuid);
+    });
+
+    context.vars.socket.on('disconnect', () => {
+      console.log('Socket disconnected');
+    });
+
+    // Additional socket event listeners can be added here
+
+    done();
+  },
   getPKP: async (context, events, done) => {
     const authMethod = {
       accessToken: context.vars.accessToken,
@@ -35,16 +58,23 @@ module.exports = {
       accessToken: context.vars.accessToken,
       authMethodType: "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
-    context.vars.PKPData = await mintPKP(authMethod);
+    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
     return true;
   },
   getCreateDIDData: async (context, events, done) => {
+    const litNodeClient = new LitNodeClientNodeJs({
+      alertWhenUnauthorized: false,
+      litNetwork: 'datil-test',
+      debug: false,
+    });
+    
+    await litNodeClient.connect();
     const authMethod = {
       accessToken: context.vars.accessToken,
       authMethodType: "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
     const triaName = `${context.vars.username}@tria`;
-    context.vars.DIDData = await getCreateDIDData(triaName, context.vars.PKPData, authMethod);
+    context.vars.DIDData = await getCreateDIDData(triaName, context.vars.PKPData, authMethod, litNodeClient);
     return true;
   },
   captureResponse: (requestParams, response, context, ee, next) => {

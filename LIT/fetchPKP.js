@@ -1,10 +1,10 @@
 //import { Email } from "./litCustomAuth/Providers/emailProvider.js";
-const { Email } = require('./litCustomAuth/Providers/emailProvider.js');
+const { Email } = require('./litCustomAuth/Providers/emailProvider');
 
 
 const getPKPs = async (authMethod) => {
   try {
-    const provider = new Email({ relayApiKey: "test-api-key", relayUrl: "https://7fd7-2401-4900-1c1a-42c3-f447-5b83-b646-87b.ngrok-free.app"});
+    const provider = new Email({ relayApiKey: "test-api-key", relayUrl: "https://datil-dev-relayer.tria.so"});
     const allPKPs = await provider.fetchPKPsThroughRelayer(authMethod);
     return allPKPs;
   } catch (err) {
