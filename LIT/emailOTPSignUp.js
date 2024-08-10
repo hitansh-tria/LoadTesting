@@ -69,7 +69,7 @@ export default async function() {
   const authMethod = {
   accessToken:`${accToken}`,
   authMethodType:
-    "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+    "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
   };
   console.log(authMethod)
   sleep(10)

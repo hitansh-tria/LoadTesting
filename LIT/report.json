@@ -1,0 +1,481 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 1,
+      "vusers.created": 1,
+      "http.requests": 4,
+      "http.codes.200": 4,
+      "http.responses": 4,
+      "http.downloaded_bytes": 0,
+      "plugins.metrics-by-endpoint./api/v2/auth/initiate-otp.codes.200": 1,
+      "plugins.metrics-by-endpoint./api/v2/auth/verify-otp.codes.200": 1,
+      "plugins.metrics-by-endpoint./api/v2/did/check.codes.200": 1,
+      "plugins.metrics-by-endpoint./api/v2/get-name-recommendation.codes.200": 1,
+      "errors.fetch failed": 1,
+      "vusers.failed": 1
+    },
+    "rates": {
+      "http.request_rate": 1
+    },
+    "firstCounterAt": 1723298641819,
+    "firstHistogramAt": 1723298643436,
+    "lastCounterAt": 1723298687486,
+    "lastHistogramAt": 1723298677411,
+    "firstMetricAt": 1723298641819,
+    "lastMetricAt": 1723298687486,
+    "period": 1723298680000,
+    "summaries": {
+      "http.response_time": {
+        "min": 655,
+        "max": 1648,
+        "count": 4,
+        "mean": 1232.5,
+        "p50": 1274.3,
+        "median": 1274.3,
+        "p75": 1353.1,
+        "p90": 1353.1,
+        "p95": 1353.1,
+        "p99": 1353.1,
+        "p999": 1353.1
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/auth/initiate-otp": {
+        "min": 1345,
+        "max": 1345,
+        "count": 1,
+        "mean": 1345,
+        "p50": 1353.1,
+        "median": 1353.1,
+        "p75": 1353.1,
+        "p90": 1353.1,
+        "p95": 1353.1,
+        "p99": 1353.1,
+        "p999": 1353.1
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/auth/verify-otp": {
+        "min": 1648,
+        "max": 1648,
+        "count": 1,
+        "mean": 1648,
+        "p50": 1652.8,
+        "median": 1652.8,
+        "p75": 1652.8,
+        "p90": 1652.8,
+        "p95": 1652.8,
+        "p99": 1652.8,
+        "p999": 1652.8
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/did/check": {
+        "min": 655,
+        "max": 655,
+        "count": 1,
+        "mean": 655,
+        "p50": 658.6,
+        "median": 658.6,
+        "p75": 658.6,
+        "p90": 658.6,
+        "p95": 658.6,
+        "p99": 658.6,
+        "p999": 658.6
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/get-name-recommendation": {
+        "min": 1282,
+        "max": 1282,
+        "count": 1,
+        "mean": 1282,
+        "p50": 1274.3,
+        "median": 1274.3,
+        "p75": 1274.3,
+        "p90": 1274.3,
+        "p95": 1274.3,
+        "p99": 1274.3,
+        "p999": 1274.3
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 655,
+        "max": 1648,
+        "count": 4,
+        "mean": 1232.5,
+        "p50": 1274.3,
+        "median": 1274.3,
+        "p75": 1353.1,
+        "p90": 1353.1,
+        "p95": 1353.1,
+        "p99": 1353.1,
+        "p999": 1353.1
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/auth/initiate-otp": {
+        "min": 1345,
+        "max": 1345,
+        "count": 1,
+        "mean": 1345,
+        "p50": 1353.1,
+        "median": 1353.1,
+        "p75": 1353.1,
+        "p90": 1353.1,
+        "p95": 1353.1,
+        "p99": 1353.1,
+        "p999": 1353.1
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/auth/verify-otp": {
+        "min": 1648,
+        "max": 1648,
+        "count": 1,
+        "mean": 1648,
+        "p50": 1652.8,
+        "median": 1652.8,
+        "p75": 1652.8,
+        "p90": 1652.8,
+        "p95": 1652.8,
+        "p99": 1652.8,
+        "p999": 1652.8
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/did/check": {
+        "min": 655,
+        "max": 655,
+        "count": 1,
+        "mean": 655,
+        "p50": 658.6,
+        "median": 658.6,
+        "p75": 658.6,
+        "p90": 658.6,
+        "p95": 658.6,
+        "p99": 658.6,
+        "p999": 658.6
+      },
+      "plugins.metrics-by-endpoint.response_time./api/v2/get-name-recommendation": {
+        "min": 1282,
+        "max": 1282,
+        "count": 1,
+        "mean": 1282,
+        "p50": 1274.3,
+        "median": 1274.3,
+        "p75": 1274.3,
+        "p90": 1274.3,
+        "p95": 1274.3,
+        "p99": 1274.3,
+        "p999": 1274.3
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 1,
+        "vusers.created": 1,
+        "http.requests": 1,
+        "http.codes.200": 1,
+        "http.responses": 1,
+        "http.downloaded_bytes": 46,
+        "plugins.metrics-by-endpoint./api/v2/auth/initiate-otp.codes.200": 1
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1723298641819,
+      "firstHistogramAt": 1723298643436,
+      "lastCounterAt": 1723298643437,
+      "lastHistogramAt": 1723298643437,
+      "firstMetricAt": 1723298641819,
+      "lastMetricAt": 1723298643437,
+      "period": "1723298640000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1345,
+          "max": 1345,
+          "count": 1,
+          "mean": 1345,
+          "p50": 1353.1,
+          "median": 1353.1,
+          "p75": 1353.1,
+          "p90": 1353.1,
+          "p95": 1353.1,
+          "p99": 1353.1,
+          "p999": 1353.1
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/auth/initiate-otp": {
+          "min": 1345,
+          "max": 1345,
+          "count": 1,
+          "mean": 1345,
+          "p50": 1353.1,
+          "median": 1353.1,
+          "p75": 1353.1,
+          "p90": 1353.1,
+          "p95": 1353.1,
+          "p99": 1353.1,
+          "p999": 1353.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1345,
+          "max": 1345,
+          "count": 1,
+          "mean": 1345,
+          "p50": 1353.1,
+          "median": 1353.1,
+          "p75": 1353.1,
+          "p90": 1353.1,
+          "p95": 1353.1,
+          "p99": 1353.1,
+          "p999": 1353.1
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/auth/initiate-otp": {
+          "min": 1345,
+          "max": 1345,
+          "count": 1,
+          "mean": 1345,
+          "p50": 1353.1,
+          "median": 1353.1,
+          "p75": 1353.1,
+          "p90": 1353.1,
+          "p95": 1353.1,
+          "p99": 1353.1,
+          "p999": 1353.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 1,
+        "http.codes.200": 1,
+        "http.responses": 1,
+        "plugins.metrics-by-endpoint./api/v2/auth/verify-otp.codes.200": 1
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1723298653460,
+      "firstHistogramAt": 1723298655215,
+      "lastCounterAt": 1723298655223,
+      "lastHistogramAt": 1723298655223,
+      "firstMetricAt": 1723298653460,
+      "lastMetricAt": 1723298655223,
+      "period": "1723298650000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1648,
+          "max": 1648,
+          "count": 1,
+          "mean": 1648,
+          "p50": 1652.8,
+          "median": 1652.8,
+          "p75": 1652.8,
+          "p90": 1652.8,
+          "p95": 1652.8,
+          "p99": 1652.8,
+          "p999": 1652.8
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/auth/verify-otp": {
+          "min": 1648,
+          "max": 1648,
+          "count": 1,
+          "mean": 1648,
+          "p50": 1652.8,
+          "median": 1652.8,
+          "p75": 1652.8,
+          "p90": 1652.8,
+          "p95": 1652.8,
+          "p99": 1652.8,
+          "p999": 1652.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1648,
+          "max": 1648,
+          "count": 1,
+          "mean": 1648,
+          "p50": 1652.8,
+          "median": 1652.8,
+          "p75": 1652.8,
+          "p90": 1652.8,
+          "p95": 1652.8,
+          "p99": 1652.8,
+          "p999": 1652.8
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/auth/verify-otp": {
+          "min": 1648,
+          "max": 1648,
+          "count": 1,
+          "mean": 1648,
+          "p50": 1652.8,
+          "median": 1652.8,
+          "p75": 1652.8,
+          "p90": 1652.8,
+          "p95": 1652.8,
+          "p99": 1652.8,
+          "p999": 1652.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 1,
+        "http.codes.200": 1,
+        "http.responses": 1,
+        "plugins.metrics-by-endpoint./api/v2/did/check.codes.200": 1
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1723298665242,
+      "firstHistogramAt": 1723298666010,
+      "lastCounterAt": 1723298666013,
+      "lastHistogramAt": 1723298666013,
+      "firstMetricAt": 1723298665242,
+      "lastMetricAt": 1723298666013,
+      "period": "1723298660000",
+      "summaries": {
+        "http.response_time": {
+          "min": 655,
+          "max": 655,
+          "count": 1,
+          "mean": 655,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/did/check": {
+          "min": 655,
+          "max": 655,
+          "count": 1,
+          "mean": 655,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 655,
+          "max": 655,
+          "count": 1,
+          "mean": 655,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/did/check": {
+          "min": 655,
+          "max": 655,
+          "count": 1,
+          "mean": 655,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 1,
+        "http.codes.200": 1,
+        "http.responses": 1,
+        "plugins.metrics-by-endpoint./api/v2/get-name-recommendation.codes.200": 1
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1723298676029,
+      "firstHistogramAt": 1723298677407,
+      "lastCounterAt": 1723298677411,
+      "lastHistogramAt": 1723298677411,
+      "firstMetricAt": 1723298676029,
+      "lastMetricAt": 1723298677411,
+      "period": "1723298670000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1282,
+          "max": 1282,
+          "count": 1,
+          "mean": 1282,
+          "p50": 1274.3,
+          "median": 1274.3,
+          "p75": 1274.3,
+          "p90": 1274.3,
+          "p95": 1274.3,
+          "p99": 1274.3,
+          "p999": 1274.3
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/get-name-recommendation": {
+          "min": 1282,
+          "max": 1282,
+          "count": 1,
+          "mean": 1282,
+          "p50": 1274.3,
+          "median": 1274.3,
+          "p75": 1274.3,
+          "p90": 1274.3,
+          "p95": 1274.3,
+          "p99": 1274.3,
+          "p999": 1274.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1282,
+          "max": 1282,
+          "count": 1,
+          "mean": 1282,
+          "p50": 1274.3,
+          "median": 1274.3,
+          "p75": 1274.3,
+          "p90": 1274.3,
+          "p95": 1274.3,
+          "p99": 1274.3,
+          "p999": 1274.3
+        },
+        "plugins.metrics-by-endpoint.response_time./api/v2/get-name-recommendation": {
+          "min": 1282,
+          "max": 1282,
+          "count": 1,
+          "mean": 1282,
+          "p50": 1274.3,
+          "median": 1274.3,
+          "p75": 1274.3,
+          "p90": 1274.3,
+          "p95": 1274.3,
+          "p99": 1274.3,
+          "p999": 1274.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "errors.fetch failed": 1,
+        "vusers.failed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1723298687486,
+      "lastCounterAt": 1723298687486,
+      "firstMetricAt": 1723298687486,
+      "lastMetricAt": 1723298687486,
+      "period": "1723298680000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

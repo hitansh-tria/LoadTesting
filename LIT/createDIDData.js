@@ -8,6 +8,7 @@ const {getSessionSigForLitAction} = require("./utils/utils");
 
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {
+    console.log("getCreateDIDData...");
     console.log("1");
     const sessionSig = await getSessionSigForLitAction({
       authMethod: authMethod,
@@ -69,6 +70,7 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
     console.log("args",args);
     return args;
   } catch (err) {
+    console.log(err);
     throw err;
   }
 };

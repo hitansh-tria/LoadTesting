@@ -1,6 +1,8 @@
 const { LitAbility, LitActionResource, LitPKPResource } = require("@lit-protocol/auth-helpers");
 
 const { customAuthLAIPFS } = require("./constants");
+const { relayerUrl } = require("./../constant");
+const axios = require("axios");
 
 const getSessionSigForLitAction = async ({litNodeClient, authMethod, pkp, delegateAuthSig}) => {
     const IPFSID = customAuthLAIPFS;
@@ -29,4 +31,23 @@ const getSessionSigForLitAction = async ({litNodeClient, authMethod, pkp, delega
       return litActionSessionSigs;
 }
 
-module.exports = {getSessionSigForLitAction}
+
+const pullTxHashByQueueId = async (queueId) => {
+  try {
+    const baseUrl = relayerUrl;
+    let config = {
+        method: 'get',
+        maxBodyLength: Infinity,
+        url: `${baseUrl}/transaction/status/${queueId}`,
+        headers: { 
+          'api-key': 'test-api-key'
+        }
+      };
+    const {data} =  await axios.request(config);
+    return {txHash: data.transactionHash, queueId: data.queueId};
+  }catch(err) {
+    console.log(err);
+  }
+}
+
+module.exports = {getSessionSigForLitAction, pullTxHashByQueueId}

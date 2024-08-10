@@ -4,18 +4,19 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "artillery run load-test.yaml && exit 1"
+    "test": "artillery run load-test.yaml -o report.json && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@lit-protocol/auth-helpers": "^6.3.0",
-    "@lit-protocol/constants": "^6.3.0",
-    "@lit-protocol/lit-node-client-nodejs": "^6.3.0",
-    "@lit-protocol/types": "^6.3.0",
-    "@lit-protocol/wrapped-keys": "^6.3.0",
+    "@lit-protocol/auth-helpers": "^6.4.0",
+    "@lit-protocol/constants": "^6.4.0",
+    "@lit-protocol/lit-node-client-nodejs": "^6.4.0",
+    "@lit-protocol/types": "^6.4.0",
+    "@lit-protocol/wrapped-keys": "^6.4.0",
+    "axios": "^1.7.3",
     "bs58": "^5.0.0",
     "ethers": "^5.7.2",
     "jose": "^5.4.0",

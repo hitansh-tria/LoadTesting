@@ -8,6 +8,8 @@ const path = './responses.csv';
 const io = require('socket.io-client');
 const { LitNodeClientNodeJs } = require('@lit-protocol/lit-node-client-nodejs');
 const jose = require('jose');
+const { relayerUrl} = require("./constant");
+
 //const s3 = new AWS.S3();
 //const bucketName = 'artilleryio-test-data-741878071414-us-west-1';
 //const objectKey = 'responses.csv';
@@ -29,7 +31,7 @@ module.exports = {
     const decodedPayload = jose.decodeJwt(accessToken);
 
     // Create a new socket instance for each user and store it in the context
-    context.vars.socket = io('https://datil-dev-relayer.tria.so');
+    context.vars.socket = io(relayerUrl);
 
     context.vars.socket.on('connect', () => {
       console.log('Socket connected');
@@ -48,7 +50,7 @@ module.exports = {
   getPKP: async (context, events, done) => {
     const authMethod = {
       accessToken: context.vars.accessToken,
-      authMethodType: "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      authMethodType: "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
     await getPKPs(authMethod);
     return true;
@@ -56,7 +58,7 @@ module.exports = {
   mintPKP: async (context, events, done) => {
     const authMethod = {
       accessToken: context.vars.accessToken,
-      authMethodType: "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      authMethodType: "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
     context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
     return true;
@@ -65,13 +67,14 @@ module.exports = {
     const litNodeClient = new LitNodeClientNodeJs({
       alertWhenUnauthorized: false,
       litNetwork: 'datil-test',
+      // litNetwork: 'datil',
       debug: false,
     });
     
     await litNodeClient.connect();
     const authMethod = {
       accessToken: context.vars.accessToken,
-      authMethodType: "0xf7d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      authMethodType: "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
     const triaName = `${context.vars.username}@tria`;
     context.vars.DIDData = await getCreateDIDData(triaName, context.vars.PKPData, authMethod, litNodeClient);
