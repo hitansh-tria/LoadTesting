@@ -1,1 +1,0 @@
-"https://dev.tria.so/api/v1/did/create","400",""{\"success\":false,\"response\":{\"message\":\"Invalid EVM signature.\"}}""

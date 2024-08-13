@@ -16,6 +16,7 @@
     "@lit-protocol/lit-node-client-nodejs": "^6.4.2",
     "@lit-protocol/types": "^6.4.2",
     "@lit-protocol/wrapped-keys": "^6.4.2",
+    "aws-sdk": "^2.1673.0",
     "axios": "^1.7.3",
     "bs58": "^5.0.0",
     "ethers": "^5.7.2",

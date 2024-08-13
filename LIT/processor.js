@@ -2,16 +2,17 @@ const { getPKPs } = require('./fetchPKP.js');
 const { mintPKP } = require('./mintPKP.js');
 const { getCreateDIDData } = require('./createDIDData.js');
 const { Email } = require('./litCustomAuth/Providers/emailProvider.js');
-//const AWS = require('aws-sdk');
+const AWS = require('aws-sdk');
 const fs = require('fs');
-const path = './responses.csv';
+const path = '/tmp/responses.csv'; //To be used when running through AWS Lambda
+//const path = './responses.csv'; //To be used when running locally (not recommended for a load over 100 total VUs)
 const io = require('socket.io-client');
 const { LitNodeClientNodeJs } = require('@lit-protocol/lit-node-client-nodejs');
 const jose = require('jose');
 const { relayerUrl} = require("./constant");
 
-//const s3 = new AWS.S3();
-//const bucketName = 'artilleryio-test-data-741878071414-us-west-1';
+const s3 = new AWS.S3();
+const bucketName = 'artilleryio-test-data-741878071414-us-west-1';
 //const objectKey = 'responses.csv';
 
 function writeResponse(url, statusCode, body) {
@@ -90,20 +91,25 @@ module.exports = {
     }
     return next();
   },
-//  uploadToS3: async () => {
-//    const fileContent = fs.readFileSync(path);
-//
-//    const params = {
-//      Bucket: bucketName,
-//      Key: objectKey,
-//      Body: fileContent,
-//    };
-//
-//    try {
-//      await s3.upload(params).promise();
-//      console.log(`File uploaded successfully at https://${bucketName}.s3.us-west-1.amazonaws.com//${objectKey}`);
-//    } catch (err) {
-//      console.error('Error uploading file to S3:', err);
-//    }
-//  }
+  uploadToS3: async () => {
+    if(fs.existsSync(path)){
+//    const workerId = context.awsRequestId;
+        const workerId = Math.floor(Math.random() * 1000000);
+        const objectKey = `data_${workerId}.csv`;
+        const fileContent = fs.readFileSync(path);
+
+        const params = {
+            Bucket: bucketName,
+            Key: objectKey,
+            Body: fileContent,
+        };
+
+        try {
+            await s3.upload(params).promise();
+            console.log(`File uploaded successfully at https://${bucketName}.s3.us-west-1.amazonaws.com//${objectKey}`);
+        } catch (err) {
+            console.error('Error uploading file to S3:', err);
+        }
+    }
+  }
 };
