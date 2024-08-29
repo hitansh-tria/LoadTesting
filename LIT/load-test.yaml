@@ -24,9 +24,12 @@ scenarios:
             fromClientId: "{{ fromClientId }}"
           headers:
             Content-Type: "application/json"
+          capture:
+            - json: "$.success"
+              as: "initiateOTPSuccess"
           afterResponse: "captureResponse"
       - log: "Initiate OTP executed"
-      - think: 10
+      - function: "checkInitiateOTPSuccessAndContinue"
       - post:
           url: "/api/v2/auth/verify-otp"
           json:
@@ -40,8 +43,8 @@ scenarios:
               as: "accessToken"
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
-      #      - function: "connectSocket"  # Call the function to connect the socket
-      - think: 10
+      # - function: "connectSocket" # Call the function to connect the socket
+      - function: "checkAccessTokenAndContinue"
       - post:
           url: "/api/v2/did/check"
           json:
@@ -53,7 +56,6 @@ scenarios:
               as: "availabilityStatus"
           afterResponse: "captureResponse"
       - log: "Check DID response: {{ availabilityStatus }}"
-      - think: 10
       - get:
           url: "/api/v2/get-name-recommendation"
           qs:
@@ -63,12 +65,11 @@ scenarios:
               as: "recommendations"
           afterResponse: "captureResponse"
       - log: "Name recommendations: {{ recommendations }}"
-      - think: 10
+      - function: "checkAvailabilityStatusSuccessAndContinue"
       - function: "mintPKP"
       - log: "Minting done"
       - log: "Running getPKP"
       - function: "getPKP"
-      - think: 10 # Adding 10 seconds delay before running getCreateDIDData
       - function: "getCreateDIDData"
       - log: "DID Data Generated"
       - log: "{{ DIDData }}"
@@ -84,7 +85,6 @@ scenarios:
               as: "Status"
           afterResponse: "captureResponse"
       - log: "Create DID response: {{ Status }}"
-
 after:
   flow:
     - log: "Uploading Data to S3"

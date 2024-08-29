@@ -21,6 +21,32 @@ function writeResponse(url, statusCode, body) {
 }
 
 module.exports = {
+  checkInitiateOTPSuccessAndContinue(context, events, done) {
+    if (!context.vars.initiateOTPSuccess) {
+      // If initiate OTP was not successful, end the scenario
+      return done(
+        new Error("Initiate OTP was not successful. Ending scenario.")
+      );
+    }
+    // If successful, continue with the scenario
+    return done();
+  },
+  checkAccessTokenAndContinue(context, events, done) {
+    if (!context.vars.accessToken) {
+      // If accessToken is not present, end the scenario
+      return done(new Error("Access Token not found. Ending scenario."));
+    }
+    // If accessToken is present, continue with the scenario
+    return done();
+  },
+  checkAvailabilityStatusSuccessAndContinue(context, events, done) {
+    if (context.vars.availabilityStatus) {
+      // If initiate OTP was not successful, end the scenario
+      return done(new Error("Check DID not successful. Ending scenario."));
+    }
+    // If successful, continue with the scenario
+    return done();
+  },
   getRandomUsername: (context, events, done) => {
     const randomName = (Math.random() + 1).toString(36).substring(2);
     const randomNum = Math.floor(Math.random() * 1000000);
@@ -49,23 +75,31 @@ module.exports = {
     done();
   },
   getPKP: async (context, events, done) => {
-    const authMethod = {
-      accessToken: context.vars.accessToken,
-      authMethodType:
-        "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
-    };
-    await getPKPs(authMethod);
-    return true;
+    try {
+      const authMethod = {
+        accessToken: context.vars.accessToken,
+        authMethodType:
+          "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      };
+      await getPKPs(authMethod);
+      return done();
+    } catch (error) {
+      return done(new Error("GET PKP not successful. Ending scenario."));
+    }
   },
   mintPKP: async (context, events, done) => {
-    const authMethod = {
-      accessToken: context.vars.accessToken,
-      authMethodType:
-        "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
-    };
-    context.vars.PKPData = await mintPKP(authMethod);
-    //    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
-    return true;
+    try {
+      const authMethod = {
+        accessToken: context.vars.accessToken,
+        authMethodType:
+          "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      };
+      context.vars.PKPData = await mintPKP(authMethod);
+      //    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
+      return done();
+    } catch (error) {
+      return done(new Error("Mint PKP not successful. Ending scenario."));
+    }
   },
   getCreateDIDData: async (context, events, done) => {
     try {
@@ -90,9 +124,9 @@ module.exports = {
         litNodeClient
       );
       context.previousRequestSucceeded = false;
-      throw new Error("getDIDError");
+      return done();
     } catch (err) {
-      return false;
+      return done(new Error("CreateDID Data not successful. Ending scenario."));
     }
   },
   captureResponse: (requestParams, response, context, ee, next) => {
