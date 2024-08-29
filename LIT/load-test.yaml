@@ -1,5 +1,5 @@
 config:
-  target: "https://dev.tria.so"
+  target: "https://api.development.tria.so"
   phases:
     - duration: 180
 #      arrivalRate: 1

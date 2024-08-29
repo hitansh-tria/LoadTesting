@@ -1,5 +1,3 @@
-//import { signMessage } from "./signPKP";
-const { signMessage } = require('./signPKP');
 const { api } = require("@lit-protocol/wrapped-keys");
 const ethers = require("ethers");
 const {generatePrivateKey, signMessageWithEncryptedKey} = api;
@@ -9,13 +7,11 @@ const {getSessionSigForLitAction} = require("./utils/utils");
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {
     console.log("getCreateDIDData...");
-    console.log("1");
     const sessionSig = await getSessionSigForLitAction({
       authMethod: authMethod,
       litNodeClient: litNodeClient,
       pkp: pkpData,
     });
-    console.log("2");
     const { pkpAddress, generatedPublicKey, id} = await generatePrivateKey({
       pkpSessionSigs: sessionSig,
       network: 'evm',
@@ -36,7 +32,6 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
       //   JSON.stringify(evmMessage),
     //   authMethod
     // );
-    console.log("3");
     const signature = await signMessageWithEncryptedKey({
       pkpSessionSigs: sessionSig,
       network: 'evm',
@@ -45,20 +40,16 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
       id: id
     });
     console.log("signature", signature);
-    console.log("4");
     //const recoverAddress = ethers.utils.verifyMessage(signature, JSON.stringify(evmMessage));
-    console.log("5");
-    
+
     // if(recoverAddress !== wrappedEthAddress) {
     //   throw new Error('recoverAddress is not equal to wrappedEthAddress');
     // }
-    console.log("6");
     const evmChainData = {
       address: evmAddress,
       message: evmMessage,
       signature,
     };
-    console.log("7");
 
     const args = {
       did: triaName,

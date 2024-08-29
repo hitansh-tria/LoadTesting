@@ -21,19 +21,32 @@ const mintPKP = async (authMethod, socket) => {
     };
 
     let {queueId, uuid} = await provider.mintPKPThroughRelayer(authMethod, options);
-    const { txHash: requestId, queueId: queueIdFromSockets } = await waitForSocketResponse(socket,queueId);
-    if(queueId !== queueIdFromSockets) {
-      throw new Error("Minting succecced, keys undefine");
-    }
-    const { queueId: delegateTxQueueId, status, pkpEthAddress, pkpPublicKey, pkpTokenId, error } =
-      await provider.relay.pollRequestUntilTerminalState(requestId, uuid);
+    //const { txHash: requestId, queueId: queueIdFromSockets } = await waitForSocketResponse(socket,queueId);
+    const { txHash: requestId, queueId: mintPKPqueueIdFromSockets } =
+        await pullTxHashByQueueId(queueId);
+    // if(queueId !== queueIdFromSockets) {
+    //   throw new Error("Minting succecced, keys undefine");
+    // }
+    const {
+      //@ts-ignore
+      queueId: delegateTxQueueId,
+      status,
+      pkpEthAddress,
+      pkpPublicKey,
+      pkpTokenId,
+      error,
+    } = await provider.relay.pollRequestUntilTerminalState(
+      requestId,
+      uuid
+    );
     if (status !== "Succeeded") {
       throw new Error("Minting failed");
     }
 
-   const {txHash} = await waitForSocketResponse(socket, delegateTxQueueId);
-    console.log("txHash", txHash);
-    const receipt = await ethersProvider.waitForTransaction(txHash, 1);
+    const { txHash: delegateTxHash, queueId: queueIdFromSockets } =
+    await pullTxHashByQueueId(delegateTxQueueId);
+    console.log("txHash", delegateTxHash);
+    const receipt = await ethersProvider.waitForTransaction(delegateTxHash, 1);
     if (receipt && receipt.confirmations >= 1) {
       console.log(`Transaction confirmed in block number: ${receipt.blockNumber}`);
     } else {

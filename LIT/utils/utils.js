@@ -1,6 +1,6 @@
 const { LitAbility, LitActionResource, LitPKPResource } = require("@lit-protocol/auth-helpers");
 
-const { customAuthLAIPFS } = require("./constants");
+const { customAuthLAIPFS, customAuthLAIPFSBse64Code } = require("./constants");
 const { relayerUrl } = require("./../constant");
 const axios = require("axios");
 
@@ -20,7 +20,8 @@ const getSessionSigForLitAction = async ({litNodeClient, authMethod, pkp, delega
         ],
         expiration:  new Date(Date.now() + 1000 * 60 * 15).toISOString(),
         capacityDelegationAuthSig: delegateAuthSig,
-        litActionIpfsId: IPFSID,
+        //litActionIpfsId: IPFSID,
+        litActionCode:customAuthLAIPFSBse64Code,
         jsParams: {
           publicKey: pkp.publicKey,
           sigName: 'signedMessage',
