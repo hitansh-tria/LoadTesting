@@ -2,8 +2,8 @@ config:
   target: "https://api.development.tria.so"
   phases:
     - duration: 1
-#      arrivalRate: 1
-#      rampTo: 5
+      #      arrivalRate: 1
+      #      rampTo: 5
       arrivalCount: 1
   processor: "./processor.js"
   variables:
@@ -40,7 +40,7 @@ scenarios:
               as: "accessToken"
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
-#      - function: "connectSocket"  # Call the function to connect the socket
+      #      - function: "connectSocket"  # Call the function to connect the socket
       - think: 10
       - post:
           url: "/api/v2/did/check"
@@ -68,7 +68,7 @@ scenarios:
       - log: "Minting done"
       - log: "Running getPKP"
       - function: "getPKP"
-      - think: 10  # Adding 10 seconds delay before running getCreateDIDData
+      - think: 10 # Adding 10 seconds delay before running getCreateDIDData
       - function: "getCreateDIDData"
       - log: "DID Data Generated"
       - log: "{{ DIDData }}"
@@ -87,5 +87,5 @@ scenarios:
 
 after:
   flow:
-      - log: "Uploading Data to S3"
-      - function: "uploadToS3"
+    - log: "Uploading Data to S3"
+    - function: "uploadToS3"
