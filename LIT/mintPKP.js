@@ -8,7 +8,7 @@ const {ethers} = require("ethers");
 const {pullTxHashByQueueId} = require("./utils/utils");
 
 
-const mintPKP = async (authMethod, socket) => {
+const mintPKP = async (authMethod) => {
   try {
     console.log(authMethod);
     const provider = new Email({ relayApiKey: "test-api-key", relayUrl: relayerUrl});
@@ -69,30 +69,30 @@ const mintPKP = async (authMethod, socket) => {
 };
 
 
-const waitForSocketResponse = (socket, queueId) => {
-  return new Promise((resolve, reject) => {
-    socket.on('transactionComplete', (data) => {
-      console.log("transactionComplete", data);
-      socket.off('transactionComplete'); // Remove the event listener after receiving the response
-      resolve(data);
-
-    });
-    // Timeout after 35 seconds if no response is received
-    setTimeout(async () => {
-      socket.off('transactionComplete');
-      try {
-        console.log("pullTxHashByQueueId");
-        const data = await pullTxHashByQueueId(queueId);
-        if(!data) {
-          throw new Error(`No response received pullTxHashByQueueId ${queueId}`);
-        }
-        resolve(data);
-      } catch (error) {
-        reject(error);
-      }
-    }, 5000);
-  });
-};
+//const waitForSocketResponse = (socket, queueId) => {
+//  return new Promise((resolve, reject) => {
+//    socket.on('transactionComplete', (data) => {
+//      console.log("transactionComplete", data);
+//      socket.off('transactionComplete'); // Remove the event listener after receiving the response
+//      resolve(data);
+//
+//    });
+//    // Timeout after 35 seconds if no response is received
+//    setTimeout(async () => {
+//      socket.off('transactionComplete');
+//      try {
+//        console.log("pullTxHashByQueueId");
+//        const data = await pullTxHashByQueueId(queueId);
+//        if(!data) {
+//          throw new Error(`No response received pullTxHashByQueueId ${queueId}`);
+//        }
+//        resolve(data);
+//      } catch (error) {
+//        reject(error);
+//      }
+//    }, 5000);
+//  });
+//};
 
 //const authMethod = {
 //  accessToken:

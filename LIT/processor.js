@@ -61,17 +61,19 @@ module.exports = {
       accessToken: context.vars.accessToken,
       authMethodType: "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
     };
-    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
+    context.vars.PKPData = await mintPKP(authMethod);
+//    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
     return true;
   },
   getCreateDIDData: async (context, events, done) => {
+    try{
     const litNodeClient = new LitNodeClientNodeJs({
       alertWhenUnauthorized: false,
       litNetwork: 'datil-test',
       // litNetwork: 'datil',
       debug: false,
     });
-    
+
     await litNodeClient.connect();
     const authMethod = {
       accessToken: context.vars.accessToken,
@@ -79,16 +81,22 @@ module.exports = {
     };
     const triaName = `${context.vars.username}@tria`;
     context.vars.DIDData = await getCreateDIDData(triaName, context.vars.PKPData, authMethod, litNodeClient);
-    return true;
+    context.previousRequestSucceeded = false;
+    throw new Error("getDIDError");
+
+    }catch(err){
+        return false;
+    }
+
   },
   captureResponse: (requestParams, response, context, ee, next) => {
     const statusCode = response.statusCode;
-    if (statusCode != 200) {
+//    if (statusCode != 200) {
       const url = requestParams.url;
       const body = response.body;
 
       writeResponse(url, statusCode, body);
-    }
+//    }
     return next();
   },
   uploadToS3: async () => {

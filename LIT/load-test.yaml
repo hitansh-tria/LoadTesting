@@ -1,17 +1,17 @@
 config:
   target: "https://api.development.tria.so"
   phases:
-    - duration: 180
+    - duration: 1
 #      arrivalRate: 1
-#      rampTo: 10
-      arrivalCount: 50
+#      rampTo: 5
+      arrivalCount: 1
   processor: "./processor.js"
   variables:
     fromClientId: "7fc81e4118d1f8f59d48d513a63d561b:f7c89203ddf5487b1e55a00f68188912d66069cb078ab0611f5148c3395d1014fcebec4f1438bc328b2ad1d8b8b332684a668bca6f2786c55b2f4927299b1732833c3b1acaa44ced896abc4d22e4da18e080484519f960a1349ebda84278ae199b7df9117c1e:3dab23f16dad0832f359421744e7f0b0"
     origin: "https://tria-demo-staging.vercel.app"
     otp: "7R9K3P5A1Q"
-#  http:
-#    timeout: 60
+  http:
+    timeout: 60
 scenarios:
   - flow:
       - function: "getRandomUsername"
@@ -40,7 +40,7 @@ scenarios:
               as: "accessToken"
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
-      - function: "connectSocket"  # Call the function to connect the socket
+#      - function: "connectSocket"  # Call the function to connect the socket
       - think: 10
       - post:
           url: "/api/v2/did/check"
