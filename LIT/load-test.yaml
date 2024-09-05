@@ -85,7 +85,7 @@ scenarios:
           afterResponse: "captureResponse"
       - log: "Create DID response: {{ Status }}"
 
-after:
-  flow:
-    - log: "Uploading Data to S3"
-    - function: "uploadToS3"
+#after:
+#  flow:
+#    - log: "Uploading Data to S3"
+#    - function: "uploadToS3"
