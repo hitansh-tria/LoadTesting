@@ -43,15 +43,15 @@ const mintPKP = async (authMethod) => {
       throw new Error("Minting failed");
     }
 
-    const { txHash: delegateTxHash, queueId: queueIdFromSockets } =
-    await pullTxHashByQueueId(delegateTxQueueId);
-    console.log("txHash", delegateTxHash);
-    const receipt = await ethersProvider.waitForTransaction(delegateTxHash, 1);
-    if (receipt && receipt.confirmations >= 1) {
-      console.log(`Transaction confirmed in block number: ${receipt.blockNumber}`);
-    } else {
-      console.log('Transaction not confirmed yet.');
-    }
+    // const { txHash: delegateTxHash, queueId: queueIdFromSockets } =
+    // await pullTxHashByQueueId(delegateTxQueueId);
+    //console.log("txHash", delegateTxHash);
+    //const receipt = await ethersProvider.waitForTransaction(delegateTxHash, 1);
+    // if (receipt && receipt.confirmations >= 1) {
+    //   console.log(`Transaction confirmed in block number: ${receipt.blockNumber}`);
+    // } else {
+    //   console.log('Transaction not confirmed yet.');
+    // }
 
     if (!pkpEthAddress || !pkpPublicKey || !pkpTokenId) {
       throw new Error("Minting succecced, keys undefine");
