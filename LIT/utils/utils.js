@@ -9,7 +9,7 @@ const getSessionSigForLitAction = async ({litNodeClient, authMethod, pkp, delega
     const { data:{ capacityDelegationAuthSig } } = await axios.post(`https://lit.development.tria.so/api/v1/lit/v6/delegate-auth-sig`, {
       delegateeAddress: pkp.ethAddress
     });
-
+    console.log("capacityDelegationAuthSig", capacityDelegationAuthSig);
     const IPFSID = customAuthLAIPFS;
     const litActionSessionSigs = await litNodeClient.getLitActionSessionSigs({
         pkpPublicKey: pkp.publicKey,
@@ -24,9 +24,9 @@ const getSessionSigForLitAction = async ({litNodeClient, authMethod, pkp, delega
           },
         ],
         expiration:  new Date(Date.now() + 1000 * 60 * 15).toISOString(),
-        capacityDelegationAuthSig:capacityDelegationAuthSig,
+        capabilityAuthSigs: [capacityDelegationAuthSig],
         //litActionIpfsId: IPFSID,
-        litActionCode:customAuthLAIPFSBse64Code,
+        litActionCode: customAuthLAIPFSBse64Code,
         jsParams: {
           publicKey: pkp.publicKey,
           authMethod: authMethod
