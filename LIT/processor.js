@@ -71,7 +71,7 @@ module.exports = {
     try {
       const litNodeClient = new LitNodeClientNodeJs({
         alertWhenUnauthorized: false,
-        litNetwork: "datil",
+        litNetwork: "datil-testnet",
         // litNetwork: 'datil',
         debug: false,
       });

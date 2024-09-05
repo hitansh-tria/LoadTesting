@@ -56,7 +56,10 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
       evmChainData: evmChainData,
       nonEvmChainsData: [],
       accessToken: authMethod.accessToken,
-      fromClientId: "e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b"
+      //Prod Client ID
+//      fromClientId: "124311390b11c9a6a83eb06d98b22cdf:be8390e8b496cf4ee27e27be61112ac1e5fa081fd55eb628e0c85cae70b162ff574188399be40177b91bfe71340b50844896b11eec08b0e90eeae1ef435ea1634da78c8021e248555148dc067c4aea90f3ccb3fc795dc7df384e60ad6194a755ca57ff536fb5:676698a6c04c086f2b6bec068023ddd9"
+      //Staging Client ID
+      fromClientId: "4b6ee1ce04a7f7231e09a81c0826bf3b:03331a356587a5b0a96176bba4deb3b951ad9e2dd7d009e29ecc01d1a0256e6fa0cdb1e2a00f2279fc361cfa37039f0fb9b402dc01d7a26b471fb52f2a0223677189256e7a2115aea2217eff8d9b965ee0eafc55d3b5ce3e1ea434f557fa69c4039cc51c770d:252f7ae04e39f8d39980b4acf4887935"
     };
     console.log("args",args);
     return args;
