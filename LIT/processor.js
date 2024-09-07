@@ -42,10 +42,10 @@ module.exports = {
   checkAvailabilityStatusSuccessAndContinue(context, events, done) {
     if (context.vars.availabilityStatus) {
       // If initiate OTP was not successful, end the scenario
-      return done(new Error("Check DID not successful. Ending scenario."));
+      return done();
     }
+    return done(new Error("Check DID not successful. Ending scenario."));
     // If successful, continue with the scenario
-    return done();
   },
   getRandomUsername: (context, events, done) => {
     const randomName = (Math.random() + 1).toString(36).substring(2);
@@ -74,60 +74,73 @@ module.exports = {
 
     done();
   },
-  getPKP: async (context, events, done) => {
+  getPKP: (context, events, done) => {
     try {
       const authMethod = {
         accessToken: context.vars.accessToken,
         authMethodType:
           "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
       };
-      await getPKPs(authMethod);
+
+      getPKPs(authMethod)
+        .then(() => {
+          done();
+        })
+        .catch((error) => {
+          return done(new Error("GET PKP not successful. Ending scenario."));
+        });
       return done();
     } catch (error) {
       return done(new Error("GET PKP not successful. Ending scenario."));
     }
   },
-  mintPKP: async (context, events, done) => {
-    try {
-      const authMethod = {
-        accessToken: context.vars.accessToken,
-        authMethodType:
-          "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
-      };
-      context.vars.PKPData = await mintPKP(authMethod);
-      //    context.vars.PKPData = await mintPKP(authMethod, context.vars.socket);
-      return done();
-    } catch (error) {
-      return done(new Error("Mint PKP not successful. Ending scenario."));
-    }
-  },
-  getCreateDIDData: async (context, events, done) => {
-    try {
-      const litNodeClient = new LitNodeClientNodeJs({
-        alertWhenUnauthorized: false,
-        litNetwork: "datil-test",
-        // litNetwork: 'datil',
-        debug: false,
-      });
+  mintPKP: (context, events, done) => {
+    // try {
+    const authMethod = {
+      accessToken: context.vars.accessToken,
+      authMethodType:
+        "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+    };
 
-      await litNodeClient.connect();
-      const authMethod = {
-        accessToken: context.vars.accessToken,
-        authMethodType:
-          "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
-      };
-      const triaName = `${context.vars.username}@tria`;
-      context.vars.DIDData = await getCreateDIDData(
+    mintPKP(authMethod)
+      .then((PKPData) => {
+        context.vars.PKPData = PKPData;
+        done();
+      })
+      .catch((error) => {
+        done(new Error("Mint PKP not successful. Ending scenario."));
+      });
+  },
+  getCreateDIDData: (context, events, done) => {
+    const litNodeClient = new LitNodeClientNodeJs({
+      alertWhenUnauthorized: false,
+      litNetwork: "datil-test",
+      // litNetwork: 'datil',
+      debug: false,
+    });
+
+    const authMethod = {
+      accessToken: context.vars.accessToken,
+      authMethodType:
+        "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+    };
+    const triaName = `${context.vars.username}@tria`;
+
+    litNodeClient.connect().then(() => {
+      getCreateDIDData(
         triaName,
         context.vars.PKPData,
         authMethod,
         litNodeClient
-      );
-      context.previousRequestSucceeded = false;
-      return done();
-    } catch (err) {
-      return done(new Error("CreateDID Data not successful. Ending scenario."));
-    }
+      )
+        .then((DIDData) => {
+          context.vars.DIDData = DIDData;
+          done();
+        })
+        .catch((error) => {
+          done(new Error("CreateDID Data not successful. Ending scenario."));
+        });
+    });
   },
   captureResponse: (requestParams, response, context, ee, next) => {
     const statusCode = response.statusCode;
