@@ -1,18 +1,22 @@
 //import { Email } from "./litCustomAuth/Providers/emailProvider.js";
 //import { AuthMethodScope } from "@lit-protocol/constants";
-const { Email } = require('./litCustomAuth/Providers/emailProvider.js');
-const { AuthMethodScope } = require('@lit-protocol/constants');
-const io = require('socket.io-client');
-const { relayerUrl} = require("./constant");
-const {ethers} = require("ethers");
-const {pullTxHashByQueueId} = require("./utils/utils");
-
+const { Email } = require("./litCustomAuth/Providers/emailProvider.js");
+const { AuthMethodScope } = require("@lit-protocol/constants");
+const io = require("socket.io-client");
+const { relayerUrl } = require("./constant");
+const { ethers } = require("ethers");
+const { pullTxHashByQueueId } = require("./utils/utils");
 
 const mintPKP = async (authMethod) => {
   try {
-    console.log(authMethod);
-    const provider = new Email({ relayApiKey: "test-api-key", relayUrl: relayerUrl});
-    const ethersProvider = new ethers.providers.JsonRpcProvider("https://yellowstone-rpc.litprotocol.com/");
+    // console.log(authMethod);
+    const provider = new Email({
+      relayApiKey: "test-api-key",
+      relayUrl: relayerUrl,
+    });
+    const ethersProvider = new ethers.providers.JsonRpcProvider(
+      "https://yellowstone-rpc.litprotocol.com/"
+    );
     if (!provider) {
       throw new Error("Invalid Provider");
     }
@@ -20,10 +24,13 @@ const mintPKP = async (authMethod) => {
       permittedAuthMethodScopes: [[AuthMethodScope.SignAnything]],
     };
 
-    let {queueId, uuid} = await provider.mintPKPThroughRelayer(authMethod, options);
+    let { queueId, uuid } = await provider.mintPKPThroughRelayer(
+      authMethod,
+      options
+    );
     //const { txHash: requestId, queueId: queueIdFromSockets } = await waitForSocketResponse(socket,queueId);
     const { txHash: requestId, queueId: mintPKPqueueIdFromSockets } =
-        await pullTxHashByQueueId(queueId);
+      await pullTxHashByQueueId(queueId);
     // if(queueId !== queueIdFromSockets) {
     //   throw new Error("Minting succecced, keys undefine");
     // }
@@ -35,10 +42,7 @@ const mintPKP = async (authMethod) => {
       pkpPublicKey,
       pkpTokenId,
       error,
-    } = await provider.relay.pollRequestUntilTerminalState(
-      requestId,
-      uuid
-    );
+    } = await provider.relay.pollRequestUntilTerminalState(requestId, uuid);
     if (status !== "Succeeded") {
       throw new Error("Minting failed");
     }
@@ -61,13 +65,12 @@ const mintPKP = async (authMethod) => {
       publicKey: pkpPublicKey,
       ethAddress: pkpEthAddress,
     };
-    console.log(newPKP);
+    // console.log(newPKP);
     return newPKP;
   } catch (err) {
     throw err;
   }
 };
-
 
 //const waitForSocketResponse = (socket, queueId) => {
 //  return new Promise((resolve, reject) => {
@@ -104,4 +107,4 @@ const mintPKP = async (authMethod) => {
 //const mintedPKP = await mintPKP(authMethod);
 //console.log(mintedPKP);
 
-module.exports = {mintPKP}
+module.exports = { mintPKP };

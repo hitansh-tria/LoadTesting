@@ -1,25 +1,24 @@
-
 /**
  * Class that communicates with Lit relay server
  */
- class LitRelay {
+class LitRelay {
   /**
    * URL for Lit's relay server
    */
-   relayUrl;
+  relayUrl;
   /**
    * API key for Lit's relay server
    */
-  
-   relayApiKey;
+
+  relayApiKey;
   /**
    * Route for minting PKP
    */
-   mintRoute = "/api/v2/mint-next-and-add-auth-methods";
+  mintRoute = "/api/v2/mint-next-and-add-auth-methods";
   /**
    * Route for fetching PKPs
    */
-   fetchRoute = "/fetch-pkps-by-auth-method";
+  fetchRoute = "/fetch-pkps-by-auth-method";
 
   /**
    * Create a Relay instance
@@ -35,7 +34,7 @@
     //   log("Lit's relay server URL:", this.relayUrl);
   }
 
-  getUrl(){
+  getUrl() {
     throw new Error("Method not implemented.");
   }
 
@@ -46,25 +45,30 @@
    *
    * @returns {Promise<IRelayMintResponse>} Response from the relay server
    */
- async mintPKP(body) {
-    console.log("body", body);
-    const response = await fetch(`${this.relayUrl}${this.mintRoute}`, {
-      method: "POST",
-      headers: {
-        "api-key": this.relayApiKey,
-        "Content-Type": "application/json",
-      },
-      body: body,
-    });
+  async mintPKP(body) {
+    try {
+      // console.log("body", body);
+      const response = await fetch(`${this.relayUrl}${this.mintRoute}`, {
+        method: "POST",
+        headers: {
+          "api-key": this.relayApiKey,
+          "Content-Type": "application/json",
+        },
+        body: body,
+      });
 
-    if (response.status < 200 || response.status >= 400) {
-      // log('Something wrong with the API call', await response.json());
-      const err = new Error("Unable to mint PKP through relay server");
-      throw err;
-    } else {
-      const resBody = await response.json();
-      // log('Successfully initiated minting PKP with relayer');
-      return resBody;
+      if (response.status < 200 || response.status >= 400) {
+        console.log("##### # BLOCKER ###############", response);
+        // log('Something wrong with the API call', await response.json());
+        const err = new Error("Unable to mint PKP through relay server");
+        throw err;
+      } else {
+        const resBody = await response.json();
+        // log('Successfully initiated minting PKP with relayer');
+        return resBody;
+      }
+    } catch (error) {
+      throw error;
     }
   }
 
@@ -80,52 +84,58 @@
   async pollRequestUntilTerminalState(
     requestId,
     uuid,
-    pollInterval= 15000,
-    maxPollCount = 20,
+    pollInterval = 15000,
+    maxPollCount = 20
   ) {
-    for (let i = 0; i < maxPollCount; i++) {
-      const response = await fetch(
-        `${this.relayUrl}/auth/status/${requestId}?uuid=${uuid}`,
-        {
-          method: "GET",
-          headers: {
-            "api-key": this.relayApiKey,
-          },
-        }
-      );
-
-      if (response.status < 200 || response.status >= 400) {
-        //   log('Something wrong with the API call', await response.json());
-        const err = new Error(
-          `Unable to poll the status of this mint PKP transaction: ${requestId}`
+    try {
+      for (let i = 0; i < maxPollCount; i++) {
+        const response = await fetch(
+          `${this.relayUrl}/auth/status/${requestId}?uuid=${uuid}`,
+          {
+            method: "GET",
+            headers: {
+              "api-key": this.relayApiKey,
+            },
+          }
         );
-        throw err;
+
+        if (response.status < 200 || response.status >= 400) {
+          //   log('Something wrong with the API call', await response.json());
+          const err = new Error(
+            `Unable to poll the status of this mint PKP transaction: ${requestId}`
+          );
+          throw err;
+        }
+
+        const resBody = await response.json();
+        // log('Response OK', { body: resBody });
+
+        if (resBody.error) {
+          // exit loop since error
+          //   log('Something wrong with the API call', {
+          //     error: resBody.error,
+          //   });
+          const err = new Error(resBody.error);
+          throw err;
+        } else if (resBody.status === "Succeeded") {
+          // exit loop since success
+          //   log('Successfully authed', { ...resBody });
+          return resBody;
+        }
+
+        // otherwise, sleep then continue polling
+        await new Promise((r) => setTimeout(r, pollInterval));
       }
 
-      const resBody = await response.json();
-      // log('Response OK', { body: resBody });
-
-      if (resBody.error) {
-        // exit loop since error
-        //   log('Something wrong with the API call', {
-        //     error: resBody.error,
-        //   });
-        const err = new Error(resBody.error);
-        throw err;
-      } else if (resBody.status === "Succeeded") {
-        // exit loop since success
-        //   log('Successfully authed', { ...resBody });
-        return resBody;
-      }
-
-      // otherwise, sleep then continue polling
-      await new Promise((r) => setTimeout(r, pollInterval));
+      // at this point, polling ended and still no success, set failure status
+      // console.error(`Hmm this is taking longer than expected...`);
+      const err = new Error(
+        "Polling for mint PKP transaction status timed out"
+      );
+      throw err;
+    } catch (err) {
+      throw err;
     }
-
-    // at this point, polling ended and still no success, set failure status
-    // console.error(`Hmm this is taking longer than expected...`);
-    const err = new Error("Polling for mint PKP transaction status timed out");
-    throw err;
   }
 
   /**
@@ -186,5 +196,4 @@
   }
 }
 
-
-module.exports = {LitRelay}
+module.exports = { LitRelay };

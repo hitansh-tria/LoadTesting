@@ -100,6 +100,10 @@ module.exports = {
       accessToken: context.vars.accessToken,
       authMethodType:
         "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+      // accessToken:
+      //   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGIyNDIwYTctYzBmNy00YTlmLWFlN2UtMGMyODA5NDU3M2FjIiwiZW1haWwiOiJkNzRwMmIyNHpsQHNteWt3Yi5jb20iLCJpYXQiOjE3MjU3MTAxMDgsImV4cCI6MTcyNjMxNDkwOH0.k7oWdFfpVzvDS-psFXBYZGTIbJdbCUt-KuFOGFx_yr8",
+      // userOauthId: "d74p2b24zl@smykwb.com",
+      // userKey: "d74p2b24zl@smykwb.com",
     };
 
     mintPKP(authMethod)
@@ -108,7 +112,8 @@ module.exports = {
         done();
       })
       .catch((error) => {
-        done(new Error("Mint PKP not successful. Ending scenario."));
+        console.log("Blocker ===== Processor Error", error);
+        done(new Error(error.message));
       });
   },
   getCreateDIDData: (context, events, done) => {

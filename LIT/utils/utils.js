@@ -62,7 +62,7 @@ const pullTxHashByQueueId = async (queueId) => {
     const { data } = await axios.request(config);
     return { txHash: data.transactionHash, queueId: data.queueId };
   } catch (err) {
-    console.log(err);
+    throw err;
   }
 };
 
