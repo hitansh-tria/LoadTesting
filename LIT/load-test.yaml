@@ -1,10 +1,10 @@
 config:
   target: "https://api.development.tria.so"
   phases:
-    - duration: 1
-      #      arrivalRate: 1
-      #      rampTo: 5
-      arrivalCount: 1
+    - duration: 60
+      arrivalRate: 1
+      rampTo: 10
+#      arrivalCount: 1
   processor: "./processor.js"
   variables:
     fromClientId: "7fc81e4118d1f8f59d48d513a63d561b:f7c89203ddf5487b1e55a00f68188912d66069cb078ab0611f5148c3395d1014fcebec4f1438bc328b2ad1d8b8b332684a668bca6f2786c55b2f4927299b1732833c3b1acaa44ced896abc4d22e4da18e080484519f960a1349ebda84278ae199b7df9117c1e:3dab23f16dad0832f359421744e7f0b0"
@@ -27,7 +27,7 @@ scenarios:
           capture:
             - json: "$.success"
               as: "initiateOTPSuccess"
-          afterResponse: "captureResponse"
+#          afterResponse: "captureResponse"
       - log: "Initiate OTP executed"
       - function: "checkInitiateOTPSuccessAndContinue"
       - post:
@@ -41,7 +41,7 @@ scenarios:
           capture:
             - json: "$.accessToken"
               as: "accessToken"
-          afterResponse: "captureResponse"
+#          afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
       # - function: "connectSocket" # Call the function to connect the socket
       - function: "checkAccessTokenAndContinue"
@@ -54,7 +54,7 @@ scenarios:
           capture:
             - json: "$.response.availabilityStatus"
               as: "availabilityStatus"
-          afterResponse: "captureResponse"
+#          afterResponse: "captureResponse"
       - log: "Check DID response: {{ availabilityStatus }}"
       - get:
           url: "/api/v2/get-name-recommendation"
@@ -63,7 +63,7 @@ scenarios:
           capture:
             - json: "$.data"
               as: "recommendations"
-          afterResponse: "captureResponse"
+#          afterResponse: "captureResponse"
       - log: "Name recommendations: {{ recommendations }}"
       - function: "checkAvailabilityStatusSuccessAndContinue"
       - function: "mintPKP"
@@ -83,9 +83,10 @@ scenarios:
           capture:
             - json: "$"
               as: "Status"
-          afterResponse: "captureResponse"
+#          afterResponse: "captureResponse"
       - log: "Create DID response: {{ Status }}"
-after:
-  flow:
-    - log: "Uploading Data to S3"
-    - function: "uploadToS3"
+
+#after:
+#  flow:
+#    - log: "Uploading Data to S3"
+#    - function: "uploadToS3"

@@ -4,8 +4,11 @@ const { getCreateDIDData } = require("./createDIDData.js");
 const { Email } = require("./litCustomAuth/Providers/emailProvider.js");
 const AWS = require("aws-sdk");
 const fs = require("fs");
-const path = "/tmp/responses.csv"; //To be used when running through AWS Lambda
-//const path = './responses.csv'; //To be used when running locally (not recommended for a load over 100 total VUs)
+const path = require("path");
+const loc = "/tmp/responses.csv"; //To be used when running through AWS Lambda
+//const errPath = "/tmp/error.log"
+const errPath = "./error.log"
+//const loc = './responses.csv'; //To be used when running locally (not recommended for a load over 100 total VUs)
 const io = require("socket.io-client");
 const { LitNodeClientNodeJs } = require("@lit-protocol/lit-node-client-nodejs");
 const jose = require("jose");
@@ -17,7 +20,20 @@ const bucketName = "artilleryio-test-data-741878071414-us-west-1";
 
 function writeResponse(url, statusCode, body) {
   const csvRow = `"${url}","${statusCode}","${JSON.stringify(body)}"\n`;
-  fs.writeFileSync(path, csvRow, { flag: "a" });
+  fs.writeFileSync(loc, csvRow, { flag: "a" });
+}
+
+function logErrorToFile(error, requestId) {
+//  const logFilePath = path.join(__dirname, 'error.log');
+  const logFilePath = errPath;
+  const timestamp = new Date().toISOString();
+  const errorMessage = `${requestId} - ${timestamp} - ${error.message} - ${error.stack}\n`;
+
+  fs.appendFile(logFilePath, errorMessage, (err) => {
+    if (err) {
+      console.error('Failed to write error to log file:', err);
+    }
+  });
 }
 
 module.exports = {
@@ -143,9 +159,16 @@ module.exports = {
           done();
         })
         .catch((error) => {
+          const requestId = litNodeClient.getRequestId();
+          logErrorToFile(error, requestId);
           done(new Error("CreateDID Data not successful. Ending scenario."));
         });
-    });
+    })
+    .catch((error) => {
+          const requestId = litNodeClient.getRequestId();
+          logErrorToFile(error, requestId);
+          done(new Error("LITConnect not successful. Ending scenario."));
+        });
   },
   captureResponse: (requestParams, response, context, ee, next) => {
     const statusCode = response.statusCode;
@@ -158,11 +181,11 @@ module.exports = {
     return next();
   },
   uploadToS3: async () => {
-    if (fs.existsSync(path)) {
+    if (fs.existsSync(loc)) {
       //    const workerId = context.awsRequestId;
       const workerId = Math.floor(Math.random() * 1000000);
-      const objectKey = `data_${workerId}.csv`;
-      const fileContent = fs.readFileSync(path);
+      const objectKey = `error.log`;
+      const fileContent = fs.readFileSync(errPath);
 
       const params = {
         Bucket: bucketName,
