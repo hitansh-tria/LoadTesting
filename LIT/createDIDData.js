@@ -1,4 +1,4 @@
-const { api } = require("@lit-protocol/wrapped-keys");
+const { api } = require("@lit-protocol/wrapped-keys-bc");
 const ethers = require("ethers");
 const {generatePrivateKey, signMessageWithEncryptedKey} = api;
 const {getSessionSigForLitAction} = require("./utils/utils");
