@@ -1,256 +1,88 @@
-76aa75f92d2e7 - 2024-09-13T11:59:16.190Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-d7b3494d74281 - 2024-09-13T11:59:16.329Z - There was an error getting the signing shares from the nodes - undefined
-72ed7fb33bbff - 2024-09-13T11:59:16.481Z - There was an error getting the signing shares from the nodes - undefined
-b6e6657161f79 - 2024-09-13T11:59:16.567Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-068409a1b74b4 - 2024-09-13T11:59:16.620Z - There was an error getting the signing shares from the nodes - undefined
-90f6e77e98ec - 2024-09-13T11:59:16.999Z - There was an error getting the signing shares from the nodes - undefined
-b13a48793b101 - 2024-09-13T11:59:17.189Z - There was an error getting the signing shares from the nodes - undefined
-3eb7b2ee37553 - 2024-09-13T11:59:17.427Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c612c9e315d7 - 2024-09-13T11:59:17.437Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-a588ef779490b - 2024-09-13T11:59:17.538Z - There was an error getting the signing shares from the nodes - undefined
-a07612282a062 - 2024-09-13T11:59:17.560Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-7340c081c69a3 - 2024-09-13T11:59:17.654Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-45641a40ce9ae - 2024-09-13T11:59:17.989Z - There was an error getting the signing shares from the nodes - undefined
-a0c52f5cdc865 - 2024-09-13T11:59:18.222Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-3d925775ca7bd - 2024-09-13T11:59:18.238Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-41fce0664ef74 - 2024-09-13T11:59:18.417Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-f2c85fb951036 - 2024-09-13T11:59:18.555Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c2f085752780c - 2024-09-13T11:59:18.679Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-dce650b918ea1 - 2024-09-13T11:59:18.715Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-2d59d8d9e33 - 2024-09-13T11:59:18.952Z - There was an error getting the signing shares from the nodes - undefined
-bb0bbe72e7707 - 2024-09-13T11:59:19.074Z - There was an error getting the signing shares from the nodes - undefined
-fb55cee7337ef - 2024-09-13T11:59:19.146Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-efbc9ed474639 - 2024-09-13T11:59:19.314Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c6e22b8ce7941 - 2024-09-13T11:59:19.347Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-0ac7bf73af0d8 - 2024-09-13T11:59:19.371Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-d2499442c7f8d - 2024-09-13T11:59:19.389Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-38df1a6c53a8 - 2024-09-13T11:59:19.399Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-86ae70daea4c7 - 2024-09-13T11:59:19.568Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-59eb40006a76 - 2024-09-13T11:59:19.633Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-cb52fb8f24bbc - 2024-09-13T11:59:19.628Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-74c12a22ce8c - 2024-09-13T11:59:20.176Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-feea0d32380f6 - 2024-09-13T11:59:20.249Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b8b6de13a1372 - 2024-09-13T11:59:20.388Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b61a80b900ebb - 2024-09-13T11:59:20.428Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-cd5c8376dd10b - 2024-09-13T11:59:20.453Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-7d2298e36d2ec - 2024-09-13T11:59:20.460Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-33ba167d67332 - 2024-09-13T11:59:20.507Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-16b36587da705 - 2024-09-13T11:59:21.376Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-7b7fb01a1a9b2 - 2024-09-13T11:59:21.379Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-8206cafbe268a - 2024-09-13T11:59:21.393Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c2d5d63043a9 - 2024-09-13T11:59:21.443Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-618674fe5c6e7 - 2024-09-13T11:59:21.485Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-806bd32d3b9d2 - 2024-09-13T11:59:21.503Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-4ad6d0d9179c1 - 2024-09-13T11:59:21.559Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b8a44f42f3443 - 2024-09-13T11:59:22.456Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-4d15c25b07a2 - 2024-09-13T11:59:22.461Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-886a12c4ef351 - 2024-09-13T11:59:22.469Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-1c2713f6df711 - 2024-09-13T11:59:22.475Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-bde7d36417381 - 2024-09-13T11:59:22.504Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b744c51321c7d - 2024-09-13T11:59:23.151Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-8133876392238 - 2024-09-13T11:59:23.249Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-dd77c491113fe - 2024-09-13T11:59:23.304Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-950306dd99bfd - 2024-09-13T11:59:23.343Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-4bdb8e9f7d07e - 2024-09-13T11:59:23.367Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-6c7ed00fec523 - 2024-09-13T11:59:23.397Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c7018893f3077 - 2024-09-13T11:59:23.428Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-01c9209a1539 - 2024-09-13T11:59:23.441Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-42351aa69ba4f - 2024-09-13T11:59:23.449Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-918d38c76a47f - 2024-09-13T11:59:23.419Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-1469a4acfd67c - 2024-09-13T11:59:24.104Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-65f9f73cc3d92 - 2024-09-13T11:59:24.315Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-2e3507cd7e494 - 2024-09-13T11:59:24.326Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-eeda624dcdaae - 2024-09-13T11:59:24.341Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-76585c53823ff - 2024-09-13T11:59:24.349Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-76820b5938ffc - 2024-09-13T11:59:24.404Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-36059799f74fa - 2024-09-13T11:59:25.082Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-67c9dfd049ee7 - 2024-09-13T11:59:25.106Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-cd18cedc9728c - 2024-09-13T11:59:25.143Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-40a78cbb14e52 - 2024-09-13T11:59:25.349Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-375c881f9adde - 2024-09-13T11:59:25.848Z - Error: Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 7 of 5 required nodes, from 8 possible nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds. - undefined
-d7fb09063f1ff - 2024-09-13T11:59:26.113Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-8c1251b68a5c4 - 2024-09-13T11:59:26.116Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-201054f6cc5e - 2024-09-13T11:59:26.124Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-f1e4dd49e2835 - 2024-09-13T11:59:26.175Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-166859d676fed - 2024-09-13T11:59:26.191Z - Error: Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 7 of 5 required nodes, from 8 possible nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds. - undefined
-38fe6e5cba7ad - 2024-09-13T11:59:26.351Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-cce24cee078df - 2024-09-13T11:59:26.374Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b50d49d47e1dd - 2024-09-13T11:59:26.378Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-d4acd2dcf9dfa - 2024-09-13T11:59:26.393Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-4eab64ac94c35 - 2024-09-13T11:59:26.431Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-b4fafd4bc8847 - 2024-09-13T11:59:26.448Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-24443505b4fa2 - 2024-09-13T11:59:26.729Z - Error: Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 7 of 5 required nodes, from 8 possible nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds. - undefined
-411b140cd9483 - 2024-09-13T11:59:27.124Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-6f2dbaf716cb3 - 2024-09-13T11:59:27.253Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-2e0697a884d12 - 2024-09-13T11:59:27.315Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-aab57e9ebe5b2 - 2024-09-13T11:59:27.345Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-e086b1cc4db91 - 2024-09-13T11:59:27.355Z - Error: Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 7 of 5 required nodes, from 8 possible nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds. - undefined
-4a2f48f768f87 - 2024-09-13T11:59:27.885Z - Error: Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 7 of 5 required nodes, from 8 possible nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds. - undefined
-440a7d97023a9 - 2024-09-13T11:59:28.090Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-e006873142e92 - 2024-09-13T11:59:28.095Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-256945e612761 - 2024-09-13T11:59:28.102Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-74ed9b6ea165d - 2024-09-13T11:59:28.157Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-0cc5cc265299 - 2024-09-13T11:59:28.172Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-acb0f3506af08 - 2024-09-13T11:59:28.222Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-caeaed876fd77 - 2024-09-13T11:59:28.229Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-2da7312544ac4 - 2024-09-13T11:59:28.267Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-95184de902dac - 2024-09-13T11:59:29.099Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-834eca42b1fdd - 2024-09-13T11:59:29.132Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-3c324371dccb7 - 2024-09-13T11:59:29.201Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-0669b52c9e49c - 2024-09-13T11:59:29.289Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-1787fc20453a7 - 2024-09-13T11:59:29.356Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-ea9403d2dcc08 - 2024-09-13T11:59:29.356Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-9b438bd42b5fe - 2024-09-13T11:59:29.369Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-6da35bf44aafc - 2024-09-13T11:59:29.371Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-8e866af0cd837 - 2024-09-13T11:59:29.380Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-bf20fb5a969d - 2024-09-13T11:59:30.126Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-fb933fbc3d12f - 2024-09-13T11:59:30.132Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-59f902f2fd294 - 2024-09-13T11:59:30.200Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-8d56b428e572f - 2024-09-13T11:59:30.213Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-c9948b17fdc89 - 2024-09-13T11:59:30.311Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-7225c0765c6ad - 2024-09-13T11:59:30.338Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-fe8d52dacf387 - 2024-09-13T11:59:30.390Z - Missing attestation in handshake response from https://147.135.61.242:443 - undefined
-0b663db2f4c17 - 2024-09-13T11:59:35.748Z - There was an error getting the signing shares from the nodes - undefined
-90eee05e17917 - 2024-09-13T11:59:35.751Z - There was an error getting the signing shares from the nodes - undefined
-0bfa2720e56e5 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-91988c15180dc - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-b1df0e577bd0e - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-6f5c5c53b3b97 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-afcd28bb2c99 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-f73f2946eea24 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-78c572e8fe4e1 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-269bfb22fcc7a - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-8864a8cad6b8f - 2024-09-13T11:59:35.751Z - There was an error getting the signing shares from the nodes - undefined
-e4b74eacd21af - 2024-09-13T11:59:35.751Z - There was an error getting the signing shares from the nodes - undefined
-36e597723f167 - 2024-09-13T11:59:35.753Z - There was an error getting the signing shares from the nodes - undefined
-82ef5fbef2889 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-3fed0e944885c - 2024-09-13T11:59:35.753Z - There was an error getting the signing shares from the nodes - undefined
-53528dbda9058 - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-ce748589feef3 - 2024-09-13T11:59:35.753Z - There was an error getting the signing shares from the nodes - undefined
-fb857ac3b2d4d - 2024-09-13T11:59:35.752Z - There was an error getting the signing shares from the nodes - undefined
-ae9af96fd800d - 2024-09-13T11:59:35.755Z - There was an error getting the signing shares from the nodes - undefined
-8ab43837870eb - 2024-09-13T11:59:35.756Z - There was an error getting the signing shares from the nodes - undefined
-afab73941ad4b - 2024-09-13T11:59:35.758Z - There was an error getting the signing shares from the nodes - undefined
-3a2f083c03b6a - 2024-09-13T11:59:35.758Z - There was an error getting the signing shares from the nodes - undefined
-808bbd9d56fe3 - 2024-09-13T11:59:35.762Z - There was an error getting the signing shares from the nodes - undefined
-1218ce64beb85 - 2024-09-13T11:59:35.762Z - There was an error getting the signing shares from the nodes - undefined
-e3943c46f71a - 2024-09-13T11:59:35.761Z - There was an error getting the signing shares from the nodes - undefined
-3a813164d3f87 - 2024-09-13T11:59:35.762Z - There was an error getting the signing shares from the nodes - undefined
-0696476c1a5e4 - 2024-09-13T11:59:35.762Z - There was an error getting the signing shares from the nodes - undefined
-54f1eed0917fb - 2024-09-13T11:59:35.763Z - There was an error getting the signing shares from the nodes - undefined
-c0258b2484177 - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-0159412b1add - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-f43dcd714c627 - 2024-09-13T11:59:35.761Z - There was an error getting the signing shares from the nodes - undefined
-6f6a52aa460e9 - 2024-09-13T11:59:35.763Z - There was an error getting the signing shares from the nodes - undefined
-daeff483704dd - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-ecfd54b2f150d - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-c350dfea84c9d - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-bec7f2fc617ad - 2024-09-13T11:59:35.762Z - There was an error getting the signing shares from the nodes - undefined
-6f131cfcff2a1 - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-76d0314e096f7 - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-29279661c96e5 - 2024-09-13T11:59:35.764Z - There was an error getting the signing shares from the nodes - undefined
-8f520c7278fb1 - 2024-09-13T11:59:35.765Z - There was an error getting the signing shares from the nodes - undefined
-d7790d111d0b9 - 2024-09-13T11:59:35.765Z - There was an error getting the signing shares from the nodes - undefined
-ee852639517f - 2024-09-13T11:59:35.765Z - There was an error getting the signing shares from the nodes - undefined
-2554edb61413b - 2024-09-13T11:59:35.765Z - There was an error getting the signing shares from the nodes - undefined
-254a8bc86c42f - 2024-09-13T11:59:35.765Z - There was an error getting the signing shares from the nodes - undefined
-2eeaabca760b2 - 2024-09-13T11:59:35.772Z - There was an error getting the signing shares from the nodes - undefined
-6e08fe94364ce - 2024-09-13T11:59:35.772Z - There was an error getting the signing shares from the nodes - undefined
-11c7896400316 - 2024-09-13T11:59:35.772Z - There was an error getting the signing shares from the nodes - undefined
-00bee45e26f1c - 2024-09-13T11:59:35.772Z - There was an error getting the signing shares from the nodes - undefined
-94fe7d364f962 - 2024-09-13T11:59:35.772Z - There was an error getting the signing shares from the nodes - undefined
-d75f4a296220d - 2024-09-13T11:59:35.779Z - There was an error getting the signing shares from the nodes - undefined
-a731a8e1a0daa - 2024-09-13T11:59:35.780Z - There was an error getting the signing shares from the nodes - undefined
-7dd8717b6f396 - 2024-09-13T11:59:35.781Z - There was an error getting the signing shares from the nodes - undefined
-3bb468403029e - 2024-09-13T11:59:35.794Z - There was an error getting the signing shares from the nodes - undefined
-44689f3afbfd3 - 2024-09-13T11:59:35.801Z - There was an error getting the signing shares from the nodes - undefined
-c15e8985039ed - 2024-09-13T11:59:35.801Z - There was an error getting the signing shares from the nodes - undefined
-c5b3a76bbafb7 - 2024-09-13T11:59:35.801Z - There was an error getting the signing shares from the nodes - undefined
-8876b18669c2c - 2024-09-13T11:59:35.808Z - There was an error getting the signing shares from the nodes - undefined
-9981eeffffa5e - 2024-09-13T11:59:35.809Z - There was an error getting the signing shares from the nodes - undefined
-6f82b0fcebceb - 2024-09-13T11:59:35.810Z - There was an error getting the signing shares from the nodes - undefined
-acf969ff97359 - 2024-09-13T11:59:35.810Z - There was an error getting the signing shares from the nodes - undefined
-80ecd4a39b493 - 2024-09-13T11:59:35.812Z - There was an error getting the signing shares from the nodes - undefined
-2b31520e49f2f - 2024-09-13T11:59:35.813Z - There was an error getting the signing shares from the nodes - undefined
-8dbd00f77c4bd - 2024-09-13T11:59:35.813Z - There was an error getting the signing shares from the nodes - undefined
-533fe4637bb53 - 2024-09-13T11:59:35.814Z - There was an error getting the signing shares from the nodes - undefined
-ce99ee594c5ed - 2024-09-13T11:59:35.820Z - There was an error getting the signing shares from the nodes - undefined
-2e880570081a5 - 2024-09-13T11:59:35.821Z - There was an error getting the signing shares from the nodes - undefined
-7569f811bc4fa - 2024-09-13T11:59:35.821Z - There was an error getting the signing shares from the nodes - undefined
-e30cb691a2cbb - 2024-09-13T11:59:35.822Z - There was an error getting the signing shares from the nodes - undefined
-9f52fbb8ec696 - 2024-09-13T11:59:35.824Z - There was an error getting the signing shares from the nodes - undefined
-3d5c4e876bbf7 - 2024-09-13T11:59:35.824Z - There was an error getting the signing shares from the nodes - undefined
-830d4ff47345b - 2024-09-13T11:59:35.825Z - There was an error getting the signing shares from the nodes - undefined
-5543090bb4c32 - 2024-09-13T11:59:35.828Z - There was an error getting the signing shares from the nodes - undefined
-ea5731773818a - 2024-09-13T11:59:35.829Z - There was an error getting the signing shares from the nodes - undefined
-9260e00cfa553 - 2024-09-13T11:59:35.830Z - There was an error getting the signing shares from the nodes - undefined
-df7db354f0864 - 2024-09-13T11:59:35.830Z - There was an error getting the signing shares from the nodes - undefined
-90a5e4b130c81 - 2024-09-13T11:59:35.830Z - There was an error getting the signing shares from the nodes - undefined
-3929e29501128 - 2024-09-13T11:59:35.830Z - There was an error getting the signing shares from the nodes - undefined
-d07381cab2329 - 2024-09-13T11:59:35.835Z - There was an error getting the signing shares from the nodes - undefined
-6074e6772a6df - 2024-09-13T11:59:35.835Z - There was an error getting the signing shares from the nodes - undefined
-da4438e790d41 - 2024-09-13T11:59:35.843Z - There was an error getting the signing shares from the nodes - undefined
-69bef315a6b1c - 2024-09-13T11:59:35.845Z - There was an error getting the signing shares from the nodes - undefined
-9e94651712e3c - 2024-09-13T11:59:35.853Z - There was an error getting the signing shares from the nodes - undefined
-a21754388c148 - 2024-09-13T11:59:36.026Z - There was an error getting the signing shares from the nodes - undefined
-c60e7a71dd0c8 - 2024-09-13T11:59:37.539Z - There was an error getting the signing shares from the nodes - undefined
-5c6a3bdf21539 - 2024-09-13T11:59:37.543Z - There was an error getting the signing shares from the nodes - undefined
-fbf3299c4ff75 - 2024-09-13T11:59:37.894Z - There was an error getting the signing shares from the nodes - undefined
-f0571aaf9cb63 - 2024-09-13T11:59:38.263Z - There was an error getting the signing shares from the nodes - undefined
-2e84c24a41e92 - 2024-09-13T11:59:39.757Z - There was an error getting the signing shares from the nodes - undefined
-e8840d603c7cf - 2024-09-13T11:59:39.803Z - There was an error getting the signing shares from the nodes - undefined
-09c8e1ae36ac5 - 2024-09-13T11:59:39.848Z - There was an error getting the signing shares from the nodes - undefined
-0fd28242b1c45 - 2024-09-13T11:59:39.848Z - There was an error getting the signing shares from the nodes - undefined
-8dd0a618f5351 - 2024-09-13T11:59:39.857Z - There was an error getting the signing shares from the nodes - undefined
-410cdecc81dd1 - 2024-09-13T11:59:39.861Z - There was an error getting the signing shares from the nodes - undefined
-61cffc5217ce8 - 2024-09-13T11:59:39.865Z - There was an error getting the signing shares from the nodes - undefined
-a01c1bb69cbdc - 2024-09-13T11:59:39.875Z - There was an error getting the signing shares from the nodes - undefined
-9ef6bd7c6b1f3 - 2024-09-13T11:59:39.885Z - There was an error getting the signing shares from the nodes - undefined
-ed81d215ae5d3 - 2024-09-13T11:59:39.891Z - There was an error getting the signing shares from the nodes - undefined
-a56ae4b4a7b44 - 2024-09-13T11:59:39.897Z - There was an error getting the signing shares from the nodes - undefined
-4cfb86eecf858 - 2024-09-13T11:59:39.898Z - There was an error getting the signing shares from the nodes - undefined
-85e3c6cf61cf1 - 2024-09-13T11:59:39.906Z - There was an error getting the signing shares from the nodes - undefined
-fc88c3f1fc19f - 2024-09-13T11:59:39.922Z - There was an error getting the signing shares from the nodes - undefined
-8a7ccdf649211 - 2024-09-13T11:59:39.943Z - There was an error getting the signing shares from the nodes - undefined
-daef675836a4 - 2024-09-13T11:59:40.044Z - There was an error getting the signing shares from the nodes - undefined
-09bd11ea04257 - 2024-09-13T11:59:40.075Z - There was an error getting the signing shares from the nodes - undefined
-8c601ecbe2109 - 2024-09-13T11:59:40.086Z - There was an error getting the signing shares from the nodes - undefined
-3555e3eb9c374 - 2024-09-13T11:59:40.170Z - There was an error getting the signing shares from the nodes - undefined
-c1064e34aeb2b - 2024-09-13T11:59:40.237Z - There was an error getting the signing shares from the nodes - undefined
-1eaa6f9057dac - 2024-09-13T11:59:40.261Z - There was an error getting the signing shares from the nodes - undefined
-289198f004344 - 2024-09-13T11:59:40.345Z - There was an error getting the signing shares from the nodes - undefined
-8a609af03c38d - 2024-09-13T11:59:40.375Z - There was an error getting the signing shares from the nodes - undefined
-af51eae1fb492 - 2024-09-13T11:59:40.378Z - There was an error getting the signing shares from the nodes - undefined
-c40300ebf1ba9 - 2024-09-13T11:59:40.381Z - There was an error getting the signing shares from the nodes - undefined
-0c1462ce8d7ab - 2024-09-13T11:59:40.383Z - There was an error getting the signing shares from the nodes - undefined
-140b137b549be - 2024-09-13T11:59:40.549Z - There was an error getting the signing shares from the nodes - undefined
-bfb4a3afad06c - 2024-09-13T11:59:40.553Z - There was an error getting the signing shares from the nodes - undefined
-563423de0304d - 2024-09-13T11:59:40.755Z - There was an error getting the signing shares from the nodes - undefined
-c7f2d0ca07072 - 2024-09-13T11:59:40.808Z - There was an error getting the signing shares from the nodes - undefined
-6f7c48183b731 - 2024-09-13T11:59:40.835Z - There was an error getting the signing shares from the nodes - undefined
-fc29b16a422c5 - 2024-09-13T11:59:40.860Z - There was an error getting the signing shares from the nodes - undefined
-4160e2b9addde - 2024-09-13T11:59:40.886Z - There was an error getting the signing shares from the nodes - undefined
-f051fe92c9e48 - 2024-09-13T11:59:40.912Z - There was an error getting the signing shares from the nodes - undefined
-380e2c68eccb2 - 2024-09-13T11:59:40.914Z - There was an error getting the signing shares from the nodes - undefined
-cf2a1becc4d92 - 2024-09-13T11:59:40.982Z - There was an error getting the signing shares from the nodes - undefined
-80c4199aaceab - 2024-09-13T11:59:40.992Z - There was an error getting the signing shares from the nodes - undefined
-b2b1e5eb0e1e - 2024-09-13T11:59:41.013Z - There was an error getting the signing shares from the nodes - undefined
-f735527ed5c94 - 2024-09-13T11:59:41.331Z - There was an error getting the signing shares from the nodes - undefined
-0ce2ba7d2ebe3 - 2024-09-13T11:59:41.331Z - There was an error getting the signing shares from the nodes - undefined
-d69b51d998537 - 2024-09-13T11:59:41.391Z - There was an error getting the signing shares from the nodes - undefined
-fc94b32b76ebf - 2024-09-13T11:59:41.399Z - There was an error getting the signing shares from the nodes - undefined
-66445f52fe8dc - 2024-09-13T11:59:41.422Z - There was an error getting the signing shares from the nodes - undefined
-9aaf4f6141715 - 2024-09-13T11:59:41.439Z - There was an error getting the signing shares from the nodes - undefined
-add7b797d8f1c - 2024-09-13T11:59:41.447Z - There was an error getting the signing shares from the nodes - undefined
-e0ffae81535ad - 2024-09-13T11:59:41.462Z - There was an error getting the signing shares from the nodes - undefined
-21174f60cc15d - 2024-09-13T11:59:41.463Z - There was an error getting the signing shares from the nodes - undefined
-8b6539496137e - 2024-09-13T11:59:41.465Z - There was an error getting the signing shares from the nodes - undefined
-eb990db9c3ddb - 2024-09-13T11:59:41.513Z - There was an error getting the signing shares from the nodes - undefined
-a5343de0bfcd - 2024-09-13T11:59:41.540Z - There was an error getting the signing shares from the nodes - undefined
-d9de68cf1ad0e - 2024-09-13T11:59:41.594Z - There was an error getting the signing shares from the nodes - undefined
-c9d353bb24bd4 - 2024-09-13T11:59:41.603Z - There was an error getting the signing shares from the nodes - undefined
-a395c4ed52f9e - 2024-09-13T11:59:41.649Z - There was an error getting the signing shares from the nodes - undefined
-2f93caa02deb8 - 2024-09-13T11:59:41.673Z - There was an error getting the signing shares from the nodes - undefined
-6d4a22560976c - 2024-09-13T11:59:41.740Z - There was an error getting the signing shares from the nodes - undefined
-01d1b28d05023 - 2024-09-13T11:59:41.763Z - There was an error getting the signing shares from the nodes - undefined
-b887a6ca1ec03 - 2024-09-13T11:59:46.122Z - There was an error getting the signing shares from the nodes - undefined
+6ea6daf490d7e - 2024-09-19T09:13:47.402Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+d59d064bd5898 - 2024-09-19T09:14:12.864Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+c83a078f2d1a6 - 2024-09-19T09:14:12.874Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+88c2ed991d8b6 - 2024-09-19T09:14:11.794Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+251e6288514a8 - 2024-09-19T09:14:24.895Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+2e55502ae9b15 - 2024-09-19T09:14:24.920Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+4a584cf465e6f - 2024-09-19T09:14:24.920Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+75733e22fc21d - 2024-09-19T09:14:24.925Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+9e2cf0ef6e853 - 2024-09-19T09:14:24.970Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+88cf57cfe236d - 2024-09-19T09:14:24.940Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+ce1c659f4c80d - 2024-09-19T09:14:24.941Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+9c36992fcc9b6 - 2024-09-19T09:14:45.055Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/client.js:59:32)
+    at async generatePrivateKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/generate-private-key.js:47:20)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:15:51)
+8940ce06ae132 - 2024-09-19T09:14:45.056Z - Failed to make request for wrapped key: Service Unavailable - Error: Failed to make request for wrapped key: Service Unavailable
+    at makeRequest (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/service-client/utils.js:89:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signMessageWithEncryptedKey (/home/ubuntu/LoadTesting/LIT/node_modules/@lit-protocol/wrapped-keys-bc/src/lib/api/sign-message-with-encrypted-key.js:20:31)
+    at async getCreateDIDData (/home/ubuntu/LoadTesting/LIT/createDIDData.js:35:23)
+c3515f4522bab - 2024-09-19T09:16:04.923Z - missing revert data in call exception; Transaction reverted without a reason string [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (data="0x", transaction={"to":"0xdec37933239846834b3BfD408913Ed3dbEf6588F","data":"0xc51d020e","accessList":null}, error={"reason":"timeout","code":"TIMEOUT","requestBody":"{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xdec37933239846834b3bfd408913ed3dbef6588f\",\"data\":\"0xc51d020e\"},\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}","requestMethod":"POST","timeout":120000,"url":"https://yellowstone-rpc.litprotocol.com"}, code=CALL_EXCEPTION, version=providers/5.7.2) - Error: missing revert data in call exception; Transaction reverted without a reason string [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (data="0x", transaction={"to":"0xdec37933239846834b3BfD408913Ed3dbEf6588F","data":"0xc51d020e","accessList":null}, error={"reason":"timeout","code":"TIMEOUT","requestBody":"{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xdec37933239846834b3bfd408913ed3dbef6588f\",\"data\":\"0xc51d020e\"},\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}","requestMethod":"POST","timeout":120000,"url":"https://yellowstone-rpc.litprotocol.com"}, code=CALL_EXCEPTION, version=providers/5.7.2)
+    at Logger.makeError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at checkError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:108:16)
+    at StaticJsonRpcProvider.<anonymous> (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:751:47)
+    at step (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:48:23)
+    at Object.throw (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:29:53)
+    at rejected (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:21:65)
+e9999f0e71d2a - 2024-09-19T09:16:04.990Z - missing revert data in call exception; Transaction reverted without a reason string [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (data="0x", transaction={"to":"0xdec37933239846834b3BfD408913Ed3dbEf6588F","data":"0xc51d020e","accessList":null}, error={"reason":"timeout","code":"TIMEOUT","requestBody":"{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xdec37933239846834b3bfd408913ed3dbef6588f\",\"data\":\"0xc51d020e\"},\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}","requestMethod":"POST","timeout":120000,"url":"https://yellowstone-rpc.litprotocol.com"}, code=CALL_EXCEPTION, version=providers/5.7.2) - Error: missing revert data in call exception; Transaction reverted without a reason string [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (data="0x", transaction={"to":"0xdec37933239846834b3BfD408913Ed3dbEf6588F","data":"0xc51d020e","accessList":null}, error={"reason":"timeout","code":"TIMEOUT","requestBody":"{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xdec37933239846834b3bfd408913ed3dbef6588f\",\"data\":\"0xc51d020e\"},\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}","requestMethod":"POST","timeout":120000,"url":"https://yellowstone-rpc.litprotocol.com"}, code=CALL_EXCEPTION, version=providers/5.7.2)
+    at Logger.makeError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at checkError (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:108:16)
+    at StaticJsonRpcProvider.<anonymous> (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:751:47)
+    at step (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:48:23)
+    at Object.throw (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:29:53)
+    at rejected (/home/ubuntu/LoadTesting/LIT/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:21:65)
+26aa548f35111 - 2024-09-19T09:19:24.504Z - There was an error getting the signing shares from the nodes - undefined
