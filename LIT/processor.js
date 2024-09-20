@@ -129,7 +129,7 @@ module.exports = {
       })
       .catch((error) => {
         console.log("Blocker ===== Processor Error", error);
-        done(new Error(error.message));
+        done(new Error(`"MINT PKP not successful. Ending scenario. ${error.message}`));
       });
   },
   getCreateDIDData: (context, events, done) => {
