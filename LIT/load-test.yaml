@@ -27,7 +27,7 @@ scenarios:
           capture:
             - json: "$.success"
               as: "initiateOTPSuccess"
-#          afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
       - log: "Initiate OTP executed"
       - function: "checkInitiateOTPSuccessAndContinue"
       - post:
@@ -41,7 +41,7 @@ scenarios:
           capture:
             - json: "$.accessToken"
               as: "accessToken"
-#          afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
       # - function: "connectSocket" # Call the function to connect the socket
       - function: "checkAccessTokenAndContinue"
@@ -54,7 +54,7 @@ scenarios:
           capture:
             - json: "$.response.availabilityStatus"
               as: "availabilityStatus"
-#          afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
       - log: "Check DID response: {{ availabilityStatus }}"
       - get:
           url: "/api/v2/get-name-recommendation"
@@ -63,7 +63,7 @@ scenarios:
           capture:
             - json: "$.data"
               as: "recommendations"
-#          afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
       - log: "Name recommendations: {{ recommendations }}"
       - function: "checkAvailabilityStatusSuccessAndContinue"
       - function: "mintPKP"
@@ -83,7 +83,7 @@ scenarios:
           capture:
             - json: "$"
               as: "Status"
-#          afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
       - log: "Create DID response: {{ Status }}"
 
 #after:
