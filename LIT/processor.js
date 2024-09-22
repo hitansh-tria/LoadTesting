@@ -137,7 +137,7 @@ module.exports = {
       alertWhenUnauthorized: false,
       litNetwork: "datil-test",
       // litNetwork: 'datil',
-      debug: false,
+      debug: true,
     });
 
     const authMethod = {
@@ -159,13 +159,15 @@ module.exports = {
           done();
         })
         .catch((error) => {
-          const requestId = litNodeClient.getRequestId();
+          const res = Array.from(litNodeClient.getRequestIds());
+          const requestId = JSON.stringify(res[res.length - 1]);
           logErrorToFile(error, requestId);
           done(new Error("CreateDID Data not successful. Ending scenario."));
         });
     })
     .catch((error) => {
-          const requestId = litNodeClient.getRequestId();
+          const res = Array.from(litNodeClient.getRequestIds());
+          const requestId = JSON.stringify(res[res.length - 1]);
           logErrorToFile(error, requestId);
           done(new Error("LITConnect not successful. Ending scenario."));
         });
