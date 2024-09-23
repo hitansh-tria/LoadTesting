@@ -136,6 +136,7 @@ module.exports = {
     const litNodeClient = new LitNodeClientNodeJs({
       alertWhenUnauthorized: false,
       litNetwork: "datil-test",
+      rpcUrl:'https://rpc-chronicle-yellowstone-testnet-9qgmzfcohk.t.conduit.xyz/EQDCLvbyg7eqh3BD4Zh3wo9ySG2RSRkWZ',
       // litNetwork: 'datil',
       debug: false,
     });

@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 /**
  * Class that communicates with Lit relay server
  */
@@ -89,46 +91,38 @@ class LitRelay {
   ) {
     try {
       for (let i = 0; i < maxPollCount; i++) {
-        const response = await fetch(
+        const response = await axios.get(
           `${this.relayUrl}/auth/status/${requestId}?uuid=${uuid}`,
           {
-            method: "GET",
             headers: {
-              "api-key": this.relayApiKey,
+              'api-key': this.relayApiKey,
             },
           }
         );
-
+  
         if (response.status < 200 || response.status >= 400) {
-          //   log('Something wrong with the API call', await response.json());
           const err = new Error(
             `Unable to poll the status of this mint PKP transaction: ${requestId}`
           );
           throw err;
         }
-
-        const resBody = await response.json();
-        // log('Response OK', { body: resBody });
-
+  
+        const resBody = response.data;
+  
         if (resBody.error) {
-          // exit loop since error
-            console.log('Something wrong with the API call', {
-               error: resBody.error,
-            });
+          console.log('Something wrong with the API call', {
+            error: resBody.error,
+          });
           const err = new Error(resBody.error);
           throw err;
         } else if (resBody.status === "Succeeded") {
-          // exit loop since success
-          //   log('Successfully authed', { ...resBody });
           return resBody;
         }
-
-        // otherwise, sleep then continue polling
+  
+        // Sleep before the next poll
         await new Promise((r) => setTimeout(r, pollInterval));
       }
-
-      // at this point, polling ended and still no success, set failure status
-      // console.error(`Hmm this is taking longer than expected...`);
+  
       const err = new Error(
         "Polling for mint PKP transaction status timed out"
       );
