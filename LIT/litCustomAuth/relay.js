@@ -48,28 +48,30 @@ class LitRelay {
    * @returns {Promise<IRelayMintResponse>} Response from the relay server
    */
   async mintPKP(body) {
+    let response;
     try {
       // console.log("body", body);
-      const response = await fetch(`${this.relayUrl}${this.mintRoute}`, {
-        method: "POST",
-        headers: {
-          "api-key": this.relayApiKey,
-          "Content-Type": "application/json",
-        },
-        body: body,
-      });
-
+      response = await axios.post(
+        `${this.relayUrl}${this.mintRoute}`,
+        body,
+        {
+          headers: {
+            'api-key': this.relayApiKey,
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+  
       if (response.status < 200 || response.status >= 400) {
         console.log("##### # BLOCKER ###############", response);
-        // log('Something wrong with the API call', await response.json());
         const err = new Error("Unable to mint PKP through relay server");
         throw err;
       } else {
-        const resBody = await response.json();
-        // log('Successfully initiated minting PKP with relayer');
+        const resBody = response.data;
         return resBody;
       }
     } catch (error) {
+      console.log("error throw from catch", JSON.stringify(response ?? {}));
       throw error;
     }
   }
