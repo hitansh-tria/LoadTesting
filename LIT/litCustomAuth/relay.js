@@ -89,9 +89,10 @@ class LitRelay {
     pollInterval = 15000,
     maxPollCount = 20
   ) {
+    let response;
     try {
       for (let i = 0; i < maxPollCount; i++) {
-        const response = await axios.get(
+         response = await axios.get(
           `${this.relayUrl}/auth/status/${requestId}?uuid=${uuid}`,
           {
             headers: {
@@ -128,6 +129,7 @@ class LitRelay {
       );
       throw err;
     } catch (err) {
+      console.log("error throw from catch", JSON.stringify(response ?? {}));
       throw err;
     }
   }
