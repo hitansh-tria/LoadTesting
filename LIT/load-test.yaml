@@ -3,7 +3,7 @@ config:
   phases:
     - duration: 60
       arrivalRate: 1
-      rampTo: 40
+      rampTo: 30
 #      arrivalCount: 1
   processor: "./processor.js"
   variables:

@@ -112,9 +112,9 @@ class LitRelay {
 
         if (resBody.error) {
           // exit loop since error
-          //   log('Something wrong with the API call', {
-          //     error: resBody.error,
-          //   });
+            console.log('Something wrong with the API call', {
+               error: resBody.error,
+            });
           const err = new Error(resBody.error);
           throw err;
         } else if (resBody.status === "Succeeded") {
