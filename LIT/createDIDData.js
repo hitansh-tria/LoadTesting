@@ -1,8 +1,10 @@
-const { api } = require("@lit-protocol/wrapped-keys-bc");
+const { api, config } = require("@lit-protocol/wrapped-keys");
+const { litActionRepository } = require("@lit-protocol/wrapped-keys-lit-actions");
 const ethers = require("ethers");
 const {generatePrivateKey, signMessageWithEncryptedKey} = api;
 const {getSessionSigForLitAction} = require("./utils/utils");
 
+config.setLitActionsCode(litActionRepository);
 
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {
