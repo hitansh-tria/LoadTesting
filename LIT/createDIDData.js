@@ -4,7 +4,7 @@ const ethers = require("ethers");
 const {generatePrivateKey, signMessageWithEncryptedKey} = api;
 const {getSessionSigForLitAction} = require("./utils/utils");
 
-config.setLitActionsCode(litActionRepository);
+//config.setLitActionsCode(litActionRepository);
 
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {

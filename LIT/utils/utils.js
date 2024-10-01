@@ -17,7 +17,7 @@ const getSessionSigForLitAction = async ({
   const {
     data: { capacityDelegationAuthSig },
   } = await axios.post(
-    `https://loadtest-lit.development.tria.so/api/v1/lit/v6/delegate-auth-sig`,
+    `https://lit.development.tria.so/api/v1/lit/v6/delegate-auth-sig`,
     {
       delegateeAddress: pkp.ethAddress,
     }
