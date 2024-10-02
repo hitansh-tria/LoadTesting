@@ -161,9 +161,9 @@ module.exports = {
         })
         .catch((error) => {
           // const res = Array.from(litNodeClient.getRequestIds());
-          const requestId = JSON.stringify(res[res.length - 1]);
-          logErrorToFile(error, requestId);
-          done(new Error("CreateDID Data not successful. Ending scenario."));
+          //const requestId = JSON.stringify(res[res.length - 1]);
+          //logErrorToFile(error, requestId);
+          done(new Error(error.message ?? "CreateDID Data not successful. Ending scenario."));
         });
     // })
     // .catch((error) => {
