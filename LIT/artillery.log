@@ -1,0 +1,2531 @@
+Test run id: t478b_fd8zpg8twepxxn47p9pk9xrf55jn4_qkf5
+Artillery Cloud reporting is configured for this test run
+Run URL: https://app.artillery.io/_T-2Rtp_GmKagsOwSyb-_ofX/load-tests/t478b_fd8zpg8twepxxn47p9pk9xrf55jn4_qkf5
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87712) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+Phase started: unnamed (index: 0, duration: 60s) 03:02:45(+0530)
+
+Generated username: pvkhh09h72194147
+Generated username: 7twizr95a6243916
+Initiate OTP executed
+Generated username: 5jlgz0d72h656200
+Initiate OTP executed
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzBiOGEzODctYTUxYS00YjE0LWFhM2YtNDQwMzJlNjQ3MWQyIiwiZW1haWwiOiJwdmtoaDA5aDcyMTk0MTQ3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY3LCJleHAiOjE3Mjg1MDk1Njd9.4PmVVMWSCFpCSAlfeCf9bNC_HitwEMfBxxgWhC5J7Lw
+Generated username: fltrofkq7m781921
+Initiate OTP executed
+Check DID response: true
+Name recommendations: ["pvkhh09h72194147319","pvkhh09h72194147whale","pvkhh09h72194147813","pvkhh09h72194147xpert","pvkhh09h72194147enthusiast","blockpvkhh09h72194147","pvkhh09h72194147832","cyberpvkhh09h72194147","itspvkhh09h72194147","pvkhh09h72194147951"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZiNmM3ZjgtYjZkNS00MGI5LTkwYTYtZTUwZWMyOGUwNGQ0IiwiZW1haWwiOiI3dHdpenI5NWE2MjQzOTE2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY4LCJleHAiOjE3Mjg1MDk1Njh9.mpvePRToHqk8JoBfLpSS-d1hvHS-Ge0b0CBBVqcLQrY
+Generated username: ft8kz2p8b4811953
+Check DID response: true
+Initiate OTP executed
+Generated username: 1sfa502r3o493565
+Name recommendations: ["cyber7twizr95a6243916","7twizr95a6243916trader","7twizr95a6243916hacker","7twizr95a6243916crypto","its7twizr95a6243916","7twizr95a6243916800","7twizr95a62439166","7twizr95a6243916pioneer","7twizr95a6243916486","the7twizr95a6243916"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWI3YzZmNTgtMjM1NS00MjRlLWEwMDQtZWU3MTQyODQzODQyIiwiZW1haWwiOiI1amxnejBkNzJoNjU2MjAwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY5LCJleHAiOjE3Mjg1MDk1Njl9.qIiXMAbEJZkcHIOtC_8l483PfAemDFHqRgpyrG5zpUo
+Check DID response: true
+Generated username: pbrmufunpxi451621
+Initiate OTP executed
+Generated username: 6mf1hwr8by428129
+Initiate OTP executed
+Name recommendations: ["ether5jlgz0d72h656200","5jlgz0d72h656200706","5jlgz0d72h656200wizard","decentral5jlgz0d72h656200","5jlgz0d72h65620037","5jlgz0d72h656200755","chain5jlgz0d72h656200","5jlgz0d72h656200216","5jlgz0d72h656200slinger","5jlgz0d72h656200557"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDQ5ODlmZDctOWQ5ZC00NDg0LTlmYzQtYWQ1NzcwOWQzZjQxIiwiZW1haWwiOiJmbHRyb2ZrcTdtNzgxOTIxQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcwLCJleHAiOjE3Mjg1MDk1NzB9.m7n1thoVApHVvDymlmldBMdoiiSsg3PALXV2VGS8bOQ
+Check DID response: true
+Generated username: le3l3dhub5973526
+Generated username: 8k2mk3fgjgi681649
+Initiate OTP executed
+Initiate OTP executed
+Name recommendations: ["fltrofkq7m781921hacker","fltrofkq7m781921pioneer","fltrofkq7m781921whale","fltrofkq7m781921293","0xfltrofkq7m781921","fltrofkq7m78192148","fltrofkq7m781921879","fltrofkq7m781921261","fltrofkq7m781921enthusiast","etherfltrofkq7m781921"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiM2U4YjlkY2QtNjAzNC00NDBkLTk2NzktY2RkMTZmNWIyMmY2IiwiZW1haWwiOiJmdDhrejJwOGI0ODExOTUzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.SnkBTNQMYikLWSyi-UWGf7rJmREHuM31LfStKBaNq_k
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTdmNTZmOWItNmQzYi00ZTY1LWJjNzktY2ViNjk5MmQ1YzkyIiwiZW1haWwiOiIxc2ZhNTAycjNvNDkzNTY1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.yydEUhUzqV5Tbf7syJFoUEDqa2iasUr8ZmjN-T7NVus
+Check DID response: true
+Generated username: 05ka96gx32l555482
+Initiate OTP executed
+Generated username: 8n389fmmed102983
+Initiate OTP executed
+Check DID response: true
+Name recommendations: ["ft8kz2p8b4811953master","etherft8kz2p8b4811953","ft8kz2p8b4811953713","ft8kz2p8b4811953637","ft8kz2p8b4811953hacker","ft8kz2p8b4811953wizard","ft8kz2p8b4811953375","cryptoft8kz2p8b4811953","ft8kz2p8b481195362","coinft8kz2p8b4811953"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWM1YTRiM2QtYTExZS00MzgzLWJiY2ItMWZhNTE2NDFkMDQyIiwiZW1haWwiOiJwYnJtdWZ1bnB4aTQ1MTYyMUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MiwiZXhwIjoxNzI4NTA5NTcyfQ.srQQyjY6F670-AjjsuXuQeiRcEkhb_1-Po0bWF2L0LA
+Name recommendations: ["1sfa502r3o493565hodl","digital1sfa502r3o493565","1sfa502r3o493565364","1sfa502r3o493565324","bit1sfa502r3o493565","1sfa502r3o493565slinger","1sfa502r3o49356587","its1sfa502r3o493565","1sfa502r3o493565hacker","1sfa502r3o493565453"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTM0ZDExZWYtNWI2NC00NmUzLWE5MjgtYzBmM2VlNmU3NDk2IiwiZW1haWwiOiI2bWYxaHdyOGJ5NDI4MTI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcyLCJleHAiOjE3Mjg1MDk1NzJ9.0CkoVDhkXolHGFcyCStd9Var911COz9dXw1qKN0rE08
+Check DID response: true
+Check DID response: true
+Generated username: stb7vmmqv535064
+Generated username: jrubjgqwhs999109
+Initiate OTP executed
+Initiate OTP executed
+Name recommendations: ["6mf1hwr8by428129979","6mf1hwr8by428129710","6mf1hwr8by428129trader","meta6mf1hwr8by428129","6mf1hwr8by428129652","decentral6mf1hwr8by428129","6mf1hwr8by428129hacker","6mf1hwr8by428129slinger","6mf1hwr8by428129283","6mf1hwr8by428129271"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjkxMTVjNmMtZGEwMi00NDVhLWJhODctYTY2OGJmYjY0MDI3IiwiZW1haWwiOiJsZTNsM2RodWI1OTczNTI2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzczLCJleHAiOjE3Mjg1MDk1NzN9.YX-rxZBqROR5ZuMpxHm_efrxDla3b7yvPiL9YNPcljk
+Name recommendations: ["pbrmufunpxi451621229","pbrmufunpxi451621109","pbrmufunpxi451621enthusiast","pbrmufunpxi451621649","pbrmufunpxi451621slinger","pbrmufunpxi451621674","decentralpbrmufunpxi451621","thepbrmufunpxi451621","ethpbrmufunpxi451621","pbrmufunpxi451621hodl"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWFlODEzMTctZTJjZC00ZGY0LWFkZjAtOTBmODNhMGEzNmFhIiwiZW1haWwiOiI4azJtazNmZ2pnaTY4MTY0OUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MywiZXhwIjoxNzI4NTA5NTczfQ.BJsDtV3JLZdqt4-d8iUXf2GVeIwveGr7AW4CwCl0yPs
+Check DID response: true
+Check DID response: true
+Generated username: 1wjgx9iovh834675
+Initiate OTP executed
+Generated username: 6bua4bmhesj510019
+Initiate OTP executed
+Name recommendations: ["le3l3dhub5973526master","cyberle3l3dhub5973526","metale3l3dhub5973526","nftle3l3dhub5973526","le3l3dhub5973526whale","le3l3dhub5973526crypto","le3l3dhub5973526249","le3l3dhub5973526547","le3l3dhub5973526808","le3l3dhub5973526investor"]
+Name recommendations: ["8k2mk3fgjgi681649536","meta8k2mk3fgjgi681649","8k2mk3fgjgi68164983","nft8k2mk3fgjgi681649","eth8k2mk3fgjgi681649","8k2mk3fgjgi68164918","8k2mk3fgjgi681649288","chain8k2mk3fgjgi681649","8k2mk3fgjgi681649264","digital8k2mk3fgjgi681649"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjA0NDBmOWUtYzUzZS00ZTIzLTg2YmItOTg1ODVkMWMyOGZjIiwiZW1haWwiOiIwNWthOTZneDMybDU1NTQ4MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3NCwiZXhwIjoxNzI4NTA5NTc0fQ.ZOL0OrKnrMt9J1fbdckZZHb7ufU_bV9PSAVaWb60yJY
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: mg1jj3m2irg57443
+Initiate OTP executed
+Generated username: lz6woqhxzt313026
+Initiate OTP executed
+Generated username: f6m4p1ohhw973110
+Name recommendations: ["bit05ka96gx32l555482","eth05ka96gx32l555482","05ka96gx32l555482investor","05ka96gx32l555482hacker","05ka96gx32l555482400","05ka96gx32l555482whale","defi05ka96gx32l555482","05ka96gx32l555482974","05ka96gx32l555482crypto","05ka96gx32l55548282"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzg5ZDRhMWQtYWZlMC00YzIzLWFmNTAtNzQ5YzA2MmU0MGIwIiwiZW1haWwiOiI4bjM4OWZtbWVkMTAyOTgzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc0LCJleHAiOjE3Mjg1MDk1NzR9.46ZbkchlkuhRFD_v82mx1bpSsK8qc5MTxY3vZI_W1wY
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWExZGQ4NmItMTQ5Ny00MTU4LThiYWEtMjU2MDU0NjRmMmMxIiwiZW1haWwiOiJzdGI3dm1tcXY1MzUwNjRAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3NzUsImV4cCI6MTcyODUwOTU3NX0.kWK9gX56TSaLqS3mrctjKwMU5GikHyMstglebrkO3oI
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzljMDc2N2MtMTE3Yy00MmRhLTlmYmEtNzc5MTI4N2ZiNzJjIiwiZW1haWwiOiJqcnViamdxd2hzOTk5MTA5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc1LCJleHAiOjE3Mjg1MDk1NzV9.ZqeQBKDddIgwC192gqutJIYXTuBEEp5A9WCi0x_P4Lo
+Check DID response: true
+Check DID response: true
+Check DID response: true
+Generated username: az0gxbs64f230646
+Initiate OTP executed
+Generated username: gihdsdfruhg246738
+Generated username: j8199fvome285296
+Initiate OTP executed
+Initiate OTP executed
+Name recommendations: ["0xstb7vmmqv535064","stb7vmmqv535064497","stb7vmmqv535064537","ethstb7vmmqv535064","stb7vmmqv535064crypto","stb7vmmqv535064wizard","stb7vmmqv535064master","digitalstb7vmmqv535064","stb7vmmqv535064hodl","stb7vmmqv535064whale"]
+Name recommendations: ["8n389fmmed102983695","8n389fmmed102983475","8n389fmmed102983282","bit8n389fmmed102983","8n389fmmed102983slinger","cyber8n389fmmed102983","digital8n389fmmed102983","8n389fmmed102983enthusiast","8n389fmmed102983899","crypto8n389fmmed102983"]
+Name recommendations: ["jrubjgqwhs999109trader","jrubjgqwhs999109717","jrubjgqwhs999109502","jrubjgqwhs999109172","coinjrubjgqwhs999109","jrubjgqwhs999109hacker","etherjrubjgqwhs999109","metajrubjgqwhs999109","blockjrubjgqwhs999109","jrubjgqwhs999109598"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBhNGU4ZGYtMTM3Ni00Njk2LWIyZjktMGM0NWQ2YmQwODcwIiwiZW1haWwiOiIxd2pneDlpb3ZoODM0Njc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc2LCJleHAiOjE3Mjg1MDk1NzZ9.ajsxVMsJnKWgJrl0UqCCqoS33_xKrpagdBrZeClVZjE
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzA2NDg3ZWItNzBhNS00ZTFkLWE5NzMtNTE3ZDFjNTEyNjNjIiwiZW1haWwiOiI2YnVhNGJtaGVzajUxMDAxOUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3NiwiZXhwIjoxNzI4NTA5NTc2fQ.lihetQl43wG6dk2zEE5RO0y3ljIgZ5L9G45aM1KJ_jU
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDhlZWQzMjgtMTRkMi00OGIxLWFkMWYtYjI3NTlmODUwN2Y0IiwiZW1haWwiOiJsejZ3b3FoeHp0MzEzMDI2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc3LCJleHAiOjE3Mjg1MDk1Nzd9.KdXjOZ7Jy1MdSv5aNvUgdq-Jcaf6PgByUbn_pmdbggw
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmJlMjE5MGYtYWM1ZC00ZDkyLWIwOTAtOTM1ZDExMWY3ZmU3IiwiZW1haWwiOiJmNm00cDFvaGh3OTczMTEwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc3LCJleHAiOjE3Mjg1MDk1Nzd9.q06b2fCR89CSjXAcaqGsK11wkhsmrSAllIlNWkaivO4
+Check DID response: true
+Generated username: jrrnhgct59l866611
+Generated username: 78c7y3fiit697178
+Initiate OTP executed
+Initiate OTP executed
+Generated username: c4blgy2mkh896072
+Initiate OTP executed
+Check DID response: true
+Name recommendations: ["1wjgx9iovh834675415","1wjgx9iovh83467582","1wjgx9iovh834675enthusiast","chain1wjgx9iovh834675","eth1wjgx9iovh834675","ether1wjgx9iovh834675","1wjgx9iovh834675wizard","1wjgx9iovh834675xpert","1wjgx9iovh834675hodl","1wjgx9iovh834675pioneer"]
+Check DID response: true
+Name recommendations: ["6bua4bmhesj510019hodl","6bua4bmhesj510019slinger","6bua4bmhesj510019614","6bua4bmhesj510019151","digital6bua4bmhesj510019","6bua4bmhesj510019enthusiast","6bua4bmhesj510019915","cyber6bua4bmhesj510019","6bua4bmhesj510019whale","nft6bua4bmhesj510019"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDIwYjBhOTQtNDlhMC00NjEyLTk4ZjAtN2RhMGQ3MzY5YmY1IiwiZW1haWwiOiJtZzFqajNtMmlyZzU3NDQzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc3LCJleHAiOjE3Mjg1MDk1Nzd9.4lNJ5xig9QpUEK1rFJXo35FJNa9FN9SHMECPFsOy4PQ
+Successfully fetched PKPs with relayer
+Name recommendations: ["lz6woqhxzt313026537","cryptolz6woqhxzt313026","lz6woqhxzt313026pioneer","thelz6woqhxzt313026","lz6woqhxzt313026364","ethlz6woqhxzt313026","cyberlz6woqhxzt313026","lz6woqhxzt313026449","lz6woqhxzt313026xpert","lz6woqhxzt313026218"]
+Name recommendations: ["f6m4p1ohhw973110pioneer","f6m4p1ohhw973110862","cyberf6m4p1ohhw973110","0xf6m4p1ohhw973110","etherf6m4p1ohhw973110","digitalf6m4p1ohhw973110","ethf6m4p1ohhw973110","f6m4p1ohhw97311015","f6m4p1ohhw973110739","thef6m4p1ohhw973110"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGM2NzUwYmUtNWQwZS00NmQ1LTg1MTEtNWRlMDNkYmNmMWUwIiwiZW1haWwiOiJhejBneGJzNjRmMjMwNjQ2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc4LCJleHAiOjE3Mjg1MDk1Nzh9.xzbN5UfyHWU0ktdgBfufEiOet5EdPI8H_eJ3hsYE_CI
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDllZDU0MTUtZTliMy00ZmE3LWE2MmYtODNhMjczZWU2MjJmIiwiZW1haWwiOiJqODE5OWZ2b21lMjg1Mjk2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc4LCJleHAiOjE3Mjg1MDk1Nzh9.piz38TBUbJiXRC_0_YW-wkw6hjxIsiBE5jMvzcA4V0Y
+Generated username: 96thu9xods609272
+Initiate OTP executed
+Generated username: jvwxfzakgd350067
+Initiate OTP executed
+Check DID response: true
+Generated username: r9x4369w2t731860
+Initiate OTP executed
+Name recommendations: ["mg1jj3m2irg57443investor","cybermg1jj3m2irg57443","blockmg1jj3m2irg57443","mg1jj3m2irg57443178","mg1jj3m2irg57443369","mg1jj3m2irg57443enthusiast","nftmg1jj3m2irg57443","mg1jj3m2irg57443xpert","mg1jj3m2irg57443trader","mg1jj3m2irg57443354"]
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["nftaz0gxbs64f230646","defiaz0gxbs64f230646","az0gxbs64f230646master","az0gxbs64f230646hodl","az0gxbs64f230646287","az0gxbs64f230646721","blockaz0gxbs64f230646","digitalaz0gxbs64f230646","cryptoaz0gxbs64f230646","metaaz0gxbs64f230646"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzU4MjRmOTQtMDkyOS00NjQ4LWE5OGYtODA5ZGJmMzdlYzM2IiwiZW1haWwiOiJnaWhkc2RmcnVoZzI0NjczOEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3OCwiZXhwIjoxNzI4NTA5NTc4fQ.lW3BjGbTv6fZdkpU8wA-U19IhoKlusRyH5bkshsvQHE
+Name recommendations: ["j8199fvome285296857","j8199fvome285296wizard","ethj8199fvome285296","defij8199fvome285296","metaj8199fvome285296","j8199fvome285296460","j8199fvome285296pioneer","nftj8199fvome285296","coinj8199fvome285296","j8199fvome285296xpert"]
+Check DID response: true
+Successfully fetched PKPs with relayer
+Generated username: sqe9m5wzzf406622
+Minting done
+Initiate OTP executed
+Running getPKP
+getCreateDIDData...
+Generated username: 6h1jkeiqtv859630
+Initiate OTP executed
+Generated username: 7q9j8niaich809248
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Name recommendations: ["gihdsdfruhg246738957","gihdsdfruhg246738trader","gihdsdfruhg246738557","ethgihdsdfruhg246738","gihdsdfruhg246738486","gihdsdfruhg24673860","itsgihdsdfruhg246738","gihdsdfruhg246738327","gihdsdfruhg246738347","gihdsdfruhg246738wizard"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzI1ZDNiNjEtM2MzMy00NDQ1LThiZDQtMjRiZmU4YmFhYjA4IiwiZW1haWwiOiJqcnJuaGdjdDU5bDg2NjYxMUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3OSwiZXhwIjoxNzI4NTA5NTc5fQ.Iw7acxYf-1bq9B5akHVIKaTlfnI2uwMVhjBKC1iUons
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZjhhNjYzMjctZjQ0OC00Mzg1LWIwMTktZGJhZGNiOWZjOTNiIiwiZW1haWwiOiI3OGM3eTNmaWl0Njk3MTc4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc5LCJleHAiOjE3Mjg1MDk1Nzl9.giuEogZ29WdfSBU57rB9X3f3qUUO6CHpszU1YbDmrIs
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzEyMjdiYTgtMjkxMi00N2QyLTlmZmUtMDBmODQ3MTQwMDhmIiwiZW1haWwiOiJjNGJsZ3kybWtoODk2MDcyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc5LCJleHAiOjE3Mjg1MDk1Nzl9.eXKsEITE6gOAVZHhKmY6kN7RBy_kl25ceDzElDuFPgw
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGIxYTE0YjYtZmQ0Mi00YmJiLWFhZWUtZDQzMzhiNDM5YTI2IiwiZW1haWwiOiJyOXg0MzY5dzJ0NzMxODYwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgwLCJleHAiOjE3Mjg1MDk1ODB9.IwWkj33bFttyzA8_Ljj-sV1ZJLX5vc1oBcME2PJBfNg
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTFkYzg2NDAtYmNkYS00NGVlLThjODctMzc0Y2UyYWFjYzUyIiwiZW1haWwiOiJqdnd4Znpha2dkMzUwMDY3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgwLCJleHAiOjE3Mjg1MDk1ODB9.78tFpPYq5qF_dI9TC-B8yjc2RpZdLIsU8-A5vcCyLxY
+Check DID response: true
+Check DID response: true
+Check DID response: true
+Generated username: elwctwg0f5520564
+Initiate OTP executed
+Generated username: o2po5gz55bl908498
+Initiate OTP executed
+Generated username: 61342kta3lj930564
+Initiate OTP executed
+Check DID response: true
+Check DID response: true
+Name recommendations: ["digitaljrrnhgct59l866611","jrrnhgct59l866611hodl","jrrnhgct59l866611slinger","ethjrrnhgct59l866611","defijrrnhgct59l866611","jrrnhgct59l866611wizard","nftjrrnhgct59l866611","bitjrrnhgct59l866611","jrrnhgct59l866611582","jrrnhgct59l866611pioneer"]
+Name recommendations: ["78c7y3fiit697178146","78c7y3fiit697178593","the78c7y3fiit697178","78c7y3fiit697178investor","decentral78c7y3fiit697178","78c7y3fiit697178hodl","cyber78c7y3fiit697178","78c7y3fiit697178pioneer","78c7y3fiit697178927","meta78c7y3fiit697178"]
+Name recommendations: ["ethc4blgy2mkh896072","chainc4blgy2mkh896072","c4blgy2mkh896072enthusiast","c4blgy2mkh896072530","c4blgy2mkh896072whale","defic4blgy2mkh896072","digitalc4blgy2mkh896072","c4blgy2mkh896072770","c4blgy2mkh896072investor","c4blgy2mkh896072526"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTNkMWVmZDEtOGZmNC00ODgyLWJjZDAtYjljY2ZlMzY1MGJhIiwiZW1haWwiOiI5NnRodTl4b2RzNjA5MjcyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgwLCJleHAiOjE3Mjg1MDk1ODB9.EPid41dCuoGonK87re8wgsQWC550ov86pygahlLTb-I
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["r9x4369w2t731860slinger","r9x4369w2t731860352","r9x4369w2t731860989","defir9x4369w2t731860","r9x4369w2t731860988","r9x4369w2t731860crypto","blockr9x4369w2t731860","coinr9x4369w2t731860","itsr9x4369w2t731860","r9x4369w2t731860978"]
+Name recommendations: ["jvwxfzakgd350067master","bitjvwxfzakgd350067","jvwxfzakgd350067trader","ethjvwxfzakgd350067","itsjvwxfzakgd350067","jvwxfzakgd35006710","jvwxfzakgd350067whale","jvwxfzakgd350067xpert","jvwxfzakgd350067444","jvwxfzakgd350067wizard"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZkYmQwM2UtODliNi00OWEwLWIyNjctNzQ5ZDhhMzg0NjkxIiwiZW1haWwiOiI3cTlqOG5pYWljaDgwOTI0OEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4MSwiZXhwIjoxNzI4NTA5NTgxfQ.hebhP6acBt21nb0YP5D7uajz1KzV4usMnVT8LYLB-F0
+Check DID response: true
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjBkYTFkN2ItYWRiNS00MDRlLTgzYWMtNDYzNjA2NmEyYjNkIiwiZW1haWwiOiI2aDFqa2VpcXR2ODU5NjMwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgxLCJleHAiOjE3Mjg1MDk1ODF9.9CeYiDnh2x25wO__9wAxaxaKXUTI0eIp1UpCUY77E2I
+Generated username: jsiklbmk6yl637747
+Initiate OTP executed
+Generated username: r5cmqpc88wf247968
+Initiate OTP executed
+Generated username: m3aess2ka6713438
+Initiate OTP executed
+Check DID response: true
+Name recommendations: ["96thu9xods609272932","96thu9xods609272master","96thu9xods609272146","96thu9xods609272120","96thu9xods609272xpert","96thu9xods609272661","96thu9xods609272hodl","96thu9xods609272pioneer","96thu9xods609272786","ether96thu9xods609272"]
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["7q9j8niaich809248845","7q9j8niaich809248919","7q9j8niaich809248wizard","coin7q9j8niaich809248","digital7q9j8niaich809248","the7q9j8niaich809248","7q9j8niaich809248709","7q9j8niaich809248412","ether7q9j8niaich809248","7q9j8niaich809248822"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjI0Njg4NWItZjFhMC00YWM2LWFmZWEtYjZjY2E4YzBlNTJhIiwiZW1haWwiOiJzcWU5bTV3enpmNDA2NjIyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgxLCJleHAiOjE3Mjg1MDk1ODF9.hiqlqOIXXZqv_anfiO5iunwacECDg4SVbiX3EynoKDQ
+Name recommendations: ["6h1jkeiqtv859630813","6h1jkeiqtv859630850","6h1jkeiqtv859630428","block6h1jkeiqtv859630","6h1jkeiqtv859630pioneer","ether6h1jkeiqtv859630","6h1jkeiqtv859630xpert","the6h1jkeiqtv859630","6h1jkeiqtv859630981","6h1jkeiqtv859630master"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTkwNjRkNDQtYTQwZC00ZjdhLTg0NmEtNzgxMzI1ZmZiMDMyIiwiZW1haWwiOiJlbHdjdHdnMGY1NTIwNTY0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgyLCJleHAiOjE3Mjg1MDk1ODJ9.R2_aD7l4BCYWA4Te3CC3R2q6vn2gflMPEG8R4EHGgN8
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWY5MWUyODYtNmVkZC00ZGVkLWE4NTItY2Q2Y2JiODk4YjEwIiwiZW1haWwiOiJvMnBvNWd6NTVibDkwODQ5OEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4MiwiZXhwIjoxNzI4NTA5NTgyfQ.3D8N1GlX-5TQqbFVJ6dwdGggbqDRK3jCj6M-mki6KoI
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDUyYjljMmUtYWM2Yi00NTk4LTkwZjMtMzlhYmFlYzI4N2UwIiwiZW1haWwiOiI2MTM0Mmt0YTNsajkzMDU2NEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4MiwiZXhwIjoxNzI4NTA5NTgyfQ.aooUBVJmFTgCLJfH52nkSEkX5lXsCQQ0hpwmcoGy9hc
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: kmyt2hinrw550602
+Initiate OTP executed
+Generated username: 6anngdprlof132325
+Check DID response: true
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xC04F3D631523d50490a7dDF8ff621a3b9A9cB1DA',
+    id: '86ec6dc3-2bb0-4559-8933-cfe8998d6c55',
+    generatedPublicKey: '0x04c40262713cb6b067cc0053d0f9c0674e4bb843157cf8a38bfb8ff06a8dcfd399fec29ec6735239346deb749acb78b51df3e05bbfca0ad14e63a90dbf4f5504cb'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xC04F3D631523d50490a7dDF8ff621a3b9A9cB1DA',
+    id: '0096f718-6fad-458b-b68f-2bb958d3b9cd',
+    generatedPublicKey: 'FUcrq1siGY67C17fNXw5uPQUkBZcSLEf5QhjFspws6Rb'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xC04F3D631523d50490a7dDF8ff621a3b9A9cB1DA',
+    id: '86ec6dc3-2bb0-4559-8933-cfe8998d6c55',
+    generatedPublicKey: '0x04c40262713cb6b067cc0053d0f9c0674e4bb843157cf8a38bfb8ff06a8dcfd399fec29ec6735239346deb749acb78b51df3e05bbfca0ad14e63a90dbf4f5504cb'
+  }
+]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x7Cc095E41a94b38718853d4946bCD3A15c7ba0e8',
+    id: '4a01147f-2198-49f0-8dae-70f267034f82',
+    generatedPublicKey: '0x0433d9e8031da40a2dcb9c6be5d3a03ab6776a021267bd07612ee90bec2dabc1a6e4e95ada6628ae55f6e35ba4c18147c2c442905dd6d31ac66d3ecdd4459b9bea'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x7Cc095E41a94b38718853d4946bCD3A15c7ba0e8',
+    id: 'c2dc5b5a-57bc-4aa6-b6f6-ac1af524e088',
+    generatedPublicKey: 'CaJzPRuZU3XV5dyRSpYsCqu6N2vB5w2WEYLxXnsckY2X'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x7Cc095E41a94b38718853d4946bCD3A15c7ba0e8',
+    id: '4a01147f-2198-49f0-8dae-70f267034f82',
+    generatedPublicKey: '0x0433d9e8031da40a2dcb9c6be5d3a03ab6776a021267bd07612ee90bec2dabc1a6e4e95ada6628ae55f6e35ba4c18147c2c442905dd6d31ac66d3ecdd4459b9bea'
+  }
+]
+Initiate OTP executed
+Check DID response: true
+Generated username: l6kgn7vja7733999
+Initiate OTP executed
+Generated username: dax0igxnnoi523654
+Minting done
+Running getPKP
+getCreateDIDData...
+Check DID response: true
+Check DID response: true
+Name recommendations: ["coinsqe9m5wzzf406622","decentralsqe9m5wzzf406622","sqe9m5wzzf40662230","sqe9m5wzzf406622whale","sqe9m5wzzf406622331","sqe9m5wzzf406622xpert","sqe9m5wzzf406622758","sqe9m5wzzf406622464","sqe9m5wzzf406622crypto","itssqe9m5wzzf406622"]
+Minting done
+Minting done
+Running getPKP
+getCreateDIDData...
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["blockelwctwg0f5520564","elwctwg0f5520564786","etherelwctwg0f5520564","elwctwg0f5520564832","coinelwctwg0f5520564","bitelwctwg0f5520564","nftelwctwg0f5520564","elwctwg0f5520564hacker","elwctwg0f5520564248","cyberelwctwg0f5520564"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["chain61342kta3lj930564","61342kta3lj930564xpert","61342kta3lj930564453","61342kta3lj930564trader","61342kta3lj930564233","61342kta3lj930564339","its61342kta3lj930564","61342kta3lj930564pioneer","61342kta3lj930564978","61342kta3lj930564454"]
+Name recommendations: ["o2po5gz55bl908498706","o2po5gz55bl908498investor","o2po5gz55bl908498whale","cybero2po5gz55bl908498","ethero2po5gz55bl908498","o2po5gz55bl908498825","o2po5gz55bl908498slinger","o2po5gz55bl908498master","decentralo2po5gz55bl908498","o2po5gz55bl908498501"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTA2MDBkNzQtM2ZkNi00MDExLTlmNGMtMjEzZDVhMjhmZjUwIiwiZW1haWwiOiJqc2lrbGJtazZ5bDYzNzc0N0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4MywiZXhwIjoxNzI4NTA5NTgzfQ.mKQmVZ2rZMoP0IubMsYRBwwkz_DEcmGqGnPoo0uksxU
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Generated username: r7ryitemoyh535148
+Initiate OTP executed
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjFjNGQ0NmItOTlkYi00Y2IxLThjYjgtM2E4ZmVlMTZhOTQ2IiwiZW1haWwiOiJyNWNtcXBjODh3ZjI0Nzk2OEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4MywiZXhwIjoxNzI4NTA5NTgzfQ.f_xccOyUq89NfFk20WPPkAyc0cJocSELURoj9571-oU
+Generated username: smb34vm5rv120108
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Generated username: gsxk92zcr553951
+Initiate OTP executed
+Check DID response: true
+Generated username: rbqswubtee905759
+Initiate OTP executed
+Name recommendations: ["coinjsiklbmk6yl637747","etherjsiklbmk6yl637747","jsiklbmk6yl637747enthusiast","blockjsiklbmk6yl637747","jsiklbmk6yl637747264","jsiklbmk6yl637747whale","jsiklbmk6yl637747investor","jsiklbmk6yl637747194","jsiklbmk6yl637747512","defijsiklbmk6yl637747"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDI1OTVkY2ItNTIyYi00NTAwLThjN2UtYTI1ODc0OWRmZWY3IiwiZW1haWwiOiJtM2Flc3Mya2E2NzEzNDM4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzgzLCJleHAiOjE3Mjg1MDk1ODN9.z9jdQvshWtU_g95rJvKmHZKpRqlRYENzPyN2h-wP2tc
+Check DID response: true
+Successfully fetched PKPs with relayer
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xCD15A420C4C4b294faE88f85753A364fC5068Ab8',
+    id: '77932df7-ff3e-4224-97aa-80f1814c31a2',
+    generatedPublicKey: '0x04b5ef872d4292d240a23e50a4104305310e53e892c388fda90a09363fe8fe626d2433c2767eed0d951517185fd1ee06a6371dd91160cfa888817e94a45b6c048e'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xCD15A420C4C4b294faE88f85753A364fC5068Ab8',
+    id: '878119b4-5912-4313-870b-3a38e919d403',
+    generatedPublicKey: 'HQeNtKFgYyKPfQGAUPKNCmntPUkHMmDtyWbzFuTGLuRT'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xCD15A420C4C4b294faE88f85753A364fC5068Ab8',
+    id: '77932df7-ff3e-4224-97aa-80f1814c31a2',
+    generatedPublicKey: '0x04b5ef872d4292d240a23e50a4104305310e53e892c388fda90a09363fe8fe626d2433c2767eed0d951517185fd1ee06a6371dd91160cfa888817e94a45b6c048e'
+  }
+]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZGZmZjlhMTQtNTg1ZS00OTU0LWJhNDUtZGY4NGNiMGJkOWI5IiwiZW1haWwiOiI2YW5uZ2RwcmxvZjEzMjMyNUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NCwiZXhwIjoxNzI4NTA5NTg0fQ.mTpsnoGx1s6S4_3vgArG6WWBskfKI8LEPunAkpx8ycE
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMWRkMzk2NmItZWY4ZC00NThlLTg4ODUtYTYwNGQ2N2ZhYjExIiwiZW1haWwiOiJsNmtnbjd2amE3NzMzOTk5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg0LCJleHAiOjE3Mjg1MDk1ODR9.xOl5XWjXZufyyatTOUvIzt5SQDLuXVc9xJs8bLiAebM
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGJlMzUyMTItMDRmMy00NzE2LTg2M2MtYjA4ZGYwNmZmYmM5IiwiZW1haWwiOiJrbXl0MmhpbnJ3NTUwNjAyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg0LCJleHAiOjE3Mjg1MDk1ODR9.QkVb3_2rOEelPFwvs3kwrFL74a-4XDJrCs1pVaFtqUE
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiY2YyNjJlMDctYmQ4Mi00YmEyLWJkN2EtYTk2YzdiOGMyOGI4IiwiZW1haWwiOiJkYXgwaWd4bm5vaTUyMzY1NEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NCwiZXhwIjoxNzI4NTA5NTg0fQ.rt_6EiqMyLwxJirOrmRx0FU-Rf7sWOSDYmS9VmRxVV4
+Check DID response: true
+Generated username: d8nkrg2j7m691703
+Name recommendations: ["decentralr5cmqpc88wf247968","r5cmqpc88wf247968729","r5cmqpc88wf247968456","r5cmqpc88wf247968investor","0xr5cmqpc88wf247968","r5cmqpc88wf247968wizard","r5cmqpc88wf247968pioneer","r5cmqpc88wf247968679","r5cmqpc88wf247968558","etherr5cmqpc88wf247968"]
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: 8ps88jx7suf34063
+Generated username: spzne2ahqq383560
+Initiate OTP executed
+Initiate OTP executed
+Check DID response: true
+Initiate OTP executed
+Generated username: jyubz16f4v754570
+Check DID response: true
+Check DID response: true
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x566fe1c86DA5bA582d0abc725D1EB616bab6d599',
+    id: '99d991db-deb1-42c9-8e80-be01459d255d',
+    generatedPublicKey: '0x04f838c9ce979dcfbae440218d3a4d3d4668cdc97cfaa4593f739448af56c1addba2c6541097f5c9808a86d181ba262df9a23236a1c32b806ffd8a4713c76235e0'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x566fe1c86DA5bA582d0abc725D1EB616bab6d599',
+    id: '5df032aa-d57b-40ab-8759-3fbda95f93d6',
+    generatedPublicKey: 'HHA2cyw56cFjUGuwdsE23YmJxYkcLkJ5DN6MBGDfi9r1'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x566fe1c86DA5bA582d0abc725D1EB616bab6d599',
+    id: '99d991db-deb1-42c9-8e80-be01459d255d',
+    generatedPublicKey: '0x04f838c9ce979dcfbae440218d3a4d3d4668cdc97cfaa4593f739448af56c1addba2c6541097f5c9808a86d181ba262df9a23236a1c32b806ffd8a4713c76235e0'
+  }
+]
+Name recommendations: ["m3aess2ka6713438pioneer","m3aess2ka6713438801","m3aess2ka671343853","m3aess2ka6713438whale","m3aess2ka6713438hodl","m3aess2ka6713438205","0xm3aess2ka6713438","bitm3aess2ka6713438","m3aess2ka6713438103","m3aess2ka671343856"]
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Check DID response: true
+Name recommendations: ["6anngdprlof132325157","6anngdprlof132325trader","6anngdprlof132325whale","6anngdprlof132325884","6anngdprlof132325651","meta6anngdprlof132325","6anngdprlof132325master","6anngdprlof132325wizard","6anngdprlof132325pioneer","digital6anngdprlof132325"]
+Name recommendations: ["l6kgn7vja7733999xpert","l6kgn7vja7733999556","decentrall6kgn7vja7733999","l6kgn7vja7733999895","blockl6kgn7vja7733999","metal6kgn7vja7733999","bitl6kgn7vja7733999","l6kgn7vja7733999441","chainl6kgn7vja7733999","etherl6kgn7vja7733999"]
+Successfully fetched PKPs with relayer
+Name recommendations: ["dax0igxnnoi523654552","dax0igxnnoi523654181","dax0igxnnoi523654pioneer","metadax0igxnnoi523654","dax0igxnnoi523654698","dax0igxnnoi523654whale","ethdax0igxnnoi523654","dax0igxnnoi523654master","dax0igxnnoi52365464","dax0igxnnoi523654hodl"]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x27f7939b3f486C357c879b83460543F27aa4Af9E',
+    id: 'd231d7b0-8f72-4c6e-b596-4b851f44d36d',
+    generatedPublicKey: '0x04c19c2fc4e03c856b4715705f1a0ab10677a02c20a20ff348dfe1aea2a517484bcebd297e4e1e8ea743bf4adc3a7266c5c22ca5165442cbd3e728d83313fa162f'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x27f7939b3f486C357c879b83460543F27aa4Af9E',
+    id: 'cee8562f-18ee-4b35-b2a3-a078405df427',
+    generatedPublicKey: '9g3HacZh6p7cqUWxy7MLDF35S8pE8M4jeDw97giEc2iL'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x27f7939b3f486C357c879b83460543F27aa4Af9E',
+    id: 'd231d7b0-8f72-4c6e-b596-4b851f44d36d',
+    generatedPublicKey: '0x04c19c2fc4e03c856b4715705f1a0ab10677a02c20a20ff348dfe1aea2a517484bcebd297e4e1e8ea743bf4adc3a7266c5c22ca5165442cbd3e728d83313fa162f'
+  }
+]
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzkzNzQ4OWUtYTMxMi00MWJkLWFjZTktYTIwYzcwZGQ5NmMyIiwiZW1haWwiOiJyN3J5aXRlbW95aDUzNTE0OEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NSwiZXhwIjoxNzI4NTA5NTg1fQ.ZgmVUCIuwwjA0LF5Hhll8rMZliTCL7CXoMS8fdR_tIw
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmY4ZTljNDctMzQyNS00NTYyLWIyMGItNzgyMzc0MjIyYzBlIiwiZW1haWwiOiJnc3hrOTJ6Y3I1NTM5NTFAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3ODUsImV4cCI6MTcyODUwOTU4NX0.kCCGOYebSomYvsAB3s6jBgSDVHgYTe6rZw1YnCOnafE
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzcwYWYyMWQtM2ZlMS00OGNiLWExODgtZmU1NTg2OGIwYTRiIiwiZW1haWwiOiJzbWIzNHZtNXJ2MTIwMTA4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg1LCJleHAiOjE3Mjg1MDk1ODV9.R4U1q0orVBI8QQloHgGPWF9w7qnRqcurW71tGl92u4o
+Name recommendations: ["kmyt2hinrw550602crypto","kmyt2hinrw550602hacker","kmyt2hinrw55060252","digitalkmyt2hinrw550602","kmyt2hinrw550602448","itskmyt2hinrw550602","kmyt2hinrw550602911","kmyt2hinrw550602761","kmyt2hinrw550602enthusiast","cyberkmyt2hinrw550602"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Generated username: duj39xz051f566142
+Initiate OTP executed
+Initiate OTP executed
+Generated username: oq3tapbd9t646854
+Successfully fetched PKPs with relayer
+Check DID response: true
+Generated username: g8djiy1ig8216398
+Initiate OTP executed
+Generated username: vgz1sz20ap634975
+Check DID response: true
+Check DID response: true
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["r7ryitemoyh535148hacker","r7ryitemoyh535148pioneer","r7ryitemoyh535148702","r7ryitemoyh535148investor","r7ryitemoyh535148614","r7ryitemoyh535148964","cyberr7ryitemoyh535148","r7ryitemoyh53514855","r7ryitemoyh535148crypto","r7ryitemoyh535148898"]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x09A8C54e51EF05b9d9a9a5d65675c54Ded3c39b4',
+    id: '430aeaa7-df26-4359-b321-924830e4bda9',
+    generatedPublicKey: '0x04759a9a1a8412191896583465e3cf53208018f2acb75726fa0b5796897b46649e0741263ee8e36cc3faa1c8af98275c1ef4a5c29f39f308d0794d37ddb44fe6e5'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x09A8C54e51EF05b9d9a9a5d65675c54Ded3c39b4',
+    id: 'b6b47051-f576-4a8d-b25c-a8852c01f602',
+    generatedPublicKey: 'Aznu7G7P7wkC6qH8S5ZFwA33K2r3ZNh3roAe7Gy1E4ze'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x09A8C54e51EF05b9d9a9a5d65675c54Ded3c39b4',
+    id: '430aeaa7-df26-4359-b321-924830e4bda9',
+    generatedPublicKey: '0x04759a9a1a8412191896583465e3cf53208018f2acb75726fa0b5796897b46649e0741263ee8e36cc3faa1c8af98275c1ef4a5c29f39f308d0794d37ddb44fe6e5'
+  }
+]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZjhiZGE4ZTAtMzBkNS00M2E2LWFjZmEtZjBjNmJiODNiZWNjIiwiZW1haWwiOiJyYnFzd3VidGVlOTA1NzU5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg1LCJleHAiOjE3Mjg1MDk1ODV9.4KFSmpN84FX9-zpnNcH8IZUTgK0N4lCooiZiJD2aGrQ
+Name recommendations: ["gsxk92zcr553951pioneer","gsxk92zcr553951140","gsxk92zcr553951master","gsxk92zcr553951whale","decentralgsxk92zcr553951","gsxk92zcr553951crypto","gsxk92zcr553951507","nftgsxk92zcr553951","gsxk92zcr553951626","0xgsxk92zcr553951"]
+Name recommendations: ["smb34vm5rv120108hodl","smb34vm5rv12010845","smb34vm5rv120108401","smb34vm5rv120108280","smb34vm5rv120108wizard","smb34vm5rv120108974","smb34vm5rv120108777","smb34vm5rv120108crypto","smb34vm5rv120108931","smb34vm5rv120108slinger"]
+signature {
+  success: true,
+  signature: '0xf637fd04f5dac1a4f4c731d6ec049763c02b324d1f30c6fb0af3be2f49bc5af7188a353688309c1abaa8cd447b61726403de3b572d9c6b679fb438b7c696acd11c'
+}
+args {
+  did: '7twizr95a6243916@tria',
+  evmChainData: {
+    address: '0xc45e36c5d03BC2433092965676dD759f8f168FFA',
+    message: {
+      address: '0xc45e36c5d03BC2433092965676dD759f8f168FFA',
+      timestamp: 1727904783354
+    },
+    signature: '0xf637fd04f5dac1a4f4c731d6ec049763c02b324d1f30c6fb0af3be2f49bc5af7188a353688309c1abaa8cd447b61726403de3b572d9c6b679fb438b7c696acd11c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZiNmM3ZjgtYjZkNS00MGI5LTkwYTYtZTUwZWMyOGUwNGQ0IiwiZW1haWwiOiI3dHdpenI5NWE2MjQzOTE2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY4LCJleHAiOjE3Mjg1MDk1Njh9.mpvePRToHqk8JoBfLpSS-d1hvHS-Ge0b0CBBVqcLQrY',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '7twizr95a6243916@tria',
+  evmChainData: {
+    address: '0xc45e36c5d03BC2433092965676dD759f8f168FFA',
+    message: {
+      address: '0xc45e36c5d03BC2433092965676dD759f8f168FFA',
+      timestamp: 1727904783354
+    },
+    signature: '0xf637fd04f5dac1a4f4c731d6ec049763c02b324d1f30c6fb0af3be2f49bc5af7188a353688309c1abaa8cd447b61726403de3b572d9c6b679fb438b7c696acd11c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZiNmM3ZjgtYjZkNS00MGI5LTkwYTYtZTUwZWMyOGUwNGQ0IiwiZW1haWwiOiI3dHdpenI5NWE2MjQzOTE2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY4LCJleHAiOjE3Mjg1MDk1Njh9.mpvePRToHqk8JoBfLpSS-d1hvHS-Ge0b0CBBVqcLQrY',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZiNmM3ZjgtYjZkNS00MGI5LTkwYTYtZTUwZWMyOGUwNGQ0IiwiZW1haWwiOiI3dHdpenI5NWE2MjQzOTE2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY4LCJleHAiOjE3Mjg1MDk1Njh9.mpvePRToHqk8JoBfLpSS-d1hvHS-Ge0b0CBBVqcLQrY
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmRlMDYzZjgtODg5Zi00ZDNhLTg4NDktYjc4ZDE0OGI5YWM1IiwiZW1haWwiOiJzcHpuZTJhaHFxMzgzNTYwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg2LCJleHAiOjE3Mjg1MDk1ODZ9.22_nGxpxf5_OlLJV5LiivIb0LDCpGaUIlMGpnU0Y-xw
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: c8k3g18grb694426
+Initiate OTP executed
+Generated username: yx9te04kaz668007
+Initiate OTP executed
+Generated username: l2ugby0k1a106764
+Initiate OTP executed
+Generated username: jik2up8tr8795135
+Initiate OTP executed
+Check DID response: true
+signature {
+  success: true,
+  signature: '0x9cd093c9af99301d2191b645f3b7020051a5c2a1be4768f75dad78dae1b79b2e315fc30f73edfc9727b06b03f35c10e292ae10d93883eef6b80e497a487718f31b'
+}
+args {
+  did: 'pvkhh09h72194147@tria',
+  evmChainData: {
+    address: '0x9c31361fdB2150461D11FbEd05C402e6ae93A022',
+    message: {
+      address: '0x9c31361fdB2150461D11FbEd05C402e6ae93A022',
+      timestamp: 1727904783344
+    },
+    signature: '0x9cd093c9af99301d2191b645f3b7020051a5c2a1be4768f75dad78dae1b79b2e315fc30f73edfc9727b06b03f35c10e292ae10d93883eef6b80e497a487718f31b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzBiOGEzODctYTUxYS00YjE0LWFhM2YtNDQwMzJlNjQ3MWQyIiwiZW1haWwiOiJwdmtoaDA5aDcyMTk0MTQ3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY3LCJleHAiOjE3Mjg1MDk1Njd9.4PmVVMWSCFpCSAlfeCf9bNC_HitwEMfBxxgWhC5J7Lw',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'pvkhh09h72194147@tria',
+  evmChainData: {
+    address: '0x9c31361fdB2150461D11FbEd05C402e6ae93A022',
+    message: {
+      address: '0x9c31361fdB2150461D11FbEd05C402e6ae93A022',
+      timestamp: 1727904783344
+    },
+    signature: '0x9cd093c9af99301d2191b645f3b7020051a5c2a1be4768f75dad78dae1b79b2e315fc30f73edfc9727b06b03f35c10e292ae10d93883eef6b80e497a487718f31b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzBiOGEzODctYTUxYS00YjE0LWFhM2YtNDQwMzJlNjQ3MWQyIiwiZW1haWwiOiJwdmtoaDA5aDcyMTk0MTQ3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY3LCJleHAiOjE3Mjg1MDk1Njd9.4PmVVMWSCFpCSAlfeCf9bNC_HitwEMfBxxgWhC5J7Lw',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzBiOGEzODctYTUxYS00YjE0LWFhM2YtNDQwMzJlNjQ3MWQyIiwiZW1haWwiOiJwdmtoaDA5aDcyMTk0MTQ3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY3LCJleHAiOjE3Mjg1MDk1Njd9.4PmVVMWSCFpCSAlfeCf9bNC_HitwEMfBxxgWhC5J7Lw
+Create DID response: {"success":true,"response":{"data":{"jobId":"148","did":"7twizr95a6243916@tria"}}}
+Name recommendations: ["coinrbqswubtee905759","rbqswubtee90575995","rbqswubtee905759568","rbqswubtee905759264","rbqswubtee905759312","rbqswubtee905759697","rbqswubtee905759988","rbqswubtee905759pioneer","rbqswubtee905759905","rbqswubtee905759447"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNDc1NzRlOWQtZDlhNi00Mzc2LWJkYWYtODFjZWRmNzhiOGMyIiwiZW1haWwiOiI4cHM4OGp4N3N1ZjM0MDYzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg2LCJleHAiOjE3Mjg1MDk1ODZ9.5CgYfhhf-cVDrjQIKD-6aCvA_qGb_sszcYVCwGI6qMo
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMmZlNzkzOTQtNWU3Yy00MTYwLTk2OTQtMTk3MzdiNWIxNDEzIiwiZW1haWwiOiJkOG5rcmcyajdtNjkxNzAzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg2LCJleHAiOjE3Mjg1MDk1ODZ9.s2qIoZ2O1Q58QaMpwIH8EY2Mtq3S5Binpdgn4g6sPgI
+Name recommendations: ["spzne2ahqq383560hacker","spzne2ahqq383560investor","spzne2ahqq383560trader","etherspzne2ahqq383560","spzne2ahqq383560360","spzne2ahqq383560659","spzne2ahqq383560471","spzne2ahqq38356099","spzne2ahqq383560enthusiast","spzne2ahqq383560master"]
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjViNzRjODktMzBlMC00N2RjLWE1MzMtNDUwMjY3NzUyNmQxIiwiZW1haWwiOiJqeXViejE2ZjR2NzU0NTcwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg2LCJleHAiOjE3Mjg1MDk1ODZ9.jObZJaopAG6M2e5EHrJmXcmUo-zt9cbYqLBdqh6gIv8
+Create DID response: {"success":true,"response":{"data":{"jobId":"140","did":"pvkhh09h72194147@tria"}}}
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzUwNTkwZjItZjNjMi00NGMwLTlhOTgtYjQyN2RlYzk1ODVmIiwiZW1haWwiOiJ2Z3oxc3oyMGFwNjM0OTc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg3LCJleHAiOjE3Mjg1MDk1ODd9.kRaGCOtt4HHdaJ26ESXe_UoRDZLquOemSkhhaFCsu8o
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODRlNzFlMzYtZTc5ZS00MjNjLTk5Y2EtMDNmNGMwM2RiYzNlIiwiZW1haWwiOiJkdWozOXh6MDUxZjU2NjE0MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NywiZXhwIjoxNzI4NTA5NTg3fQ.j2UHE3_32ya_rJtTx5B_1uWF9P8NmWihxlnLuB-r8kk
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmYzMTIzODEtNjQyZi00YTNlLWJmM2QtOGMzZjAwZGRmMWRlIiwiZW1haWwiOiJnOGRqaXkxaWc4MjE2Mzk4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg3LCJleHAiOjE3Mjg1MDk1ODd9.IHoG1OdjfD9b9EF3Kvw8Q-JZvWPPz6T77DrW9C-Rjc8
+Generated username: kkdp4e8cfsh572537
+Check DID response: true
+Generated username: ww8hc9cwyi406134
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: duzzs4zxv6541666
+Initiate OTP executed
+Generated username: 41snlyh4x8650667
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Name recommendations: ["8ps88jx7suf34063584","crypto8ps88jx7suf34063","ether8ps88jx7suf34063","its8ps88jx7suf34063","0x8ps88jx7suf34063","8ps88jx7suf3406315","8ps88jx7suf34063pioneer","digital8ps88jx7suf34063","8ps88jx7suf34063slinger","8ps88jx7suf34063735"]
+Initiate OTP executed
+Check DID response: true
+Check DID response: true
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["etherjyubz16f4v754570","jyubz16f4v754570876","jyubz16f4v754570enthusiast","jyubz16f4v754570xpert","jyubz16f4v754570wizard","jyubz16f4v754570429","digitaljyubz16f4v754570","0xjyubz16f4v754570","cryptojyubz16f4v754570","jyubz16f4v754570trader"]
+Successfully fetched PKPs with relayer
+Name recommendations: ["d8nkrg2j7m691703trader","d8nkrg2j7m691703708","d8nkrg2j7m691703565","chaind8nkrg2j7m691703","defid8nkrg2j7m691703","d8nkrg2j7m691703999","d8nkrg2j7m691703894","d8nkrg2j7m691703slinger","d8nkrg2j7m69170336","d8nkrg2j7m691703crypto"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["vgz1sz20ap634975194","vgz1sz20ap634975414","ethvgz1sz20ap634975","vgz1sz20ap634975xpert","cryptovgz1sz20ap634975","vgz1sz20ap634975wizard","chainvgz1sz20ap634975","vgz1sz20ap634975899","defivgz1sz20ap634975","vgz1sz20ap634975slinger"]
+Name recommendations: ["duj39xz051f5661423","duj39xz051f566142872","duj39xz051f566142347","duj39xz051f566142708","duj39xz051f566142pioneer","duj39xz051f566142186","duj39xz051f566142hacker","duj39xz051f566142258","itsduj39xz051f566142","chainduj39xz051f566142"]
+signature {
+  success: true,
+  signature: '0x03709dc15d3cbb8d9a87bd911793f979e7d0056a78325fa56e9793c791bb729f627c85abd42b7c4a64d74183a48239fde26b9e80c22aad9879ebbe39e2da8f4b1b'
+}
+args {
+  did: '5jlgz0d72h656200@tria',
+  evmChainData: {
+    address: '0x514133857a8482C0AD282d357F355C8840089bf4',
+    message: {
+      address: '0x514133857a8482C0AD282d357F355C8840089bf4',
+      timestamp: 1727904784945
+    },
+    signature: '0x03709dc15d3cbb8d9a87bd911793f979e7d0056a78325fa56e9793c791bb729f627c85abd42b7c4a64d74183a48239fde26b9e80c22aad9879ebbe39e2da8f4b1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWI3YzZmNTgtMjM1NS00MjRlLWEwMDQtZWU3MTQyODQzODQyIiwiZW1haWwiOiI1amxnejBkNzJoNjU2MjAwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY5LCJleHAiOjE3Mjg1MDk1Njl9.qIiXMAbEJZkcHIOtC_8l483PfAemDFHqRgpyrG5zpUo',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '5jlgz0d72h656200@tria',
+  evmChainData: {
+    address: '0x514133857a8482C0AD282d357F355C8840089bf4',
+    message: {
+      address: '0x514133857a8482C0AD282d357F355C8840089bf4',
+      timestamp: 1727904784945
+    },
+    signature: '0x03709dc15d3cbb8d9a87bd911793f979e7d0056a78325fa56e9793c791bb729f627c85abd42b7c4a64d74183a48239fde26b9e80c22aad9879ebbe39e2da8f4b1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWI3YzZmNTgtMjM1NS00MjRlLWEwMDQtZWU3MTQyODQzODQyIiwiZW1haWwiOiI1amxnejBkNzJoNjU2MjAwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY5LCJleHAiOjE3Mjg1MDk1Njl9.qIiXMAbEJZkcHIOtC_8l483PfAemDFHqRgpyrG5zpUo',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWI3YzZmNTgtMjM1NS00MjRlLWEwMDQtZWU3MTQyODQzODQyIiwiZW1haWwiOiI1amxnejBkNzJoNjU2MjAwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzY5LCJleHAiOjE3Mjg1MDk1Njl9.qIiXMAbEJZkcHIOtC_8l483PfAemDFHqRgpyrG5zpUo
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x27D8D9000068CF2832A0153b9D0117FEda36788f',
+    id: 'c0c2ef8e-1cfd-4078-84a3-71be0e782ea3',
+    generatedPublicKey: '0x047e2b44215524876cd5488878e82f9ce31b3ffe7e6c13cbf5fcdd1f4249dc76aabb6058720f2b5d51d3ff3111a734fb2e22bceba036db668e9919883fbb266638'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x27D8D9000068CF2832A0153b9D0117FEda36788f',
+    id: 'f2f4c4d6-4532-4afd-8679-2397b54c3f99',
+    generatedPublicKey: 'GsZ3Gx3pgMcjp1xGVW1djw6s3qgaPNXXsYYvq897ysoX'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x27D8D9000068CF2832A0153b9D0117FEda36788f',
+    id: 'c0c2ef8e-1cfd-4078-84a3-71be0e782ea3',
+    generatedPublicKey: '0x047e2b44215524876cd5488878e82f9ce31b3ffe7e6c13cbf5fcdd1f4249dc76aabb6058720f2b5d51d3ff3111a734fb2e22bceba036db668e9919883fbb266638'
+  }
+]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x683175757d0ec4b1c5A68a240940b9a1b48E55Da',
+    id: '178422dd-955a-4a6d-897a-a924cf397c1b',
+    generatedPublicKey: '0x0458eab94b038a67c4e1cfbc094811487dd06ae4c18d521c8d01882b77e497b216e6ebdec0c82ef6bbc0176c8a4c04919bb124232eb76085dd2e0565eac6389ab7'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x683175757d0ec4b1c5A68a240940b9a1b48E55Da',
+    id: '3dabed77-9c01-47a7-b3a1-606b7d9c0c6a',
+    generatedPublicKey: 'Aj3mtMAMg2FFkUfbUAB5dcSH3wogN2G3DjVyvmbq6BjE'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x683175757d0ec4b1c5A68a240940b9a1b48E55Da',
+    id: '178422dd-955a-4a6d-897a-a924cf397c1b',
+    generatedPublicKey: '0x0458eab94b038a67c4e1cfbc094811487dd06ae4c18d521c8d01882b77e497b216e6ebdec0c82ef6bbc0176c8a4c04919bb124232eb76085dd2e0565eac6389ab7'
+  }
+]
+signature {
+  success: true,
+  signature: '0x20c9d582ede4aba73be36c86f411f404887ed54ff905aa07440723d1f21314b462362129da9bcaa0346055524579bd0eb5cc60cc7b91693c7d638459a3c4763d1b'
+}
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWZlYmJiNzctYTUzNS00ZmZmLTkxZjUtYzUwNDEzMzA5NTIwIiwiZW1haWwiOiJvcTN0YXBiZDl0NjQ2ODU0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg3LCJleHAiOjE3Mjg1MDk1ODd9.VdXLZXx9py0TVR8aN4Lja6ocyeXmmT41p2O8s3rGQZ0
+args {
+  did: 'fltrofkq7m781921@tria',
+  evmChainData: {
+    address: '0xD702e5576b96F3692084C862A4927cdCc06E4E15',
+    message: {
+      address: '0xD702e5576b96F3692084C862A4927cdCc06E4E15',
+      timestamp: 1727904785581
+    },
+    signature: '0x20c9d582ede4aba73be36c86f411f404887ed54ff905aa07440723d1f21314b462362129da9bcaa0346055524579bd0eb5cc60cc7b91693c7d638459a3c4763d1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDQ5ODlmZDctOWQ5ZC00NDg0LTlmYzQtYWQ1NzcwOWQzZjQxIiwiZW1haWwiOiJmbHRyb2ZrcTdtNzgxOTIxQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcwLCJleHAiOjE3Mjg1MDk1NzB9.m7n1thoVApHVvDymlmldBMdoiiSsg3PALXV2VGS8bOQ',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'fltrofkq7m781921@tria',
+  evmChainData: {
+    address: '0xD702e5576b96F3692084C862A4927cdCc06E4E15',
+    message: {
+      address: '0xD702e5576b96F3692084C862A4927cdCc06E4E15',
+      timestamp: 1727904785581
+    },
+    signature: '0x20c9d582ede4aba73be36c86f411f404887ed54ff905aa07440723d1f21314b462362129da9bcaa0346055524579bd0eb5cc60cc7b91693c7d638459a3c4763d1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDQ5ODlmZDctOWQ5ZC00NDg0LTlmYzQtYWQ1NzcwOWQzZjQxIiwiZW1haWwiOiJmbHRyb2ZrcTdtNzgxOTIxQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcwLCJleHAiOjE3Mjg1MDk1NzB9.m7n1thoVApHVvDymlmldBMdoiiSsg3PALXV2VGS8bOQ',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDQ5ODlmZDctOWQ5ZC00NDg0LTlmYzQtYWQ1NzcwOWQzZjQxIiwiZW1haWwiOiJmbHRyb2ZrcTdtNzgxOTIxQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcwLCJleHAiOjE3Mjg1MDk1NzB9.m7n1thoVApHVvDymlmldBMdoiiSsg3PALXV2VGS8bOQ
+Name recommendations: ["g8djiy1ig8216398889","g8djiy1ig8216398pioneer","ethg8djiy1ig8216398","g8djiy1ig8216398172","g8djiy1ig8216398xpert","g8djiy1ig8216398357","g8djiy1ig8216398719","g8djiy1ig8216398whale","nftg8djiy1ig8216398","g8djiy1ig8216398hacker"]
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjcxYmUxZmMtNDhkMS00MTYyLWE1MzctYjdlYTI5ODU0ZWViIiwiZW1haWwiOiJsMnVnYnkwazFhMTA2NzY0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg4LCJleHAiOjE3Mjg1MDk1ODh9.E-yrV4LNPW22uafpDD7m5hUJS3pyBUqAaGIWLL9ykPk
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: j9ojgaq1ly185715
+Initiate OTP executed
+Generated username: 1444qs1p3q396949
+Generated username: wwt6r5s3xi439312
+Initiate OTP executed
+Check DID response: true
+Successfully fetched PKPs with relayer
+Generated username: 3wk867kmhb845480
+Initiate OTP executed
+Initiate OTP executed
+Generated username: wmer35qsmr805619
+Check DID response: true
+Create DID response: {"success":true,"response":{"data":{"jobId":"142","did":"5jlgz0d72h656200@tria"}}}
+Create DID response: {"success":true,"response":{"data":{"jobId":"137","did":"fltrofkq7m781921@tria"}}}
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGYxOTFmN2ItMDVhNC00OWE5LThiMTctMzU4ZGYxMTg4NmVhIiwiZW1haWwiOiJ5eDl0ZTA0a2F6NjY4MDA3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg4LCJleHAiOjE3Mjg1MDk1ODh9.06ukM7_h-VsHpA2woIrY8t_CeThLgR6YvgBg0WRwKlU
+Name recommendations: ["oq3tapbd9t646854208","oq3tapbd9t646854xpert","oq3tapbd9t646854investor","oq3tapbd9t646854master","oq3tapbd9t646854trader","oq3tapbd9t646854whale","oq3tapbd9t646854hacker","oq3tapbd9t64685479","digitaloq3tapbd9t646854","cyberoq3tapbd9t646854"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDk5MWVkZDUtMmQwNS00NjFkLWI0OTgtMzgwYmQ5ZGE4Y2ZkIiwiZW1haWwiOiJqaWsydXA4dHI4Nzk1MTM1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg4LCJleHAiOjE3Mjg1MDk1ODh9.oZ-yR49hfIaONugNsCgq4MDCnCjlHrrepQGvs_6_3sk
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYTEzNjY3YWMtZGFiMy00MTkxLThlYTItYzQwY2RlZDQzNTM3IiwiZW1haWwiOiJjOGszZzE4Z3JiNjk0NDI2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg4LCJleHAiOjE3Mjg1MDk1ODh9.knz77qnZveT8mFpj4j-dm8x3pYex5zzvDZLOpzjD1RE
+Successfully fetched PKPs with relayer
+Name recommendations: ["l2ugby0k1a106764863","l2ugby0k1a106764332","l2ugby0k1a106764497","0xl2ugby0k1a106764","l2ugby0k1a106764684","metal2ugby0k1a106764","defil2ugby0k1a106764","l2ugby0k1a106764investor","l2ugby0k1a106764hodl","l2ugby0k1a106764181"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWY3MDJiNGMtYTE3OC00NDZlLThiYTQtZTRjNmE0ZThiZGIzIiwiZW1haWwiOiJra2RwNGU4Y2ZzaDU3MjUzN0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4OSwiZXhwIjoxNzI4NTA5NTg5fQ.BL5tAL0bFickEBy3Se-Scu3NhVidMGPAlWeXbbCoq78
+Check DID response: true
+Check DID response: true
+Check DID response: true
+Generated username: vp1d70bthw438978
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: 7ki1f2359u810739
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Check DID response: true
+Generated username: l9c0rbor5u641354
+Generated username: ljc1fzd8ux514639
+Initiate OTP executed
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: y5eovgl0l1580711
+Initiate OTP executed
+Name recommendations: ["yx9te04kaz668007764","yx9te04kaz668007hodl","yx9te04kaz668007trader","yx9te04kaz668007870","yx9te04kaz66800760","yx9te04kaz668007pioneer","etheryx9te04kaz668007","ethyx9te04kaz668007","yx9te04kaz668007wizard","cryptoyx9te04kaz668007"]
+Name recommendations: ["jik2up8tr8795135investor","jik2up8tr8795135crypto","jik2up8tr8795135756","itsjik2up8tr8795135","jik2up8tr8795135359","decentraljik2up8tr8795135","0xjik2up8tr8795135","jik2up8tr8795135xpert","jik2up8tr8795135wizard","jik2up8tr8795135master"]
+Name recommendations: ["c8k3g18grb694426pioneer","c8k3g18grb694426enthusiast","c8k3g18grb694426634","c8k3g18grb694426wizard","c8k3g18grb694426450","c8k3g18grb694426300","c8k3g18grb694426investor","c8k3g18grb694426hacker","c8k3g18grb694426master","chainc8k3g18grb694426"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["ethkkdp4e8cfsh572537","kkdp4e8cfsh572537662","metakkdp4e8cfsh572537","digitalkkdp4e8cfsh572537","kkdp4e8cfsh572537926","kkdp4e8cfsh572537xpert","kkdp4e8cfsh572537747","itskkdp4e8cfsh572537","defikkdp4e8cfsh572537","kkdp4e8cfsh572537748"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOGMxNjFhYWEtMTYzOS00ZWRjLWFkMGMtYWI4ZGI0YzgwMTIzIiwiZW1haWwiOiJ3dzhoYzljd3lpNDA2MTM0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg5LCJleHAiOjE3Mjg1MDk1ODl9.b3ZnWigAWsKEZbNtj7b3TQVJipMoZ-x8FebSzkuodXI
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTExMjUzZGMtMzgyZC00NzE3LTlmMTgtZmQ2NjI1NDNlMzI3IiwiZW1haWwiOiJkdXp6czR6eHY2NTQxNjY2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg5LCJleHAiOjE3Mjg1MDk1ODl9.Va_bWHcgZ7J8Fh-iegCij5WDGLexaJG4ySf3KB-fAN0
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWI5NWU5OWYtNThhYi00MjUwLTlhYTEtMzhkNzY1MDNiZDU0IiwiZW1haWwiOiI0MXNubHloNHg4NjUwNjY3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzg5LCJleHAiOjE3Mjg1MDk1ODl9.dqH5QbjoTk-NYFQdOmSNi9z2OGZiiPFF3LIuvr_f2bI
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x7aDdb15483D8554756D3e358Abca883D3ba77001',
+    id: '91788cba-a303-432e-beb3-76329d19d44f',
+    generatedPublicKey: '0x042701ca8595f91c106bcb2757a83684b8811e90c71d735ccccf8f47dbbae6d7a9b37e6216b11aa83a2c0b4fdb30823a83f07c81afa9406e73efa14e8ba4a2e7fa'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x7aDdb15483D8554756D3e358Abca883D3ba77001',
+    id: '7127fb69-640e-4a91-a299-d1617652b93a',
+    generatedPublicKey: 'DDLsY7inNtVZgt3ZuQqRJXCE7MmJuKF9bWLAu5UEf3JH'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x7aDdb15483D8554756D3e358Abca883D3ba77001',
+    id: '91788cba-a303-432e-beb3-76329d19d44f',
+    generatedPublicKey: '0x042701ca8595f91c106bcb2757a83684b8811e90c71d735ccccf8f47dbbae6d7a9b37e6216b11aa83a2c0b4fdb30823a83f07c81afa9406e73efa14e8ba4a2e7fa'
+  }
+]
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGM2MGY3MGUtZmUyNC00ZTVkLWFiOTYtZWNiZjNiNTA4OTZlIiwiZW1haWwiOiIxNDQ0cXMxcDNxMzk2OTQ5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkwLCJleHAiOjE3Mjg1MDk1OTB9.3m-UC8SohttUw832Cdut5lE9_Xprp1bWqg_lNyth2vA
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMWU0NTkwZWUtN2E0NS00ZDllLTg2ZTYtMjRlMzJmYjQ2ZDIyIiwiZW1haWwiOiJ3bWVyMzVxc21yODA1NjE5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkwLCJleHAiOjE3Mjg1MDk1OTB9.Y5tQhTGLRH5E33sma4nZArg_7_g1ViN3XRTZTI6842E
+Successfully fetched PKPs with relayer
+Check DID response: true
+Check DID response: true
+Initiate OTP executed
+Check DID response: true
+Generated username: 7us747symi554303
+Generated username: relma09spz76069
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Initiate OTP executed
+Generated username: k9t2a47hip673204
+Generated username: ex5kes0qbt155276
+Check DID response: true
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: vkh1hm9g2f739925
+Initiate OTP executed
+Initiate OTP executed
+Name recommendations: ["ww8hc9cwyi406134338","ww8hc9cwyi406134963","ww8hc9cwyi406134enthusiast","ww8hc9cwyi406134pioneer","ww8hc9cwyi406134trader","theww8hc9cwyi406134","cryptoww8hc9cwyi406134","ww8hc9cwyi406134hacker","ww8hc9cwyi40613457","ww8hc9cwyi406134whale"]
+Check DID response: true
+Name recommendations: ["duzzs4zxv6541666enthusiast","duzzs4zxv6541666457","duzzs4zxv6541666540","decentralduzzs4zxv6541666","duzzs4zxv6541666crypto","duzzs4zxv6541666409","duzzs4zxv6541666trader","duzzs4zxv6541666hacker","duzzs4zxv6541666693","duzzs4zxv6541666master"]
+Minting done
+Running getPKP
+getCreateDIDData...
+signature {
+  success: true,
+  signature: '0x0fd729698cc8aa445131246b0febb74ac717f75e2cab6d43a0eeab25d03dc53c6836ae49e9ac2d69c8ec041d39aa8bd235aae7f20650b915064fbdaa72ac4c051c'
+}
+args {
+  did: '1sfa502r3o493565@tria',
+  evmChainData: {
+    address: '0xC592AaC01258493a1a168362B9B35ebFc7DCEF23',
+    message: {
+      address: '0xC592AaC01258493a1a168362B9B35ebFc7DCEF23',
+      timestamp: 1727904785955
+    },
+    signature: '0x0fd729698cc8aa445131246b0febb74ac717f75e2cab6d43a0eeab25d03dc53c6836ae49e9ac2d69c8ec041d39aa8bd235aae7f20650b915064fbdaa72ac4c051c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTdmNTZmOWItNmQzYi00ZTY1LWJjNzktY2ViNjk5MmQ1YzkyIiwiZW1haWwiOiIxc2ZhNTAycjNvNDkzNTY1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.yydEUhUzqV5Tbf7syJFoUEDqa2iasUr8ZmjN-T7NVus',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '1sfa502r3o493565@tria',
+  evmChainData: {
+    address: '0xC592AaC01258493a1a168362B9B35ebFc7DCEF23',
+    message: {
+      address: '0xC592AaC01258493a1a168362B9B35ebFc7DCEF23',
+      timestamp: 1727904785955
+    },
+    signature: '0x0fd729698cc8aa445131246b0febb74ac717f75e2cab6d43a0eeab25d03dc53c6836ae49e9ac2d69c8ec041d39aa8bd235aae7f20650b915064fbdaa72ac4c051c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTdmNTZmOWItNmQzYi00ZTY1LWJjNzktY2ViNjk5MmQ1YzkyIiwiZW1haWwiOiIxc2ZhNTAycjNvNDkzNTY1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.yydEUhUzqV5Tbf7syJFoUEDqa2iasUr8ZmjN-T7NVus',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTdmNTZmOWItNmQzYi00ZTY1LWJjNzktY2ViNjk5MmQ1YzkyIiwiZW1haWwiOiIxc2ZhNTAycjNvNDkzNTY1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.yydEUhUzqV5Tbf7syJFoUEDqa2iasUr8ZmjN-T7NVus
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiY2IxOWUyZWQtODkzNi00ZGM4LTliZDMtODZhZWQ0NzNjMjdhIiwiZW1haWwiOiJqOW9qZ2FxMWx5MTg1NzE1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkwLCJleHAiOjE3Mjg1MDk1OTB9.5WuIKwgC35_cYE6dDcglgYNXxUqoiabOGCde-cUt3Wo
+Name recommendations: ["41snlyh4x8650667crypto","41snlyh4x8650667985","41snlyh4x8650667783","41snlyh4x8650667162","chain41snlyh4x8650667","41snlyh4x8650667master","nft41snlyh4x8650667","41snlyh4x8650667hacker","41snlyh4x8650667402","defi41snlyh4x8650667"]
+Minting done
+Successfully fetched PKPs with relayer
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjVkMDYzY2UtNjEzMS00OTVhLTg3OGYtMTgxYzgyYjVhMTNhIiwiZW1haWwiOiJ3d3Q2cjVzM3hpNDM5MzEyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkwLCJleHAiOjE3Mjg1MDk1OTB9.35NZbSk2xyutelTKBzem3I05yW169x2z6kmlehkUS50
+Name recommendations: ["1444qs1p3q396949790","1444qs1p3q396949slinger","1444qs1p3q396949enthusiast","ether1444qs1p3q396949","1444qs1p3q396949471","1444qs1p3q396949714","0x1444qs1p3q396949","1444qs1p3q396949trader","block1444qs1p3q396949","1444qs1p3q396949784"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTgzOGI0MGItOGEwYy00NmNjLTkxMjAtNjk0MzBjYTNkNjk2IiwiZW1haWwiOiIzd2s4NjdrbWhiODQ1NDgwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkwLCJleHAiOjE3Mjg1MDk1OTB9.7a9egASbKCNbL2-AcmnFpE9c8o_twv-y2uwhfgPfS-g
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjkwY2MwNTQtZDA3NC00ODgyLTkwYzUtYzMwOWQzOGU5MzVhIiwiZW1haWwiOiJ2cDFkNzBidGh3NDM4OTc4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkxLCJleHAiOjE3Mjg1MDk1OTF9.a2d8VOuetlmM-VE3u4igGNa8WXea7Jayv5Gpdy7tRCQ
+Successfully fetched PKPs with relayer
+Name recommendations: ["wmer35qsmr805619282","wmer35qsmr805619742","wmer35qsmr805619pioneer","wmer35qsmr805619enthusiast","wmer35qsmr805619hodl","wmer35qsmr805619108","wmer35qsmr805619crypto","defiwmer35qsmr805619","wmer35qsmr805619440","blockwmer35qsmr805619"]
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMTFlMWNiMTMtYjMzYy00MzE0LWJjNWUtM2NmMGIzZDdmNDk1IiwiZW1haWwiOiI3a2kxZjIzNTl1ODEwNzM5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkxLCJleHAiOjE3Mjg1MDk1OTF9.qZ_EB0mkfY8ScNAoLszNuUMIkDFKjisjnsqGYN2sJtk
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmQ4ODA2MzMtNDQ5Mi00MWFhLWFkNWEtM2M0YTdlMGM5MDY3IiwiZW1haWwiOiJsamMxZnpkOHV4NTE0NjM5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkxLCJleHAiOjE3Mjg1MDk1OTF9.Xyey2BWnj8rYGS7V2BnSTjT3hvDabJnJAXqOcmrtV30
+Create DID response: {"success":true,"response":{"data":{"jobId":"139","did":"1sfa502r3o493565@tria"}}}
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZGQ2MzUzOGItZWQzYS00M2ExLTg2NGUtNmFmYzMwMmM3ZGY5IiwiZW1haWwiOiJ5NWVvdmdsMGwxNTgwNzExQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkxLCJleHAiOjE3Mjg1MDk1OTF9.z--EGt8-oBxFM-MIIS-1-G9AxSYEYQ68j2g7olv5nNQ
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: f8ya67r6ib347516
+Initiate OTP executed
+Generated username: u26x2joh7688321
+Generated username: ushs8nk37p34878
+Initiate OTP executed
+Name recommendations: ["j9ojgaq1ly185715slinger","decentralj9ojgaq1ly185715","j9ojgaq1ly185715330","j9ojgaq1ly185715hacker","blockj9ojgaq1ly185715","cryptoj9ojgaq1ly185715","j9ojgaq1ly185715948","j9ojgaq1ly185715wizard","j9ojgaq1ly185715101","j9ojgaq1ly185715731"]
+Initiate OTP executed
+Check DID response: true
+Generated username: 4nc1gz68lkg110496
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Check DID response: true
+Initiate OTP executed
+Generated username: tklbddtu97535135
+Initiate OTP executed
+Check DID response: true
+Check DID response: true
+Check DID response: true
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTQxOGIyMjQtNjk2ZC00MGVmLThjNzgtM2JlNThmOTEwMGI3IiwiZW1haWwiOiJsOWMwcmJvcjV1NjQxMzU0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkxLCJleHAiOjE3Mjg1MDk1OTF9.ddiQ5XfMRJ224TMhIzsAdaCyN62dt4YOQp-uB6fzlLI
+Successfully fetched PKPs with relayer
+Name recommendations: ["wwt6r5s3xi439312603","thewwt6r5s3xi439312","wwt6r5s3xi439312245","decentralwwt6r5s3xi439312","wwt6r5s3xi439312crypto","wwt6r5s3xi439312investor","wwt6r5s3xi439312740","wwt6r5s3xi439312823","wwt6r5s3xi43931272","wwt6r5s3xi439312143"]
+Name recommendations: ["defi7ki1f2359u810739","7ki1f2359u81073920","nft7ki1f2359u810739","7ki1f2359u810739crypto","digital7ki1f2359u810739","7ki1f2359u810739xpert","7ki1f2359u810739slinger","0x7ki1f2359u810739","7ki1f2359u810739whale","7ki1f2359u810739investor"]
+Name recommendations: ["coin3wk867kmhb845480","3wk867kmhb845480955","3wk867kmhb845480hodl","eth3wk867kmhb845480","3wk867kmhb845480581","nft3wk867kmhb845480","3wk867kmhb845480trader","3wk867kmhb845480760","3wk867kmhb845480wizard","3wk867kmhb845480560"]
+Successfully fetched PKPs with relayer
+Name recommendations: ["itsljc1fzd8ux514639","ljc1fzd8ux514639trader","ljc1fzd8ux514639pioneer","ljc1fzd8ux514639730","0xljc1fzd8ux514639","ljc1fzd8ux514639whale","ljc1fzd8ux514639169","decentralljc1fzd8ux514639","ljc1fzd8ux51463923","ljc1fzd8ux514639hacker"]
+Name recommendations: ["chainvp1d70bthw438978","vp1d70bthw438978slinger","vp1d70bthw438978investor","thevp1d70bthw438978","vp1d70bthw438978wizard","vp1d70bthw438978whale","vp1d70bthw438978949","vp1d70bthw438978721","digitalvp1d70bthw438978","vp1d70bthw43897895"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmVmZjViZGUtOTM2My00OTA0LTkyY2QtYTZlNDQzYzcyMzAyIiwiZW1haWwiOiI3dXM3NDdzeW1pNTU0MzAzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkyLCJleHAiOjE3Mjg1MDk1OTJ9.L1xmdHz_IuOmqJjL1tcAc7rNHIopaDG_ySn3SpLeBoI
+Name recommendations: ["itsy5eovgl0l1580711","y5eovgl0l1580711946","y5eovgl0l1580711296","y5eovgl0l1580711pioneer","y5eovgl0l1580711704","y5eovgl0l1580711787","y5eovgl0l1580711enthusiast","y5eovgl0l1580711427","nfty5eovgl0l1580711","y5eovgl0l1580711398"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjU5MzQ3MmUtMzBkZC00NjhkLTkyMjgtNjlhOGZhM2Y0NzcyIiwiZW1haWwiOiJyZWxtYTA5c3B6NzYwNjlAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTIsImV4cCI6MTcyODUwOTU5Mn0.zPYdOojHxuXTd1DtOb2e-Ja4nXjYPlVoAeGgClll-nY
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWE2YWJjNGMtNTc0MC00NzE2LTg1ODMtMzA0NDVkYjE4NGRiIiwiZW1haWwiOiJrOXQyYTQ3aGlwNjczMjA0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkyLCJleHAiOjE3Mjg1MDk1OTJ9.zCKhPETo90b8Tn36akrKau3_jMUiYWP2xlFngAM-pR0
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODg5ZTA3OWQtZGNjMi00Mzc5LTgwNTQtOGI0ZTZiNmIwMjMxIiwiZW1haWwiOiJleDVrZXMwcWJ0MTU1Mjc2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkyLCJleHAiOjE3Mjg1MDk1OTJ9.SXRYtKBNgwYzToXtCdAUDN70w05p3YYZAzDOBPpLyck
+Check DID response: true
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDJkNjFiZmQtY2Y4NC00MWYyLWEzMzQtMTVjYzk5NGQzY2Q0IiwiZW1haWwiOiJ2a2gxaG05ZzJmNzM5OTI1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkyLCJleHAiOjE3Mjg1MDk1OTJ9.gFiNImGjxpE3sq7eYn7H6x0Hn9E-UZpiSniCarOUW2E
+Successfully fetched PKPs with relayer
+Generated username: uokafaomxs875905
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xa83130240169EE2e86442Ba0940b6379aDF284c7',
+    id: '429cbba7-2ed3-4f18-b702-4a1c52099fea',
+    generatedPublicKey: '0x04c716e8abb15c3dff1ab7755b6caab4559e9d383b4c6b5c412a1a99a7ac74df0615833e0c0e1d0a60c8ad036606bf8badef5436a15b0dbe7173f21ff66edd59b3'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xa83130240169EE2e86442Ba0940b6379aDF284c7',
+    id: '4a8bc56b-1e7a-4be6-81f1-1ca88fd0c8cc',
+    generatedPublicKey: 'Ca9rCtZ35Q1CseWLvcUdg3Uzx87mpuKfKm8Jnod67KDg'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xa83130240169EE2e86442Ba0940b6379aDF284c7',
+    id: '429cbba7-2ed3-4f18-b702-4a1c52099fea',
+    generatedPublicKey: '0x04c716e8abb15c3dff1ab7755b6caab4559e9d383b4c6b5c412a1a99a7ac74df0615833e0c0e1d0a60c8ad036606bf8badef5436a15b0dbe7173f21ff66edd59b3'
+  }
+]
+Initiate OTP executed
+Generated username: py6kb7k0u4h735085
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xB9bbbD7A61E743160c03b6a57c51e4f35EABbb67',
+    id: '72c4f55a-9e43-41ae-b411-e540561e6c30',
+    generatedPublicKey: '0x04cdd89b2f397f4ca49650ad12c2464915e1d654b617b4062df8cb85546d580824e84d6109a8297615b6aa7b36d62e3e520c6447663ed742e35667d4236f83b922'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xB9bbbD7A61E743160c03b6a57c51e4f35EABbb67',
+    id: '7a4347f9-f122-4b2c-8a1c-1a26278ce4ce',
+    generatedPublicKey: 'D3SiYETbowcnzQcnUZDzt5fouvhtmedgccGBso4swAMZ'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xB9bbbD7A61E743160c03b6a57c51e4f35EABbb67',
+    id: '72c4f55a-9e43-41ae-b411-e540561e6c30',
+    generatedPublicKey: '0x04cdd89b2f397f4ca49650ad12c2464915e1d654b617b4062df8cb85546d580824e84d6109a8297615b6aa7b36d62e3e520c6447663ed742e35667d4236f83b922'
+  }
+]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x3eB8D4C3c237F442C4131C6055769d08Fd855dBb',
+    id: '0e2a5b34-0c9b-4d75-adc8-99013240e316',
+    generatedPublicKey: '0x04acf2d581e8b43bf393090695761e5783868d890032508bc283cffe1dfbf3d39f0836b1289285a2e04b6200b5356e6934a461255133b56b0a88d01cabc82c1c20'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x3eB8D4C3c237F442C4131C6055769d08Fd855dBb',
+    id: '06cdbf75-1ce1-47f6-99a0-241af3fb4829',
+    generatedPublicKey: '5trRk334xS2YyEjkgMSYhNz7nxubDQycSt6QmTE2Egc3'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x3eB8D4C3c237F442C4131C6055769d08Fd855dBb',
+    id: '0e2a5b34-0c9b-4d75-adc8-99013240e316',
+    generatedPublicKey: '0x04acf2d581e8b43bf393090695761e5783868d890032508bc283cffe1dfbf3d39f0836b1289285a2e04b6200b5356e6934a461255133b56b0a88d01cabc82c1c20'
+  }
+]
+signature {
+  success: true,
+  signature: '0xf082bc5459304113e887b9096ba20621b0f09795010820ca5db6c3e233e7e73034870661051209936002680d3fb87ebc80f148953af54b5fb1718b355b4b772b1c'
+}
+args {
+  did: '6mf1hwr8by428129@tria',
+  evmChainData: {
+    address: '0x92ab09D3970bf1cAB62D04D27534332E7572b5A0',
+    message: {
+      address: '0x92ab09D3970bf1cAB62D04D27534332E7572b5A0',
+      timestamp: 1727904786799
+    },
+    signature: '0xf082bc5459304113e887b9096ba20621b0f09795010820ca5db6c3e233e7e73034870661051209936002680d3fb87ebc80f148953af54b5fb1718b355b4b772b1c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTM0ZDExZWYtNWI2NC00NmUzLWE5MjgtYzBmM2VlNmU3NDk2IiwiZW1haWwiOiI2bWYxaHdyOGJ5NDI4MTI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcyLCJleHAiOjE3Mjg1MDk1NzJ9.0CkoVDhkXolHGFcyCStd9Var911COz9dXw1qKN0rE08',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '6mf1hwr8by428129@tria',
+  evmChainData: {
+    address: '0x92ab09D3970bf1cAB62D04D27534332E7572b5A0',
+    message: {
+      address: '0x92ab09D3970bf1cAB62D04D27534332E7572b5A0',
+      timestamp: 1727904786799
+    },
+    signature: '0xf082bc5459304113e887b9096ba20621b0f09795010820ca5db6c3e233e7e73034870661051209936002680d3fb87ebc80f148953af54b5fb1718b355b4b772b1c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTM0ZDExZWYtNWI2NC00NmUzLWE5MjgtYzBmM2VlNmU3NDk2IiwiZW1haWwiOiI2bWYxaHdyOGJ5NDI4MTI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcyLCJleHAiOjE3Mjg1MDk1NzJ9.0CkoVDhkXolHGFcyCStd9Var911COz9dXw1qKN0rE08',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOTM0ZDExZWYtNWI2NC00NmUzLWE5MjgtYzBmM2VlNmU3NDk2IiwiZW1haWwiOiI2bWYxaHdyOGJ5NDI4MTI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcyLCJleHAiOjE3Mjg1MDk1NzJ9.0CkoVDhkXolHGFcyCStd9Var911COz9dXw1qKN0rE08
+Generated username: klfiqxf52yi195637
+Check DID response: true
+Initiate OTP executed
+Initiate OTP executed
+Generated username: 5l7kxk497c233017
+Check DID response: true
+Initiate OTP executed
+Check DID response: true
+Generated username: 0pczengqhi928433
+Check DID response: true
+Name recommendations: ["digitall9c0rbor5u641354","l9c0rbor5u64135475","l9c0rbor5u641354805","defil9c0rbor5u641354","nftl9c0rbor5u641354","l9c0rbor5u641354investor","0xl9c0rbor5u641354","l9c0rbor5u641354master","metal9c0rbor5u641354","l9c0rbor5u641354335"]
+Initiate OTP executed
+Check DID response: true
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x74664CFD39EEe3F4468013BF7f2821E9C5C12F1c',
+    id: '06062ff5-4200-48c5-9113-36cfe4010465',
+    generatedPublicKey: '0x0469324876b5f0309e0680204b552898ca034d391a07e122add32d5df8f25935f7412c4e3d393cdb6aab82faf2c8505b22939fae55679bf62da8db5071de5aa338'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x74664CFD39EEe3F4468013BF7f2821E9C5C12F1c',
+    id: '73382162-0f05-48ba-9a9a-4add1ceecc34',
+    generatedPublicKey: 'g3nEdYWyZ79csxYm742XkGH7LeV5mt4sezXQH7yGddd'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x74664CFD39EEe3F4468013BF7f2821E9C5C12F1c',
+    id: '06062ff5-4200-48c5-9113-36cfe4010465',
+    generatedPublicKey: '0x0469324876b5f0309e0680204b552898ca034d391a07e122add32d5df8f25935f7412c4e3d393cdb6aab82faf2c8505b22939fae55679bf62da8db5071de5aa338'
+  }
+]
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["meta7us747symi554303","the7us747symi554303","chain7us747symi554303","0x7us747symi554303","7us747symi554303xpert","7us747symi554303wizard","7us747symi554303trader","7us747symi55430324","its7us747symi554303","decentral7us747symi554303"]
+Name recommendations: ["decentralk9t2a47hip673204","blockk9t2a47hip673204","k9t2a47hip673204pioneer","k9t2a47hip673204crypto","k9t2a47hip673204hodl","k9t2a47hip673204master","k9t2a47hip673204hacker","thek9t2a47hip673204","k9t2a47hip673204wizard","nftk9t2a47hip673204"]
+Name recommendations: ["relma09spz76069101","ethrelma09spz76069","relma09spz76069950","relma09spz76069investor","cryptorelma09spz76069","blockrelma09spz76069","relma09spz76069trader","relma09spz76069xpert","relma09spz76069976","relma09spz76069whale"]
+Successfully fetched PKPs with relayer
+Name recommendations: ["ex5kes0qbt155276slinger","coinex5kes0qbt155276","ex5kes0qbt155276823","metaex5kes0qbt155276","ex5kes0qbt155276356","decentralex5kes0qbt155276","nftex5kes0qbt155276","theex5kes0qbt155276","ex5kes0qbt155276225","bitex5kes0qbt155276"]
+Name recommendations: ["cryptovkh1hm9g2f739925","vkh1hm9g2f739925enthusiast","vkh1hm9g2f739925630","decentralvkh1hm9g2f739925","cybervkh1hm9g2f739925","vkh1hm9g2f739925762","chainvkh1hm9g2f739925","vkh1hm9g2f739925wizard","vkh1hm9g2f739925932","nftvkh1hm9g2f739925"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWE3YjU5NzYtODY5Ny00MWFmLWJhYTYtNzFkNzc3OGQ2ZmQ1IiwiZW1haWwiOiJmOHlhNjdyNmliMzQ3NTE2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkzLCJleHAiOjE3Mjg1MDk1OTN9.jSAMJDX1xVrVYA_VPwbWUuTrWgjofKsIos-xRrg1bUI
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzA2OGMwZGYtNmZiMi00MGVmLTg5ODAtYjExYTc3ZjZkMWE3IiwiZW1haWwiOiJ1MjZ4MmpvaDc2ODgzMjFAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTMsImV4cCI6MTcyODUwOTU5M30.jEiQ3aPff3VIEoI_JQCaroDXR_YH3n68ugE5H0jrQzU
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjdlYjllZDMtNDQ1OC00ZDk0LWFkMTItNDFhZTcxMjVlYzljIiwiZW1haWwiOiJ1c2hzOG5rMzdwMzQ4NzhAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTMsImV4cCI6MTcyODUwOTU5M30.uDTIXqw49XCUJ4NzRdiyOQqk8-_-u6AgZUV_M5IXMVc
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzY5MzdhZWUtYTA3Ni00ZWI0LWFkN2YtMzY0MGE0ZjgxZmU3IiwiZW1haWwiOiI0bmMxZ3o2OGxrZzExMDQ5NkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5MywiZXhwIjoxNzI4NTA5NTkzfQ.qgkhK4h5MrrJRN8FnxI9LfCeLhd-_NXfe1lZmRJske0
+Create DID response: {"success":true,"response":{"data":{"jobId":"141","did":"6mf1hwr8by428129@tria"}}}
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjMxMTg4N2ItNTdkMi00NmI5LTlhYmYtZDAxNTc2ZDVkYzkyIiwiZW1haWwiOiJ0a2xiZGR0dTk3NTM1MTM1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzkzLCJleHAiOjE3Mjg1MDk1OTN9.chgmGVpGq8r_pe0Q_fPOs87V4jJrPedPoSbd_IYE6lA
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: lk24dkypv6408980
+Initiate OTP executed
+Generated username: mbl255u4x8k78123
+Initiate OTP executed
+Generated username: x5zq014z6x371318
+Check DID response: true
+Check DID response: true
+Generated username: kn57pcn5bol387004
+Initiate OTP executed
+Minting done
+Generated username: yqn9svmte8368989
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Check DID response: true
+Initiate OTP executed
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Check DID response: true
+Successfully fetched PKPs with relayer
+Name recommendations: ["f8ya67r6ib347516investor","ethf8ya67r6ib347516","thef8ya67r6ib347516","f8ya67r6ib347516hacker","f8ya67r6ib34751671","f8ya67r6ib347516881","blockf8ya67r6ib347516","metaf8ya67r6ib347516","f8ya67r6ib347516crypto","bitf8ya67r6ib347516"]
+Name recommendations: ["u26x2joh7688321enthusiast","u26x2joh7688321961","u26x2joh7688321124","digitalu26x2joh7688321","u26x2joh7688321291","itsu26x2joh7688321","u26x2joh7688321trader","u26x2joh7688321slinger","u26x2joh7688321crypto","u26x2joh7688321253"]
+signature {
+  success: true,
+  signature: '0x286f2b75afbce9fb5a87907ef9d812504e0965855f1ced1ab87d4ef2d0d5386b5dfcaee867f9a5947116aef63a4466f98467d4e6017bcc765961b212bac025d21c'
+}
+args {
+  did: 'ft8kz2p8b4811953@tria',
+  evmChainData: {
+    address: '0x2C2bf8FEc6CA9929268969f2397f1a7616B6E719',
+    message: {
+      address: '0x2C2bf8FEc6CA9929268969f2397f1a7616B6E719',
+      timestamp: 1727904788979
+    },
+    signature: '0x286f2b75afbce9fb5a87907ef9d812504e0965855f1ced1ab87d4ef2d0d5386b5dfcaee867f9a5947116aef63a4466f98467d4e6017bcc765961b212bac025d21c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiM2U4YjlkY2QtNjAzNC00NDBkLTk2NzktY2RkMTZmNWIyMmY2IiwiZW1haWwiOiJmdDhrejJwOGI0ODExOTUzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.SnkBTNQMYikLWSyi-UWGf7rJmREHuM31LfStKBaNq_k',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'ft8kz2p8b4811953@tria',
+  evmChainData: {
+    address: '0x2C2bf8FEc6CA9929268969f2397f1a7616B6E719',
+    message: {
+      address: '0x2C2bf8FEc6CA9929268969f2397f1a7616B6E719',
+      timestamp: 1727904788979
+    },
+    signature: '0x286f2b75afbce9fb5a87907ef9d812504e0965855f1ced1ab87d4ef2d0d5386b5dfcaee867f9a5947116aef63a4466f98467d4e6017bcc765961b212bac025d21c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiM2U4YjlkY2QtNjAzNC00NDBkLTk2NzktY2RkMTZmNWIyMmY2IiwiZW1haWwiOiJmdDhrejJwOGI0ODExOTUzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.SnkBTNQMYikLWSyi-UWGf7rJmREHuM31LfStKBaNq_k',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiM2U4YjlkY2QtNjAzNC00NDBkLTk2NzktY2RkMTZmNWIyMmY2IiwiZW1haWwiOiJmdDhrejJwOGI0ODExOTUzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0NzcxLCJleHAiOjE3Mjg1MDk1NzF9.SnkBTNQMYikLWSyi-UWGf7rJmREHuM31LfStKBaNq_k
+Name recommendations: ["4nc1gz68lkg110496wizard","4nc1gz68lkg110496crypto","4nc1gz68lkg110496pioneer","meta4nc1gz68lkg110496","4nc1gz68lkg110496524","eth4nc1gz68lkg110496","the4nc1gz68lkg110496","4nc1gz68lkg110496696","4nc1gz68lkg110496enthusiast","4nc1gz68lkg110496investor"]
+Name recommendations: ["tklbddtu97535135hacker","tklbddtu97535135106","decentraltklbddtu97535135","tklbddtu97535135master","digitaltklbddtu97535135","tklbddtu97535135411","tklbddtu97535135293","ethtklbddtu97535135","tklbddtu97535135slinger","tklbddtu97535135338"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTUyNzQ1MTAtNDQ2MC00YjcyLWI0MmEtZjE3MTk2Mzk1NjVhIiwiZW1haWwiOiJ1b2thZmFvbXhzODc1OTA1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk0LCJleHAiOjE3Mjg1MDk1OTR9.fM4zXGwFYA0HBhaYMQWEqv-H-OeZlWCQA-6wmNL7eMM
+Name recommendations: ["nftushs8nk37p34878","blockushs8nk37p34878","decentralushs8nk37p34878","ushs8nk37p34878master","ushs8nk37p34878wizard","ushs8nk37p34878595","ushs8nk37p34878trader","etherushs8nk37p34878","ushs8nk37p34878309","ushs8nk37p34878611"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTVhY2NjMTAtNzI1Yy00YmI5LThkY2ItNWQ4ZDVmNTcxY2MzIiwiZW1haWwiOiI1bDdreGs0OTdjMjMzMDE3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk0LCJleHAiOjE3Mjg1MDk1OTR9.hRKbSMzVah9RT-tj2P1Ht0pFcKjBrbL-EnhveG3UO6I
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODQ3ZjY1YjctYmVjNy00YjIxLWFmYTMtNjBlYmUxZTEyYTBkIiwiZW1haWwiOiJrbGZpcXhmNTJ5aTE5NTYzN0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NCwiZXhwIjoxNzI4NTA5NTk0fQ.zTiRQ_DkEmOZZuqgbu4fDeIngkTt6TNSRl-cszTuqGc
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xB1E6781b1ED48862311A372c7D6C404833d9a772',
+    id: 'c38e8126-4ab1-414c-80c9-a38697544a91',
+    generatedPublicKey: '0x04b3293cac48817dfb58ab221fa1f04ead58748183db22594f7b73b1a89b0f7a0b4d6e8616253ed1e3fb6de473f8ddaa34c41934322be9c425052a3e26f7ef8f53'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xB1E6781b1ED48862311A372c7D6C404833d9a772',
+    id: '79a45000-1003-45f8-baee-d9aaa6a73d40',
+    generatedPublicKey: 'HQY2FWr1k7suaNeSdYQ4TpL8raGwKvhFVaGnxbnUPMr3'
+  }
+]
+Generated username: bsho8c2jvc975029
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xB1E6781b1ED48862311A372c7D6C404833d9a772',
+    id: 'c38e8126-4ab1-414c-80c9-a38697544a91',
+    generatedPublicKey: '0x04b3293cac48817dfb58ab221fa1f04ead58748183db22594f7b73b1a89b0f7a0b4d6e8616253ed1e3fb6de473f8ddaa34c41934322be9c425052a3e26f7ef8f53'
+  }
+]
+signature {
+  success: true,
+  signature: '0xda65f9e05b5557e8cb18b0cbd0001324324c7cc255c9d2978f7ae718009e43187471b40c9e6a879c4efb011fd66f0c47614cf183f117be9524e8e562ce92f0a41b'
+}
+args {
+  did: 'pbrmufunpxi451621@tria',
+  evmChainData: {
+    address: '0x1971B570E7293afcC47b2b2c13D69fb021115279',
+    message: {
+      address: '0x1971B570E7293afcC47b2b2c13D69fb021115279',
+      timestamp: 1727904788977
+    },
+    signature: '0xda65f9e05b5557e8cb18b0cbd0001324324c7cc255c9d2978f7ae718009e43187471b40c9e6a879c4efb011fd66f0c47614cf183f117be9524e8e562ce92f0a41b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWM1YTRiM2QtYTExZS00MzgzLWJiY2ItMWZhNTE2NDFkMDQyIiwiZW1haWwiOiJwYnJtdWZ1bnB4aTQ1MTYyMUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MiwiZXhwIjoxNzI4NTA5NTcyfQ.srQQyjY6F670-AjjsuXuQeiRcEkhb_1-Po0bWF2L0LA',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'pbrmufunpxi451621@tria',
+  evmChainData: {
+    address: '0x1971B570E7293afcC47b2b2c13D69fb021115279',
+    message: {
+      address: '0x1971B570E7293afcC47b2b2c13D69fb021115279',
+      timestamp: 1727904788977
+    },
+    signature: '0xda65f9e05b5557e8cb18b0cbd0001324324c7cc255c9d2978f7ae718009e43187471b40c9e6a879c4efb011fd66f0c47614cf183f117be9524e8e562ce92f0a41b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWM1YTRiM2QtYTExZS00MzgzLWJiY2ItMWZhNTE2NDFkMDQyIiwiZW1haWwiOiJwYnJtdWZ1bnB4aTQ1MTYyMUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MiwiZXhwIjoxNzI4NTA5NTcyfQ.srQQyjY6F670-AjjsuXuQeiRcEkhb_1-Po0bWF2L0LA',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWM1YTRiM2QtYTExZS00MzgzLWJiY2ItMWZhNTE2NDFkMDQyIiwiZW1haWwiOiJwYnJtdWZ1bnB4aTQ1MTYyMUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MiwiZXhwIjoxNzI4NTA5NTcyfQ.srQQyjY6F670-AjjsuXuQeiRcEkhb_1-Po0bWF2L0LA
+Initiate OTP executed
+Generated username: u1pnfmty2l202179
+Generated username: oll8ewp02p535483
+Check DID response: true
+Initiate OTP executed
+Generated username: 74c1zfmhhd724629
+Initiate OTP executed
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Generated username: 7750oaj5nv49526
+Create DID response: {"success":true,"response":{"data":{"jobId":"137","did":"ft8kz2p8b4811953@tria"}}}
+Check DID response: true
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGRiMWU0OGUtYjY5MC00N2Q2LTlhMTYtOTBmNzkwNDc3ZjIzIiwiZW1haWwiOiJweTZrYjdrMHU0aDczNTA4NUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NCwiZXhwIjoxNzI4NTA5NTk0fQ.9NiYt33dYhFP5sWdB-LAMCdYBCV_iJdCoXWJKyXW_Ro
+Minting done
+Minting done
+Running getPKP
+getCreateDIDData...
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["uokafaomxs875905784","uokafaomxs875905pioneer","uokafaomxs87590539","uokafaomxs875905crypto","uokafaomxs875905investor","decentraluokafaomxs875905","uokafaomxs875905721","bituokafaomxs875905","uokafaomxs875905hodl","uokafaomxs875905220"]
+Create DID response: {"success":true,"response":{"data":{"jobId":"136","did":"pbrmufunpxi451621@tria"}}}
+Name recommendations: ["5l7kxk497c233017602","the5l7kxk497c233017","5l7kxk497c233017964","defi5l7kxk497c233017","5l7kxk497c233017whale","5l7kxk497c233017592","5l7kxk497c233017investor","meta5l7kxk497c233017","5l7kxk497c233017enthusiast","5l7kxk497c233017hodl"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjJhNGM4NGUtYzNmZi00YTk2LWExYTUtMzAxYjZkY2Q5NzZkIiwiZW1haWwiOiJsazI0ZGt5cHY2NDA4OTgwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk1LCJleHAiOjE3Mjg1MDk1OTV9.vfaqBcMV0p61ILuaFichjnWFKq5A_ON400ZOCEvWksA
+Name recommendations: ["klfiqxf52yi19563730","nftklfiqxf52yi195637","bitklfiqxf52yi195637","klfiqxf52yi195637335","klfiqxf52yi195637597","digitalklfiqxf52yi195637","metaklfiqxf52yi195637","klfiqxf52yi195637292","coinklfiqxf52yi195637","cryptoklfiqxf52yi195637"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjc4YTE2NTMtYWIxYi00MTUzLTliZDgtMjNlZmIyMzkxODliIiwiZW1haWwiOiIwcGN6ZW5ncWhpOTI4NDMzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk0LCJleHAiOjE3Mjg1MDk1OTR9.erIGQBqt4pOp3Ak5ra4Ol6V1_2dySO1D0wNtMOw5MEw
+Check DID response: true
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiY2NiN2Q4NzctZTE3OS00YjUzLThiYTgtN2YyZmY2MjE3MmY2IiwiZW1haWwiOiJ4NXpxMDE0ejZ4MzcxMzE4QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk1LCJleHAiOjE3Mjg1MDk1OTV9.M2zSoJL2KqcIyJ8n8ihhOou21wFTNKGEDX6Yx-RW6q4
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiN2ViZDBhMTAtNDgxNC00NGRkLWI2NmItMDJjZWU5MDJhNDdjIiwiZW1haWwiOiJtYmwyNTV1NHg4azc4MTIzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk1LCJleHAiOjE3Mjg1MDk1OTV9.WVIw7vO6ywIHcpgLztSrBXq3Cxo-vHvEzgOrRqHvzwo
+--------------------------------------
+Metrics for period to: 03:02:50(+0530) (width: 3.641s)
+--------------------------------------
+
+http.codes.200: ................................................................ 7
+http.downloaded_bytes: ......................................................... 1663
+http.request_rate: ............................................................. 3/sec
+http.requests: ................................................................. 10
+http.response_time:
+  min: ......................................................................... 394
+  max: ......................................................................... 1570
+  mean: ........................................................................ 969
+  median: ...................................................................... 963.1
+  p95: ......................................................................... 1465.9
+  p99: ......................................................................... 1465.9
+http.responses: ................................................................ 7
+vusers.created: ................................................................ 4
+vusers.created_by_name.0: ...................................................... 4
+
+
+Minting done
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmFkNDQxZjktYTY3OS00MzkyLWJmM2MtY2I2NmI0ZWNmM2MxIiwiZW1haWwiOiJrbjU3cGNuNWJvbDM4NzAwNEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NSwiZXhwIjoxNzI4NTA5NTk1fQ._lmTITFCB4HXj-mjquc77bDVO5Xu1dcDs6COkMKYhkM
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMTg1M2MwMDAtMGFiNy00N2Y0LWFkNWQtMTdiOTVkOGY5MjdmIiwiZW1haWwiOiJ5cW45c3ZtdGU4MzY4OTg5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk1LCJleHAiOjE3Mjg1MDk1OTV9.wbsxkMs5ugIYt769Qb1aF-5_Q3xqSvK4eig9Ba906g0
+Generated username: mlzxnrtygr382044
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xCbD802d08232B0B19F1A6Bdd9ddB08171422d008',
+    id: '74c7debd-f5bf-4898-9926-a699659ed95c',
+    generatedPublicKey: '0x045c909b13de45d0cbc97166ea58720c1e3829ce09df2a729996518f6904df4019a2474bf8a9642d7e53854ed78f0a80424aeda7d27343dc484a34a9423b4130b1'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xCbD802d08232B0B19F1A6Bdd9ddB08171422d008',
+    id: '18012418-bbe2-4940-93e0-5604e0cc4968',
+    generatedPublicKey: '2U7EhowTtshH5CYKtYCn3X6hqJYNPBwZiJX3tSavfFEQ'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xCbD802d08232B0B19F1A6Bdd9ddB08171422d008',
+    id: '74c7debd-f5bf-4898-9926-a699659ed95c',
+    generatedPublicKey: '0x045c909b13de45d0cbc97166ea58720c1e3829ce09df2a729996518f6904df4019a2474bf8a9642d7e53854ed78f0a80424aeda7d27343dc484a34a9423b4130b1'
+  }
+]
+Check DID response: true
+Generated username: y6rc3b57489764
+Initiate OTP executed
+Minting done
+Minting done
+Running getPKP
+getCreateDIDData...
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Check DID response: true
+Generated username: vgpt0i100s109394
+Generated username: w8dvpztuerf236203
+Initiate OTP executed
+Name recommendations: ["py6kb7k0u4h735085682","py6kb7k0u4h735085510","py6kb7k0u4h735085272","py6kb7k0u4h735085875","py6kb7k0u4h735085385","py6kb7k0u4h735085trader","cyberpy6kb7k0u4h735085","py6kb7k0u4h735085163","py6kb7k0u4h735085632","py6kb7k0u4h735085368"]
+Check DID response: true
+Initiate OTP executed
+Generated username: ysocozsc6fg600442
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Check DID response: true
+Generated username: 41frrk3jmf691806
+Check DID response: true
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x06BF53003525bA6B5048E602cbB61F844D5036A2',
+    id: '58b04d5a-723e-4808-9de2-d88d55c6b826',
+    generatedPublicKey: '0x0458431f28131c181aee8302af18eb418802c3d64330f8d2b460f546105f0582a8dfaa1e961539e217baf9f8c85d384b199fe8a324600469c18fc32a9ef6e1a988'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x06BF53003525bA6B5048E602cbB61F844D5036A2',
+    id: 'a632ecec-f270-41f8-b350-95eba302d069',
+    generatedPublicKey: 'AvYmVX4SuyK3UufT3e7b49Q1qzS1koyaPETP3eN5bHN4'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x06BF53003525bA6B5048E602cbB61F844D5036A2',
+    id: '58b04d5a-723e-4808-9de2-d88d55c6b826',
+    generatedPublicKey: '0x0458431f28131c181aee8302af18eb418802c3d64330f8d2b460f546105f0582a8dfaa1e961539e217baf9f8c85d384b199fe8a324600469c18fc32a9ef6e1a988'
+  }
+]
+Name recommendations: ["coinlk24dkypv6408980","thelk24dkypv6408980","bitlk24dkypv6408980","lk24dkypv6408980investor","lk24dkypv6408980hacker","lk24dkypv6408980slinger","itslk24dkypv6408980","lk24dkypv6408980pioneer","0xlk24dkypv6408980","lk24dkypv640898072"]
+Minting done
+Successfully fetched PKPs with relayer
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["0pczengqhi928433investor","0pczengqhi928433736","digital0pczengqhi928433","0pczengqhi92843311","0pczengqhi92843325","0pczengqhi928433164","0pczengqhi928433whale","0pczengqhi928433hodl","nft0pczengqhi928433","eth0pczengqhi928433"]
+Successfully fetched PKPs with relayer
+Name recommendations: ["defix5zq014z6x371318","x5zq014z6x37131844","nftx5zq014z6x371318","x5zq014z6x371318trader","x5zq014z6x371318295","chainx5zq014z6x371318","itsx5zq014z6x371318","coinx5zq014z6x371318","x5zq014z6x371318enthusiast","x5zq014z6x371318905"]
+Name recommendations: ["mbl255u4x8k78123xpert","mbl255u4x8k78123hacker","chainmbl255u4x8k78123","metambl255u4x8k78123","mbl255u4x8k78123enthusiast","cryptombl255u4x8k78123","decentralmbl255u4x8k78123","bitmbl255u4x8k78123","mbl255u4x8k78123207","blockmbl255u4x8k78123"]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x424874a6287f0b6A1F8253A18F4F9E68B26B3d1B',
+    id: '596cbfbb-7c56-4569-bb37-51f7c4ddeb89',
+    generatedPublicKey: '0x0457ce144120d19473b8d9f9732bf93fdefc3846d0f030849c7869d7adb2a053e9d9ca0b27f7789317eebd618795db5fcec4282a8db24489a85cd0a94268a3e905'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x424874a6287f0b6A1F8253A18F4F9E68B26B3d1B',
+    id: '483af64f-3bbb-48c9-8a3c-845bfef98c8d',
+    generatedPublicKey: 'BEHN3v391M5pLdKLbonJrD6oqGtyDAjcjiuE6MbrijKT'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x424874a6287f0b6A1F8253A18F4F9E68B26B3d1B',
+    id: '596cbfbb-7c56-4569-bb37-51f7c4ddeb89',
+    generatedPublicKey: '0x0457ce144120d19473b8d9f9732bf93fdefc3846d0f030849c7869d7adb2a053e9d9ca0b27f7789317eebd618795db5fcec4282a8db24489a85cd0a94268a3e905'
+  }
+]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x8e9f8622cF198180CFdA987F6a38061dd905A136',
+    id: '56b43c70-bc69-400a-867e-e14d48b5b0b6',
+    generatedPublicKey: '0x047e77ea901606b088015ca849342624d6415ca0e9d2d3d5c81d8b7a40eca75f866cd2cc70b05cd7b642c63a6bc29d25718afa3f0856b25ef0ec210b584054ac6b'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x8e9f8622cF198180CFdA987F6a38061dd905A136',
+    id: 'e2ec4f6e-498e-4a7d-a9cc-6f9a1b434a48',
+    generatedPublicKey: 'Jt2syYkr4UHC9aAih4nyRu4bapbD8AhTcwj1u2vR7d6'
+  }
+]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x93d748dBf90D370e423E30015288DbD2ae3da4b8',
+    id: 'c8ce4e24-239b-4a43-8710-90cb039d74e0',
+    generatedPublicKey: '0x04ff241ace47c82378267ffe17a4e66415ea76ec97026bb0cd2f7e271f15582d252356dbf0f070e2e47e862b124e9d9b24374ab7bc7e4bc2b90747af5d4c98012d'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x93d748dBf90D370e423E30015288DbD2ae3da4b8',
+    id: 'fba7efa5-4f9f-4b7d-a231-fcfc26f754d3',
+    generatedPublicKey: '4e3663tsLFtoq2kuCZaG26h7JN2b7tjDb6DRRW19R9bL'
+  }
+]
+Name recommendations: ["0xkn57pcn5bol387004","itskn57pcn5bol387004","kn57pcn5bol387004pioneer","kn57pcn5bol387004269","kn57pcn5bol387004xpert","kn57pcn5bol387004whale","kn57pcn5bol387004slinger","coinkn57pcn5bol387004","kn57pcn5bol3870049","kn57pcn5bol387004hacker"]
+Minting done
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x93d748dBf90D370e423E30015288DbD2ae3da4b8',
+    id: 'c8ce4e24-239b-4a43-8710-90cb039d74e0',
+    generatedPublicKey: '0x04ff241ace47c82378267ffe17a4e66415ea76ec97026bb0cd2f7e271f15582d252356dbf0f070e2e47e862b124e9d9b24374ab7bc7e4bc2b90747af5d4c98012d'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x8e9f8622cF198180CFdA987F6a38061dd905A136',
+    id: '56b43c70-bc69-400a-867e-e14d48b5b0b6',
+    generatedPublicKey: '0x047e77ea901606b088015ca849342624d6415ca0e9d2d3d5c81d8b7a40eca75f866cd2cc70b05cd7b642c63a6bc29d25718afa3f0856b25ef0ec210b584054ac6b'
+  }
+]
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["blockyqn9svmte8368989","defiyqn9svmte8368989","yqn9svmte8368989146","yqn9svmte8368989slinger","yqn9svmte8368989312","ethyqn9svmte8368989","yqn9svmte8368989whale","yqn9svmte8368989xpert","yqn9svmte8368989enthusiast","itsyqn9svmte8368989"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzQyMmFiNGYtZDljNS00NWEwLTk4YTQtMTM5YjJiOTNiMjM5IiwiZW1haWwiOiJic2hvOGMyanZjOTc1MDI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk2LCJleHAiOjE3Mjg1MDk1OTZ9.hsO9F_WOQ93bqRK1I5SyNmwXIMf3xh_dkaW0KUT9bjY
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODYxYTFmODctYWY5Ny00ZDMwLTlhODgtMDNkZmJiNjUzNTI5IiwiZW1haWwiOiJ1MXBuZm10eTJsMjAyMTc5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk2LCJleHAiOjE3Mjg1MDk1OTZ9.VGkk09aazmippxdj6--UCKQN3HthDSat0yD9wNm8Oqk
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYTQ1NjI2MzEtZDhjOC00OGM5LTk4NWYtZmU4MDI3MmE5ZmM2IiwiZW1haWwiOiJvbGw4ZXdwMDJwNTM1NDgzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk2LCJleHAiOjE3Mjg1MDk1OTZ9.f-pmSv7AzQfwYSbjqaDHNtjolk9JUf9LivTPGQCabtk
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xAfC7eE5C12DA36159e744f7f434672D7CD0b8aDd',
+    id: '210be3c3-3d52-48cb-a319-6cadbb9b73a2',
+    generatedPublicKey: '0x04ab3c5de5e22314ba923921afb606d45f0964f61f324735aed142af56eef0728d3e9b5ee04b26a49dc2c0bf29d65fc4adebe84dfd0acad71dbf135e9df6d2eabb'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xAfC7eE5C12DA36159e744f7f434672D7CD0b8aDd',
+    id: '4a7408e5-0d27-4aed-99d6-9f76685c21e7',
+    generatedPublicKey: 'BL8CstLhVEuR7RH6LZxgVKv9KNZDLck4ZTKWpHgLWS6c'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xAfC7eE5C12DA36159e744f7f434672D7CD0b8aDd',
+    id: '210be3c3-3d52-48cb-a319-6cadbb9b73a2',
+    generatedPublicKey: '0x04ab3c5de5e22314ba923921afb606d45f0964f61f324735aed142af56eef0728d3e9b5ee04b26a49dc2c0bf29d65fc4adebe84dfd0acad71dbf135e9df6d2eabb'
+  }
+]
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmI3NWNkOGYtNWI4Mi00ZWY2LTk0MTktMDQ5MWRkNDgwMmYyIiwiZW1haWwiOiI3NzUwb2FqNW52NDk1MjZAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTYsImV4cCI6MTcyODUwOTU5Nn0.bn0dFqhMdaUY2ZOZif0qlBDuObAYN9m7TVGILyaLuQ4
+Minting done
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZjE5YjNiNTQtMmRjZS00MzFlLWFkNTQtN2QzN2VhYmQ3ZjhiIiwiZW1haWwiOiI3NGMxemZtaGhkNzI0NjI5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk2LCJleHAiOjE3Mjg1MDk1OTZ9.YXYPLXI3Y3l7rGr365fMnC8X5k36HQTyB9lw1rko7to
+Generated username: 3jd8joogml658075
+Generated username: zwjv8clfli691940
+Initiate OTP executed
+Initiate OTP executed
+Generated username: pewmg7ufj170668
+Initiate OTP executed
+Check DID response: true
+Check DID response: true
+Generated username: oy6v7lugz8k492842
+Check DID response: true
+Initiate OTP executed
+Generated username: ikp23ss0w6545186
+Initiate OTP executed
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xedaB6c8AF8B5A773ee806834C6389Db9869cac2a',
+    id: '45654ee1-ab9a-48c3-bd4a-22c44c73d26e',
+    generatedPublicKey: '0x046707770f11a0d91cded90131f1114c7bfa63054974dd383ee074d8272acf1ae0ae5a08bb1921c8a0184e5bd81e32569a3d2ba96890f4cbd96f0277e0f4e1b239'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xedaB6c8AF8B5A773ee806834C6389Db9869cac2a',
+    id: '2685db6b-f8e6-483c-a8df-27e2ccc0a420',
+    generatedPublicKey: 'CgYZ7fpbm31zkGvCiXvhnYmXzi9jDYjYwMaQaqaccYQx'
+  }
+]
+Check DID response: true
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xedaB6c8AF8B5A773ee806834C6389Db9869cac2a',
+    id: '45654ee1-ab9a-48c3-bd4a-22c44c73d26e',
+    generatedPublicKey: '0x046707770f11a0d91cded90131f1114c7bfa63054974dd383ee074d8272acf1ae0ae5a08bb1921c8a0184e5bd81e32569a3d2ba96890f4cbd96f0277e0f4e1b239'
+  }
+]
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: siclz9gx2jf898250
+Check DID response: true
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Successfully fetched PKPs with relayer
+Name recommendations: ["metabsho8c2jvc975029","bsho8c2jvc975029whale","bsho8c2jvc975029393","bsho8c2jvc975029slinger","bitbsho8c2jvc975029","bsho8c2jvc975029xpert","bsho8c2jvc975029enthusiast","coinbsho8c2jvc975029","cryptobsho8c2jvc975029","bsho8c2jvc975029hodl"]
+Name recommendations: ["u1pnfmty2l202179pioneer","u1pnfmty2l202179wizard","ethu1pnfmty2l202179","metau1pnfmty2l202179","u1pnfmty2l202179trader","u1pnfmty2l202179141","defiu1pnfmty2l202179","u1pnfmty2l202179xpert","cryptou1pnfmty2l202179","u1pnfmty2l202179590"]
+Name recommendations: ["oll8ewp02p535483hodl","oll8ewp02p535483crypto","blockoll8ewp02p535483","decentraloll8ewp02p535483","oll8ewp02p535483733","defioll8ewp02p535483","oll8ewp02p535483whale","itsoll8ewp02p535483","oll8ewp02p535483657","oll8ewp02p53548380"]
+signature {
+  success: true,
+  signature: '0x4736f50eb35cb4afaa2c9e48c8eee1c3678305efa2312b7bcb9960e69ec0466232cd370eb26157d4dde730ae6311d33ad8056e9af587945581718dc160c18f151c'
+}
+args {
+  did: '05ka96gx32l555482@tria',
+  evmChainData: {
+    address: '0xdb8cE6AC29B75D472EeDD0B081E4ff409444D5E0',
+    message: {
+      address: '0xdb8cE6AC29B75D472EeDD0B081E4ff409444D5E0',
+      timestamp: 1727904790929
+    },
+    signature: '0x4736f50eb35cb4afaa2c9e48c8eee1c3678305efa2312b7bcb9960e69ec0466232cd370eb26157d4dde730ae6311d33ad8056e9af587945581718dc160c18f151c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjA0NDBmOWUtYzUzZS00ZTIzLTg2YmItOTg1ODVkMWMyOGZjIiwiZW1haWwiOiIwNWthOTZneDMybDU1NTQ4MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3NCwiZXhwIjoxNzI4NTA5NTc0fQ.ZOL0OrKnrMt9J1fbdckZZHb7ufU_bV9PSAVaWb60yJY',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '05ka96gx32l555482@tria',
+  evmChainData: {
+    address: '0xdb8cE6AC29B75D472EeDD0B081E4ff409444D5E0',
+    message: {
+      address: '0xdb8cE6AC29B75D472EeDD0B081E4ff409444D5E0',
+      timestamp: 1727904790929
+    },
+    signature: '0x4736f50eb35cb4afaa2c9e48c8eee1c3678305efa2312b7bcb9960e69ec0466232cd370eb26157d4dde730ae6311d33ad8056e9af587945581718dc160c18f151c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjA0NDBmOWUtYzUzZS00ZTIzLTg2YmItOTg1ODVkMWMyOGZjIiwiZW1haWwiOiIwNWthOTZneDMybDU1NTQ4MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3NCwiZXhwIjoxNzI4NTA5NTc0fQ.ZOL0OrKnrMt9J1fbdckZZHb7ufU_bV9PSAVaWb60yJY',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjA0NDBmOWUtYzUzZS00ZTIzLTg2YmItOTg1ODVkMWMyOGZjIiwiZW1haWwiOiIwNWthOTZneDMybDU1NTQ4MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3NCwiZXhwIjoxNzI4NTA5NTc0fQ.ZOL0OrKnrMt9J1fbdckZZHb7ufU_bV9PSAVaWb60yJY
+Successfully fetched PKPs with relayer
+Name recommendations: ["74c1zfmhhd724629918","chain74c1zfmhhd724629","bit74c1zfmhhd724629","74c1zfmhhd724629983","74c1zfmhhd724629327","the74c1zfmhhd724629","74c1zfmhhd724629master","74c1zfmhhd724629881","74c1zfmhhd724629enthusiast","74c1zfmhhd724629604"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNDE5NjNkYWYtNWM4MS00MWU5LWFiYjQtODljZjA4YWM3MmNiIiwiZW1haWwiOiJ5NnJjM2I1NzQ4OTc2NEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NywiZXhwIjoxNzI4NTA5NTk3fQ.r-8kwKSo5KauNatosqZzKo0mnsMqcBdSOfXbJrwcv_Q
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmYxMWNhNTktODkzMS00MmViLWIyZTUtYmU2NmM1YzljZjVkIiwiZW1haWwiOiJ2Z3B0MGkxMDBzMTA5Mzk0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk3LCJleHAiOjE3Mjg1MDk1OTd9.v4Ipw04VQ2-5Vx4n2f_IZt0uWQBKUbZ3FF_clygbUSE
+Name recommendations: ["7750oaj5nv49526whale","7750oaj5nv49526master","its7750oaj5nv49526","7750oaj5nv49526791","7750oaj5nv49526pioneer","7750oaj5nv4952637","7750oaj5nv49526166","7750oaj5nv49526857","7750oaj5nv49526enthusiast","7750oaj5nv49526crypto"]
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xd3e18C55e6e7D4d34866f0ebfCF4A8207557e127',
+    id: 'ecf3ea66-0d85-427c-bca6-410614708ff3',
+    generatedPublicKey: '0x04da7aeafc002da735cb6ac9e64dfbb2fc462bbb2ecadf0e661c30d2007cf0aa18e9fe4dcbcf091246b5d4beb9b7e4bdd44ede9c6cca4ec840e95a0470f50b4878'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xd3e18C55e6e7D4d34866f0ebfCF4A8207557e127',
+    id: '4476cb21-45a9-445b-95ff-febdb6f5bca7',
+    generatedPublicKey: '3nr9jQP3HVaPMXvHdUcQxm3fccjJJzihNWwWD3fCAYcQ'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xd3e18C55e6e7D4d34866f0ebfCF4A8207557e127',
+    id: 'ecf3ea66-0d85-427c-bca6-410614708ff3',
+    generatedPublicKey: '0x04da7aeafc002da735cb6ac9e64dfbb2fc462bbb2ecadf0e661c30d2007cf0aa18e9fe4dcbcf091246b5d4beb9b7e4bdd44ede9c6cca4ec840e95a0470f50b4878'
+  }
+]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzYwNWMxYjktZWZhYy00Y2U0LTk5ODgtODIyMGMwMjNmOWIzIiwiZW1haWwiOiJ5c29jb3pzYzZmZzYwMDQ0MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NywiZXhwIjoxNzI4NTA5NTk3fQ.vluz0xXOWJIEQ2W_xj4k6kyVW36S54hAQwjDaVokRDo
+Successfully fetched PKPs with relayer
+Successfully fetched PKPs with relayer
+Generated username: ah1elcge4r304952
+Initiate OTP executed
+Generated username: txn3bgr3ogl483144
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzE2ZWRkNjEtMzVmYS00ZWNhLTkxY2EtZDhiMzg2ZWM5ZmI1IiwiZW1haWwiOiI0MWZycmszam1mNjkxODA2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk3LCJleHAiOjE3Mjg1MDk1OTd9.NAwkfm6k607p6Z9ZNSnBLsWfHi3GasCvopXQ-apOcFI
+Initiate OTP executed
+Generated username: i2lrotmoe8485140
+Initiate OTP executed
+Generated username: xmjaweb3j832140
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x62c1312B470469EE350762A64f296D983049B94B',
+    id: '62d5392f-6794-4b6f-b92a-bbcd90e4d491',
+    generatedPublicKey: '0x04699fc633bd1fa9bee03c95b581e4d84c679e07273770a491b85a38961acecc95fbbe55f5590b3dc784ae07fc796084e4413831adae7a5883029da2b77ac71dfe'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x62c1312B470469EE350762A64f296D983049B94B',
+    id: 'ef332823-2869-4fe8-970a-484054f5aef6',
+    generatedPublicKey: '4atKhKuoXQJayXy3jvxig9iYgrdMcePBfZdoxndzCrW7'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x62c1312B470469EE350762A64f296D983049B94B',
+    id: '62d5392f-6794-4b6f-b92a-bbcd90e4d491',
+    generatedPublicKey: '0x04699fc633bd1fa9bee03c95b581e4d84c679e07273770a491b85a38961acecc95fbbe55f5590b3dc784ae07fc796084e4413831adae7a5883029da2b77ac71dfe'
+  }
+]
+Initiate OTP executed
+Check DID response: true
+Generated username: 1lwjxz729166098
+Check DID response: true
+Create DID response: {"success":true,"response":{"data":{"jobId":"149","did":"05ka96gx32l555482@tria"}}}
+Initiate OTP executed
+Check DID response: true
+Generated username: 56ma1uflidh944117
+Minting done
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNDNmMTc0ODUtOGM5Mi00OThkLTliMjktMzkwMjVlY2M1YzY2IiwiZW1haWwiOiJtbHp4bnJ0eWdyMzgyMDQ0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk3LCJleHAiOjE3Mjg1MDk1OTd9.p5V8OiXz3NtlgiDGy7vcRB9lN38-SS5g5fhQyAAuafA
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["y6rc3b57489764whale","y6rc3b5748976444","y6rc3b57489764370","nfty6rc3b57489764","y6rc3b57489764xpert","y6rc3b57489764hodl","y6rc3b57489764investor","y6rc3b57489764664","ethy6rc3b57489764","bity6rc3b57489764"]
+Name recommendations: ["bitvgpt0i100s109394","vgpt0i100s109394investor","coinvgpt0i100s109394","metavgpt0i100s109394","0xvgpt0i100s109394","vgpt0i100s109394hodl","vgpt0i100s109394hacker","vgpt0i100s109394pioneer","vgpt0i100s109394301","chainvgpt0i100s109394"]
+Successfully fetched PKPs with relayer
+Successfully fetched PKPs with relayer
+Name recommendations: ["0xysocozsc6fg600442","ethysocozsc6fg600442","ysocozsc6fg600442392","ysocozsc6fg600442xpert","ysocozsc6fg600442987","cyberysocozsc6fg600442","blockysocozsc6fg600442","ysocozsc6fg600442597","decentralysocozsc6fg600442","ysocozsc6fg600442729"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiOWI1OWZhYmQtMDkzZi00ZTJiLTk0NzMtNzhkYzJiODc0YmMxIiwiZW1haWwiOiJ6d2p2OGNsZmxpNjkxOTQwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk4LCJleHAiOjE3Mjg1MDk1OTh9.GYSa21SjrsN66lkmUz2Xzq-Kb2j1H8BQD2OVXV_arTc
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiY2QxMjcxODctZjNkZS00MWRkLWEwYmItMTA5MzA3M2E3NDc0IiwiZW1haWwiOiIzamQ4am9vZ21sNjU4MDc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk4LCJleHAiOjE3Mjg1MDk1OTh9.AmXTwS_X2R0X7W6Vo7UxlW3yNjpo7R1w90qFUY5OocA
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmFjMWZkM2QtNmMwYy00YzVkLThhNmEtZWMyOWY3MWY4MzcwIiwiZW1haWwiOiJwZXdtZzd1ZmoxNzA2NjhAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTgsImV4cCI6MTcyODUwOTU5OH0.4GEz04Vb2YyGRPr5o4X895w9XUUE4aWLujgdnPtoP1A
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmQ5OTZiMzctNGU2ZS00MTU0LWJmMGQtMTA4ZGFkOWM0MTQ5IiwiZW1haWwiOiJveTZ2N2x1Z3o4azQ5Mjg0MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5OCwiZXhwIjoxNzI4NTA5NTk4fQ.lZZ2_jGEbpnLWXMSvWpQxBxzVZed_EtLWLDYlYmwT7Y
+Check DID response: true
+Name recommendations: ["41frrk3jmf691806investor","eth41frrk3jmf691806","41frrk3jmf691806trader","bit41frrk3jmf691806","decentral41frrk3jmf691806","41frrk3jmf691806811","41frrk3jmf691806617","41frrk3jmf691806pioneer","41frrk3jmf691806master","41frrk3jmf691806crypto"]
+Successfully fetched PKPs with relayer
+Generated username: trurzebp35i996387
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMWI2ZWY5MDMtNGI2My00NDI1LWJkY2MtODk5ZjE5NDNmZmQ3IiwiZW1haWwiOiJzaWNsejlneDJqZjg5ODI1MEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5OCwiZXhwIjoxNzI4NTA5NTk4fQ.XG7wKncvJNeAerD8PNgQPiXD_z-L5TPamlw4mnFpZz4
+Initiate OTP executed
+Generated username: aq6ev9hs6p934741
+Minting done
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Check DID response: true
+Generated username: vvysfvs9l6265676
+Check DID response: true
+Initiate OTP executed
+Generated username: nl1gxiv4qq717586
+Initiate OTP executed
+Check DID response: true
+Generated username: 38pe4kpnmf402917
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["nftmlzxnrtygr382044","themlzxnrtygr382044","mlzxnrtygr382044395","mlzxnrtygr382044hacker","mlzxnrtygr382044wizard","mlzxnrtygr382044869","ethermlzxnrtygr382044","mlzxnrtygr382044638","mlzxnrtygr382044268","itsmlzxnrtygr382044"]
+Generated username: tqgf2ias27201434
+Initiate OTP executed
+Initiate OTP executed
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzI0OGVmMmYtZTQ2NS00ZjI2LTk0ODEtZDY1MWFkOGYxMGQwIiwiZW1haWwiOiJ3OGR2cHp0dWVyZjIzNjIwM0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5NywiZXhwIjoxNzI4NTA5NTk3fQ.xJXYTK96CgihgYt2AkiK1cjbjx82CLh8U08pRTqsBWY
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Check DID response: true
+Name recommendations: ["ethzwjv8clfli691940","zwjv8clfli691940429","metazwjv8clfli691940","zwjv8clfli691940pioneer","zwjv8clfli691940380","zwjv8clfli691940whale","zwjv8clfli691940xpert","coinzwjv8clfli691940","zwjv8clfli691940959","zwjv8clfli691940slinger"]
+Minting done
+signature {
+  success: true,
+  signature: '0xf6174dd3842d1a40015120e02f496deb4108b6865aa4a753e581d5fdf20779d123b99bcd5be44152de234e69212031d627f8ecae0834b0cc0bce70835293ac6f1b'
+}
+Name recommendations: ["3jd8joogml658075enthusiast","nft3jd8joogml658075","3jd8joogml658075706","3jd8joogml658075hodl","3jd8joogml65807516","digital3jd8joogml658075","defi3jd8joogml658075","3jd8joogml658075master","decentral3jd8joogml658075","3jd8joogml658075620"]
+args {
+  did: '8k2mk3fgjgi681649@tria',
+  evmChainData: {
+    address: '0xdF4761aD29682e30A31138Cd03E07372adf963F8',
+    message: {
+      address: '0xdF4761aD29682e30A31138Cd03E07372adf963F8',
+      timestamp: 1727904793285
+    },
+    signature: '0xf6174dd3842d1a40015120e02f496deb4108b6865aa4a753e581d5fdf20779d123b99bcd5be44152de234e69212031d627f8ecae0834b0cc0bce70835293ac6f1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWFlODEzMTctZTJjZC00ZGY0LWFkZjAtOTBmODNhMGEzNmFhIiwiZW1haWwiOiI4azJtazNmZ2pnaTY4MTY0OUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MywiZXhwIjoxNzI4NTA5NTczfQ.BJsDtV3JLZdqt4-d8iUXf2GVeIwveGr7AW4CwCl0yPs',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '8k2mk3fgjgi681649@tria',
+  evmChainData: {
+    address: '0xdF4761aD29682e30A31138Cd03E07372adf963F8',
+    message: {
+      address: '0xdF4761aD29682e30A31138Cd03E07372adf963F8',
+      timestamp: 1727904793285
+    },
+    signature: '0xf6174dd3842d1a40015120e02f496deb4108b6865aa4a753e581d5fdf20779d123b99bcd5be44152de234e69212031d627f8ecae0834b0cc0bce70835293ac6f1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWFlODEzMTctZTJjZC00ZGY0LWFkZjAtOTBmODNhMGEzNmFhIiwiZW1haWwiOiI4azJtazNmZ2pnaTY4MTY0OUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MywiZXhwIjoxNzI4NTA5NTczfQ.BJsDtV3JLZdqt4-d8iUXf2GVeIwveGr7AW4CwCl0yPs',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWFlODEzMTctZTJjZC00ZGY0LWFkZjAtOTBmODNhMGEzNmFhIiwiZW1haWwiOiI4azJtazNmZ2pnaTY4MTY0OUB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc3MywiZXhwIjoxNzI4NTA5NTczfQ.BJsDtV3JLZdqt4-d8iUXf2GVeIwveGr7AW4CwCl0yPs
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["nftpewmg7ufj170668","metapewmg7ufj170668","pewmg7ufj170668249","pewmg7ufj170668481","blockpewmg7ufj170668","pewmg7ufj170668266","defipewmg7ufj170668","itspewmg7ufj170668","pewmg7ufj17066870","pewmg7ufj1706680"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["oy6v7lugz8k492842420","etheroy6v7lugz8k492842","0xoy6v7lugz8k492842","cyberoy6v7lugz8k492842","oy6v7lugz8k49284271","oy6v7lugz8k492842634","oy6v7lugz8k492842711","oy6v7lugz8k492842837","oy6v7lugz8k49284232","oy6v7lugz8k492842trader"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWVhZmI3ZWYtMmM3MC00MDkxLTgwNTItNzEwYWU5YWUxYTAwIiwiZW1haWwiOiJpa3AyM3NzMHc2NTQ1MTg2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk4LCJleHAiOjE3Mjg1MDk1OTh9.U6PcRGXtIksuBqMzYowbt9H8HuMJzdEubsACI6bdDs4
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTM5MzM1NGUtNTY0ZS00ZGU3LWJiNDEtOGVhYTU4MTY3Yzc5IiwiZW1haWwiOiJhaDFlbGNnZTRyMzA0OTUyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk5LCJleHAiOjE3Mjg1MDk1OTl9.B3JWCu5TTP4KKxjnhnrhqB8MMNVjggs5a6y4yGbO0n8
+Successfully fetched PKPs with relayer
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMWI4NDc5YjQtNzg5Ny00ZmU3LTg3NjMtYTNkYTI3YWI1ODU2IiwiZW1haWwiOiJ0eG4zYmdyM29nbDQ4MzE0NEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5OSwiZXhwIjoxNzI4NTA5NTk5fQ.qM2d_dWvtbyB4airH3oISogIWou-6qjn75QAtPn0iVk
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiN2JhMTFiZGQtMDA3Yy00YjZmLTlhMjctYjhlNjYwMWNhNmU0IiwiZW1haWwiOiJpMmxyb3Rtb2U4NDg1MTQwQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzk5LCJleHAiOjE3Mjg1MDk1OTl9.YxsDn4XBUj2IUM1nXV2q4aGVdS_MrbWLNqD3FfCkzAc
+Name recommendations: ["siclz9gx2jf898250master","siclz9gx2jf898250520","bitsiclz9gx2jf898250","siclz9gx2jf898250312","siclz9gx2jf898250hodl","siclz9gx2jf898250hacker","ethsiclz9gx2jf898250","siclz9gx2jf898250792","siclz9gx2jf898250trader","coinsiclz9gx2jf898250"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTViMjJjNDctYWVhMC00MWViLWE2NGQtY2EzZmE1MzdkODI4IiwiZW1haWwiOiJ4bWphd2ViM2o4MzIxNDBAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTksImV4cCI6MTcyODUwOTU5OX0.D-PSazMTCaocrP-YDw1LHSz2AMNWLcDNRMRZungczeU
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMmY0YWUwYTgtZWMzZS00YjdkLWI2MTAtNWIxZTQ3MmUyZDFiIiwiZW1haWwiOiI1Nm1hMXVmbGlkaDk0NDExN0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc5OSwiZXhwIjoxNzI4NTA5NTk5fQ.qLSR3Vcq6wq1JZ_0wZ-X7yVxQaBpzgbOxUBgWjtwhKM
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTgwNTJmYzMtZGQ5NC00MzYzLTgyZmMtOTg1ZTY3ZjMwM2QxIiwiZW1haWwiOiIxbHdqeHo3MjkxNjYwOThAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3OTksImV4cCI6MTcyODUwOTU5OX0.wNw1IluBIzwmpdECEONWYcMyMoso22CZVY-jKZ9dO24
+Generated username: e84g2bdz4f150803
+Create DID response: {"success":true,"response":{"data":{"jobId":"141","did":"8k2mk3fgjgi681649@tria"}}}
+Initiate OTP executed
+Generated username: 5w6p9zppqx284037
+Check DID response: true
+Initiate OTP executed
+Initiate OTP executed
+Name recommendations: ["w8dvpztuerf236203148","etherw8dvpztuerf236203","w8dvpztuerf236203318","0xw8dvpztuerf236203","metaw8dvpztuerf236203","w8dvpztuerf236203428","w8dvpztuerf236203hacker","w8dvpztuerf236203933","decentralw8dvpztuerf236203","w8dvpztuerf236203818"]
+Generated username: pj2xq6s0nyh308110
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: pm2bd3sts27157
+Check DID response: true
+Initiate OTP executed
+Generated username: guxe2tx4ae652084
+Check DID response: true
+Check DID response: true
+Initiate OTP executed
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Generated username: ilm4414lpqh698698
+Initiate OTP executed
+Check DID response: true
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["ikp23ss0w6545186pioneer","ikp23ss0w654518621","ikp23ss0w6545186wizard","ikp23ss0w6545186hacker","ikp23ss0w6545186hodl","nftikp23ss0w6545186","ikp23ss0w654518632","ikp23ss0w6545186861","theikp23ss0w6545186","ikp23ss0w654518630"]
+Name recommendations: ["ah1elcge4r304952147","nftah1elcge4r304952","ah1elcge4r304952203","defiah1elcge4r304952","ah1elcge4r30495256","ah1elcge4r304952240","ah1elcge4r304952master","ethah1elcge4r304952","ah1elcge4r304952215","ah1elcge4r304952336"]
+Name recommendations: ["0xtxn3bgr3ogl483144","txn3bgr3ogl483144enthusiast","txn3bgr3ogl483144854","txn3bgr3ogl483144963","txn3bgr3ogl483144586","txn3bgr3ogl483144wizard","cryptotxn3bgr3ogl483144","txn3bgr3ogl483144636","txn3bgr3ogl483144whale","digitaltxn3bgr3ogl483144"]
+Minting done
+Name recommendations: ["i2lrotmoe8485140master","decentrali2lrotmoe8485140","i2lrotmoe8485140647","coini2lrotmoe8485140","digitali2lrotmoe8485140","i2lrotmoe848514088","i2lrotmoe8485140812","cryptoi2lrotmoe8485140","i2lrotmoe8485140252","i2lrotmoe8485140399"]
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMmRlODA5YWUtZTc2ZC00NjM2LWIzMWQtZjgwNDgwMjM3NGEzIiwiZW1haWwiOiJ0cnVyemVicDM1aTk5NjM4N0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMCwiZXhwIjoxNzI4NTA5NjAwfQ.99-_BVGnh0OqRs9VJT0n1yM0d1KNo8x0KnV91Tn1V6o
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmEyNThmM2UtNmEzMS00NzM0LWExNGYtNDEzNTM5MjFmY2VkIiwiZW1haWwiOiJhcTZldjloczZwOTM0NzQxQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAwLCJleHAiOjE3Mjg1MDk2MDB9.OIf8Rfs9L3bPuQETfuezpGWAV0Mi_-LQbIodcVQcDoQ
+Minting done
+Name recommendations: ["56ma1uflidh944117enthusiast","its56ma1uflidh944117","56ma1uflidh944117105","56ma1uflidh944117pioneer","56ma1uflidh944117589","56ma1uflidh944117crypto","56ma1uflidh94411711","cyber56ma1uflidh944117","56ma1uflidh944117254","meta56ma1uflidh944117"]
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["itsxmjaweb3j832140","xmjaweb3j832140hacker","ethxmjaweb3j832140","etherxmjaweb3j832140","xmjaweb3j832140537","xmjaweb3j832140wizard","xmjaweb3j832140slinger","xmjaweb3j832140hodl","xmjaweb3j832140958","defixmjaweb3j832140"]
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDliNWYwMDktM2EzMi00OTdlLWIyNTQtNzc1ZjUxMmZlMmFjIiwiZW1haWwiOiJ2dnlzZnZzOWw2MjY1Njc2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAwLCJleHAiOjE3Mjg1MDk2MDB9.5Ay-JbLYIbxKDvljh1jCKmKT2GhT_jg5HN4eknD36AU
+Minting done
+Name recommendations: ["1lwjxz729166098slinger","bit1lwjxz729166098","1lwjxz729166098667","decentral1lwjxz729166098","1lwjxz7291660983","0x1lwjxz729166098","1lwjxz729166098462","1lwjxz729166098enthusiast","1lwjxz729166098whale","1lwjxz729166098master"]
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMmRlOGI2MzQtYWUzOS00YjE3LThhN2YtMDNlY2M1NzJmZmFmIiwiZW1haWwiOiIzOHBlNGtwbm1mNDAyOTE3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAwLCJleHAiOjE3Mjg1MDk2MDB9.u3_ZEaCPIEK-i3ulUS6Xh2cDFbdWAiyxjvH6EDdu5tQ
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNjU0MzUyYjUtYmI5MS00OWRjLWEyZTktMjZiZmFmYmZhNGFkIiwiZW1haWwiOiJ0cWdmMmlhczI3MjAxNDM0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAwLCJleHAiOjE3Mjg1MDk2MDB9.kjKL60D3s6kftDfUG2bDJSKjsAUUG-s_Tslgag0ZuzQ
+Generated username: urdt9pqum2337739
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Check DID response: true
+Generated username: r4i7i1qcgn895195
+Initiate OTP executed
+Generated username: u0jldbnsvo454132
+Initiate OTP executed
+Generated username: 6tw6i6xbvp270103
+Minting done
+Running getPKP
+getCreateDIDData...
+signature {
+  success: true,
+  signature: '0x80dd4d056584d91e21cb87128f3fbda312ef88c2412568a64a8156fbd4fd86b667c853ce4a037467338b2d75b3a480a96ee25aae4f4415faf45d052be151d1491b'
+}
+args {
+  did: 'jrubjgqwhs999109@tria',
+  evmChainData: {
+    address: '0xadd2880710Fcc03a080a791d05d8ebd83ed59593',
+    message: {
+      address: '0xadd2880710Fcc03a080a791d05d8ebd83ed59593',
+      timestamp: 1727904793329
+    },
+    signature: '0x80dd4d056584d91e21cb87128f3fbda312ef88c2412568a64a8156fbd4fd86b667c853ce4a037467338b2d75b3a480a96ee25aae4f4415faf45d052be151d1491b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzljMDc2N2MtMTE3Yy00MmRhLTlmYmEtNzc5MTI4N2ZiNzJjIiwiZW1haWwiOiJqcnViamdxd2hzOTk5MTA5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc1LCJleHAiOjE3Mjg1MDk1NzV9.ZqeQBKDddIgwC192gqutJIYXTuBEEp5A9WCi0x_P4Lo',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'jrubjgqwhs999109@tria',
+  evmChainData: {
+    address: '0xadd2880710Fcc03a080a791d05d8ebd83ed59593',
+    message: {
+      address: '0xadd2880710Fcc03a080a791d05d8ebd83ed59593',
+      timestamp: 1727904793329
+    },
+    signature: '0x80dd4d056584d91e21cb87128f3fbda312ef88c2412568a64a8156fbd4fd86b667c853ce4a037467338b2d75b3a480a96ee25aae4f4415faf45d052be151d1491b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzljMDc2N2MtMTE3Yy00MmRhLTlmYmEtNzc5MTI4N2ZiNzJjIiwiZW1haWwiOiJqcnViamdxd2hzOTk5MTA5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc1LCJleHAiOjE3Mjg1MDk1NzV9.ZqeQBKDddIgwC192gqutJIYXTuBEEp5A9WCi0x_P4Lo',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNzljMDc2N2MtMTE3Yy00MmRhLTlmYmEtNzc5MTI4N2ZiNzJjIiwiZW1haWwiOiJqcnViamdxd2hzOTk5MTA5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc1LCJleHAiOjE3Mjg1MDk1NzV9.ZqeQBKDddIgwC192gqutJIYXTuBEEp5A9WCi0x_P4Lo
+Check DID response: true
+Check DID response: true
+Generated username: ts55z6m19i731534
+Initiate OTP executed
+Initiate OTP executed
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: 8hnr2tcaxqk343496
+Initiate OTP executed
+Minting done
+Check DID response: true
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["itstrurzebp35i996387","trurzebp35i996387hacker","metatrurzebp35i996387","cointrurzebp35i996387","trurzebp35i996387168","0xtrurzebp35i996387","blocktrurzebp35i996387","trurzebp35i996387pioneer","thetrurzebp35i996387","cybertrurzebp35i996387"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Name recommendations: ["cryptoaq6ev9hs6p934741","aq6ev9hs6p934741601","aq6ev9hs6p934741hodl","aq6ev9hs6p93474169","aq6ev9hs6p934741investor","coinaq6ev9hs6p934741","aq6ev9hs6p934741slinger","itsaq6ev9hs6p934741","cyberaq6ev9hs6p934741","aq6ev9hs6p934741pioneer"]
+Name recommendations: ["vvysfvs9l626567685","vvysfvs9l6265676419","vvysfvs9l6265676478","vvysfvs9l6265676pioneer","vvysfvs9l6265676investor","vvysfvs9l626567660","vvysfvs9l6265676trader","vvysfvs9l6265676227","vvysfvs9l6265676681","vvysfvs9l6265676453"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmZhZGM0YjctOWRhMy00YmM4LTgwMzctMmMwYTljYjhhMWJlIiwiZW1haWwiOiJubDFneGl2NHFxNzE3NTg2QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAwLCJleHAiOjE3Mjg1MDk2MDB9.zm0lZr76g6awS-MpHQrNHqfNuasL_l9_97BLUv3Q-44
+Name recommendations: ["38pe4kpnmf402917509","38pe4kpnmf402917753","nft38pe4kpnmf402917","cyber38pe4kpnmf402917","38pe4kpnmf402917297","38pe4kpnmf402917316","digital38pe4kpnmf402917","38pe4kpnmf402917340","eth38pe4kpnmf402917","38pe4kpnmf402917investor"]
+Create DID response: {"success":true,"response":{"data":{"jobId":"143","did":"jrubjgqwhs999109@tria"}}}
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGU0YmM0NGUtZjU4Yy00MzIyLWI5YzMtZjcwNjZiZjMxZWM1IiwiZW1haWwiOiJlODRnMmJkejRmMTUwODAzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAxLCJleHAiOjE3Mjg1MDk2MDF9.PYAk8iQIG0kY_Jyjz1DuFib8umJGA8oJ--vR5srl0zQ
+Name recommendations: ["itstqgf2ias27201434","tqgf2ias27201434hodl","tqgf2ias27201434slinger","tqgf2ias27201434pioneer","tqgf2ias27201434master","tqgf2ias27201434123","tqgf2ias27201434917","tqgf2ias27201434621","tqgf2ias27201434685","tqgf2ias27201434552"]
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNTUyNGZjNTItZjVkMy00MDIyLThkMzEtYjY1NmNkMjY1Nzg1IiwiZW1haWwiOiI1dzZwOXpwcHF4Mjg0MDM3QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAxLCJleHAiOjE3Mjg1MDk2MDF9.w-7uFv_1ZBKhQdUD9jprnPWWUt-wDKg3oUi8WgSrRss
+Successfully fetched PKPs with relayer
+signature {
+  success: true,
+  signature: '0x953c90c32ffcd481b39405b457542a1974462378d15ff4a3a74d6ad1c3f6fbc246928686c0b714529a5d4b20f128b66d1daf2fa056c852696f4dd8545449666c1b'
+}
+args {
+  did: 'stb7vmmqv535064@tria',
+  evmChainData: {
+    address: '0xe7127Ebb97ae3cE9D04885806d90cb21dcAe0191',
+    message: {
+      address: '0xe7127Ebb97ae3cE9D04885806d90cb21dcAe0191',
+      timestamp: 1727904793351
+    },
+    signature: '0x953c90c32ffcd481b39405b457542a1974462378d15ff4a3a74d6ad1c3f6fbc246928686c0b714529a5d4b20f128b66d1daf2fa056c852696f4dd8545449666c1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWExZGQ4NmItMTQ5Ny00MTU4LThiYWEtMjU2MDU0NjRmMmMxIiwiZW1haWwiOiJzdGI3dm1tcXY1MzUwNjRAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3NzUsImV4cCI6MTcyODUwOTU3NX0.kWK9gX56TSaLqS3mrctjKwMU5GikHyMstglebrkO3oI',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: 'stb7vmmqv535064@tria',
+  evmChainData: {
+    address: '0xe7127Ebb97ae3cE9D04885806d90cb21dcAe0191',
+    message: {
+      address: '0xe7127Ebb97ae3cE9D04885806d90cb21dcAe0191',
+      timestamp: 1727904793351
+    },
+    signature: '0x953c90c32ffcd481b39405b457542a1974462378d15ff4a3a74d6ad1c3f6fbc246928686c0b714529a5d4b20f128b66d1daf2fa056c852696f4dd8545449666c1b'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWExZGQ4NmItMTQ5Ny00MTU4LThiYWEtMjU2MDU0NjRmMmMxIiwiZW1haWwiOiJzdGI3dm1tcXY1MzUwNjRAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3NzUsImV4cCI6MTcyODUwOTU3NX0.kWK9gX56TSaLqS3mrctjKwMU5GikHyMstglebrkO3oI',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWExZGQ4NmItMTQ5Ny00MTU4LThiYWEtMjU2MDU0NjRmMmMxIiwiZW1haWwiOiJzdGI3dm1tcXY1MzUwNjRAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ3NzUsImV4cCI6MTcyODUwOTU3NX0.kWK9gX56TSaLqS3mrctjKwMU5GikHyMstglebrkO3oI
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYWJmZjRiZjYtYjE1ZC00MjQ0LTlhYjUtOTA0NzU0ZDljMGRiIiwiZW1haWwiOiJndXhlMnR4NGFlNjUyMDg0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAxLCJleHAiOjE3Mjg1MDk2MDF9.d1xJXF1gSnK1XLW1iwjdDx5YcmagmuhpvxhzLfihEJ0
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTAxYmY1NWYtZWM1NC00YmMwLWIwNDktM2Q5OGUxZGE1OTlmIiwiZW1haWwiOiJwbTJiZDNzdHMyNzE1N0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMSwiZXhwIjoxNzI4NTA5NjAxfQ.YcPdOxeNbp5JXbyCFXLbhWjJntTQqF4HzECL0mATdrw
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjYwOGZjMjctYzhjZi00NTQ1LThhODItOGE3ZDZiMGYzZDNkIiwiZW1haWwiOiJpbG00NDE0bHBxaDY5ODY5OEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMSwiZXhwIjoxNzI4NTA5NjAxfQ.kzB4eyp_1nV-BNY0NQIIIXclO_W_A47GU_R3LTY_U6A
+Check DID response: true
+Successfully fetched PKPs with relayer
+Generated username: afxk3u18fil831173
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Generated username: 9zs9yone7w59992
+Check DID response: true
+Initiate OTP executed
+Generated username: p1ieh1ny73283713
+Initiate OTP executed
+Generated username: n1h7vwoz4d897043
+Check DID response: true
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Generated username: ykh4rn3m0v693783
+Initiate OTP executed
+Check DID response: true
+Successfully fetched PKPs with relayer
+Generated username: h6yzccyc4f40725
+Check DID response: true
+Check DID response: true
+Initiate OTP executed
+Create DID response: {"success":true,"response":{"data":{"jobId":"138","did":"stb7vmmqv535064@tria"}}}
+Name recommendations: ["nl1gxiv4qq717586trader","ethernl1gxiv4qq717586","nl1gxiv4qq717586203","nl1gxiv4qq717586hodl","digitalnl1gxiv4qq717586","thenl1gxiv4qq717586","nl1gxiv4qq717586enthusiast","nl1gxiv4qq717586754","nl1gxiv4qq717586pioneer","nl1gxiv4qq717586whale"]
+Name recommendations: ["ethere84g2bdz4f150803","e84g2bdz4f150803315","e84g2bdz4f150803enthusiast","chaine84g2bdz4f150803","e84g2bdz4f150803crypto","e84g2bdz4f150803hodl","digitale84g2bdz4f150803","e84g2bdz4f150803200","e84g2bdz4f150803438","e84g2bdz4f150803trader"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZjliY2QyNzgtZTA2NS00MmMwLWE0YjEtNmRhN2QwYTY5MGMzIiwiZW1haWwiOiJwajJ4cTZzMG55aDMwODExMEB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMSwiZXhwIjoxNzI4NTA5NjAxfQ.HH0mOnUeK5RwxaflzRFCFkg1UY2UoJ2NPGbaGxLNZ4I
+Name recommendations: ["block5w6p9zppqx284037","5w6p9zppqx284037pioneer","0x5w6p9zppqx284037","decentral5w6p9zppqx284037","5w6p9zppqx28403719","5w6p9zppqx284037704","5w6p9zppqx284037923","5w6p9zppqx284037154","chain5w6p9zppqx284037","5w6p9zppqx284037wizard"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["digitalguxe2tx4ae652084","guxe2tx4ae652084767","guxe2tx4ae652084slinger","guxe2tx4ae652084enthusiast","defiguxe2tx4ae652084","guxe2tx4ae652084285","blockguxe2tx4ae652084","guxe2tx4ae652084564","guxe2tx4ae652084476","guxe2tx4ae652084275"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Name recommendations: ["defipm2bd3sts27157","pm2bd3sts27157446","pm2bd3sts27157618","pm2bd3sts27157hodl","pm2bd3sts27157956","pm2bd3sts27157whale","pm2bd3sts2715748","pm2bd3sts27157pioneer","cyberpm2bd3sts27157","pm2bd3sts27157trader"]
+Name recommendations: ["decentralilm4414lpqh698698","ethilm4414lpqh698698","ilm4414lpqh698698865","ilm4414lpqh698698slinger","ilm4414lpqh698698enthusiast","ilm4414lpqh698698xpert","0xilm4414lpqh698698","cryptoilm4414lpqh698698","ilm4414lpqh698698442","ilm4414lpqh698698whale"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMjE0OGM1MmEtOTI4Zi00ZDE2LWEyYWYtODQ5YzIzOTNmYWMwIiwiZW1haWwiOiJyNGk3aTFxY2duODk1MTk1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAyLCJleHAiOjE3Mjg1MDk2MDJ9.0vi3FE65n4c0hwuTX3K3OgtPmeJkECH6MdlIJUlDoX8
+Successfully fetched PKPs with relayer
+signature {
+  success: true,
+  signature: '0x1c6531a133f7cf5072d7bfda022a25bd91a6f967005992e161df6d2afca35a15578bf01daae8f77122514b4273f5407634247583d35edf5a8ce3f1138a4dff8b1c'
+}
+args {
+  did: '1wjgx9iovh834675@tria',
+  evmChainData: {
+    address: '0xE7505Cc1F7d733199c05880b83dEae555cC7EcF3',
+    message: {
+      address: '0xE7505Cc1F7d733199c05880b83dEae555cC7EcF3',
+      timestamp: 1727904793599
+    },
+    signature: '0x1c6531a133f7cf5072d7bfda022a25bd91a6f967005992e161df6d2afca35a15578bf01daae8f77122514b4273f5407634247583d35edf5a8ce3f1138a4dff8b1c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBhNGU4ZGYtMTM3Ni00Njk2LWIyZjktMGM0NWQ2YmQwODcwIiwiZW1haWwiOiIxd2pneDlpb3ZoODM0Njc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc2LCJleHAiOjE3Mjg1MDk1NzZ9.ajsxVMsJnKWgJrl0UqCCqoS33_xKrpagdBrZeClVZjE',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+DID Data Generated
+{
+  did: '1wjgx9iovh834675@tria',
+  evmChainData: {
+    address: '0xE7505Cc1F7d733199c05880b83dEae555cC7EcF3',
+    message: {
+      address: '0xE7505Cc1F7d733199c05880b83dEae555cC7EcF3',
+      timestamp: 1727904793599
+    },
+    signature: '0x1c6531a133f7cf5072d7bfda022a25bd91a6f967005992e161df6d2afca35a15578bf01daae8f77122514b4273f5407634247583d35edf5a8ce3f1138a4dff8b1c'
+  },
+  nonEvmChainsData: [],
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBhNGU4ZGYtMTM3Ni00Njk2LWIyZjktMGM0NWQ2YmQwODcwIiwiZW1haWwiOiIxd2pneDlpb3ZoODM0Njc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc2LCJleHAiOjE3Mjg1MDk1NzZ9.ajsxVMsJnKWgJrl0UqCCqoS33_xKrpagdBrZeClVZjE',
+  fromClientId: 'e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b'
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBhNGU4ZGYtMTM3Ni00Njk2LWIyZjktMGM0NWQ2YmQwODcwIiwiZW1haWwiOiIxd2pneDlpb3ZoODM0Njc1QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0Nzc2LCJleHAiOjE3Mjg1MDk1NzZ9.ajsxVMsJnKWgJrl0UqCCqoS33_xKrpagdBrZeClVZjE
+Successfully fetched PKPs with relayer
+Check DID response: true
+Minting done
+Running getPKP
+getCreateDIDData...
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZmY1ZjRkNDMtNWY2MC00MGI4LWFjZDYtNjEwMmQ2Y2FhZWNkIiwiZW1haWwiOiJ1MGpsZGJuc3ZvNDU0MTMyQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAyLCJleHAiOjE3Mjg1MDk2MDJ9.rrbqjCjD5QYf964jGr0kd-aQ0eLPWoyL-JKniDw-bdw
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: 9cujgckiof387418
+Generated username: rj2oabyiyv318693
+Initiate OTP executed
+Initiate OTP executed
+Generated username: jd2tlkw3p6307459
+Successfully fetched PKPs with relayer
+Check DID response: true
+Generated username: 2p8qbq7nnz322183
+Minting done
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Initiate OTP executed
+Generated username: 0vl6q6t3mc24134
+Successfully fetched PKPs with relayer
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Generated username: ncgic819b6310184
+Name recommendations: ["pj2xq6s0nyh308110wizard","pj2xq6s0nyh308110whale","pj2xq6s0nyh308110trader","cryptopj2xq6s0nyh308110","pj2xq6s0nyh30811073","pj2xq6s0nyh3081103","pj2xq6s0nyh308110638","pj2xq6s0nyh308110655","metapj2xq6s0nyh308110","pj2xq6s0nyh308110hodl"]
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: f5epiif3t4469790
+Create DID response: {"success":true,"response":{"data":{"jobId":"140","did":"1wjgx9iovh834675@tria"}}}
+Initiate OTP executed
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmU2ZDI4MDMtYWI4OC00MDMyLTkyYTEtY2I2NWQzMTkwMTYxIiwiZW1haWwiOiJ1cmR0OXBxdW0yMzM3NzM5QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAyLCJleHAiOjE3Mjg1MDk2MDJ9.sFxhOe6VNpADwNyAWbfuQTxR2Ny7hjG_32tLj_xaC5g
+Name recommendations: ["r4i7i1qcgn895195xpert","r4i7i1qcgn895195354","r4i7i1qcgn895195pioneer","ther4i7i1qcgn895195","r4i7i1qcgn895195461","r4i7i1qcgn895195trader","r4i7i1qcgn895195210","blockr4i7i1qcgn895195","digitalr4i7i1qcgn895195","r4i7i1qcgn895195820"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjc2N2U1NmUtZDZkMS00MWZhLWEyN2QtZTEyNjUzZDI2YmQ0IiwiZW1haWwiOiJ0czU1ejZtMTlpNzMxNTM0QHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAyLCJleHAiOjE3Mjg1MDk2MDJ9.sHSMjmcXZ4tXaU6UbUVjlXWSWtBL3grZQoSiNbxnWR8
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYTFlNzgzOTMtYzhjMS00N2VjLWFlOTMtNDVmNTcyZDdhMDAwIiwiZW1haWwiOiI2dHc2aTZ4YnZwMjcwMTAzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAyLCJleHAiOjE3Mjg1MDk2MDJ9.OwwuRl-eCNg3TOFziH5xAuQ3lCI8ca3oQBxYscCA0so
+Minting done
+Running getPKP
+getCreateDIDData...
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjAwMGM0OGYtNTQ3ZC00ZjQwLThiMzgtM2IzOGRmMGQwOTk4IiwiZW1haWwiOiJhZnhrM3UxOGZpbDgzMTE3M0B5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMywiZXhwIjoxNzI4NTA5NjAzfQ.iFGQNmQjbx4Oxh8XztdNocNnWUsKBdquDfrw3IGJyHo
+Name recommendations: ["0xu0jldbnsvo454132","u0jldbnsvo45413260","defiu0jldbnsvo454132","u0jldbnsvo454132144","u0jldbnsvo454132master","coinu0jldbnsvo454132","u0jldbnsvo454132whale","u0jldbnsvo45413235","u0jldbnsvo45413230","u0jldbnsvo454132wizard"]
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZjZhY2QxMTEtMjA5MC00MWMyLTgxYjAtYjI5ODM5ZjQ4NWJhIiwiZW1haWwiOiI4aG5yMnRjYXhxazM0MzQ5NkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDgwMiwiZXhwIjoxNzI4NTA5NjAyfQ.coyfZhy90UTxs9QXKsktEZve4DAv67WO63nLqQK-MuM
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiY2E1MzNhOTktYzQyNy00NjMxLTk0OGUtN2U4YjA3ZjA0NDE3IiwiZW1haWwiOiJuMWg3dndvejRkODk3MDQzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAzLCJleHAiOjE3Mjg1MDk2MDN9.JXa1yDY79nIjUb4fjMt2yrcSTAyyTUYlOw4AFBK0M5s
+Successfully fetched PKPs with relayer
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNDc1NTU2OWEtMjlhZi00YzkxLWFhNDYtYWMyOGI4OWU2YTc3IiwiZW1haWwiOiJwMWllaDFueTczMjgzNzEzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAzLCJleHAiOjE3Mjg1MDk2MDN9.FaFwYLFUvCWhoZeG-3cedGIoipsHSwj-mssSeYslbSA
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiN2JjMTdhMjktZGZhNy00M2I2LWFmMWYtMzZhY2Y1OWE4MjI0IiwiZW1haWwiOiJ5a2g0cm4zbTB2NjkzNzgzQHlvcG1haWwuY29tIiwiaWF0IjoxNzI3OTA0ODAzLCJleHAiOjE3Mjg1MDk2MDN9._k0HcEGIxK8jJtG-RzQ-xAUIeWRiY-01tQlv225Tet4
+Successfully fetched PKPs with relayer
+Check DID response: true
+Access Token acquired from Verify OTP: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNDVkYWU2ZTAtOGUwNy00NzJkLWE1NjMtNzg5ZTc4NTY4OTkzIiwiZW1haWwiOiI5enM5eW9uZTd3NTk5OTJAeW9wbWFpbC5jb20iLCJpYXQiOjE3Mjc5MDQ4MDMsImV4cCI6MTcyODUwOTYwM30.3pGnzc3O5Cd1I2Oj88d5CFfSr0GOet_bzqtf2LPDb9U
+Check DID response: true
+Generated username: pn7dlxqu12442470
+Minting done
+Running getPKP
+getCreateDIDData...
+Initiate OTP executed
+Successfully fetched PKPs with relayer
+Minting done
+Generated username: k7luepfimj474577
+Running getPKP
+getCreateDIDData...
+Minting done
+Running getPKP
+getCreateDIDData...
+Generated username: 8vkrffn0ltf617208
+Initiate OTP executed
+Name recommendations: ["urdt9pqum2337739487","urdt9pqum2337739hacker","urdt9pqum233773945","blockurdt9pqum2337739","urdt9pqum2337739investor","urdt9pqum2337739hodl","urdt9pqum2337739wizard","metaurdt9pqum2337739","urdt9pqum2337739396","0xurdt9pqum2337739"]
+Generated username: bisnp9zzry698745
+Check DID response: true
+Check DID response: true
+Initiate OTP executed
+Initiate OTP executed
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0x70C191DaBb0D666a452C1800b12caF3487f5e17c',
+    id: '21864a14-33b4-45ed-95ed-c768a2e71c44',
+    generatedPublicKey: '0x04273357cbfb5aa539eeb13554c1a268caa29ac726476185477fbbc329b35a5c7875076a7127617e3f84bb06ebed80bd0bf7999b4561129a5065eb876a5ea236f4'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0x70C191DaBb0D666a452C1800b12caF3487f5e17c',
+    id: 'daa840d4-46d7-43c1-9a9f-dc8c54eee100',
+    generatedPublicKey: 'BwUZLsj9tVyn7PGCommTjuiCgSARFJSzzCDcWtuu251c'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0x70C191DaBb0D666a452C1800b12caF3487f5e17c',
+    id: '21864a14-33b4-45ed-95ed-c768a2e71c44',
+    generatedPublicKey: '0x04273357cbfb5aa539eeb13554c1a268caa29ac726476185477fbbc329b35a5c7875076a7127617e3f84bb06ebed80bd0bf7999b4561129a5065eb876a5ea236f4'
+  }
+]
+Check DID response: true
+Generated username: u1b6521nu7236741
+generatedWrappedKeys [
+  {
+    network: 'evm',
+    pkpAddress: '0xe80F6a2C0c8612c411506A4569622f2535C31686',
+    id: 'b6d19c4e-4435-4d46-93cd-f10a890cc69d',
+    generatedPublicKey: '0x048f14a7d0515b52a46f5c4bb6062ca7e8c1ec8932c4c594352964238827f91d09d695b81bfeb84528434a536bfc0572d10fa2bea1a1f69f3a28545bf6049a772e'
+  },
+  {
+    network: 'solana',
+    pkpAddress: '0xe80F6a2C0c8612c411506A4569622f2535C31686',
+    id: '73e1c34a-bc34-4633-9847-253e51486d91',
+    generatedPublicKey: '832qc22o16sYM3PorHxC5ey2EedHfVMaTjbkTTwreUAN'
+  }
+]
+wrappedKey [
+  {
+    network: 'evm',
+    pkpAddress: '0xe80F6a2C0c8612c411506A4569622f2535C31686',
+    id: 'b6d19c4e-4435-4d46-93cd-f10a890cc69d',
+    generatedPublicKey: '0x048f14a7d0515b52a46f5c4bb6062ca7e8c1ec8932c4c594352964238827f91d09d695b81bfeb84528434a536bfc0572d10fa2bea1a1f69f3a28545bf6049a772e'
+  }
+]
+Initiate OTP executed
+Check DID response: true
+AxiosError: Request failed with status code 500
+    at settle (/Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/node_modules/axios/dist/node/axios.cjs:2015:12)
+    at IncomingMessage.handleStreamEnd (/Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/node_modules/axios/dist/node/axios.cjs:3131:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/node_modules/axios/dist/node/axios.cjs:4262:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LitService.generateSessionSig (/Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/lit.js:12:30)
+    at async getCreateDIDData (/Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/createDIDData.js:18:26) {
+  code: 'ERR_BAD_RESPONSE',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'User-Agent': 'axios/1.7.3',
+      'Content-Length': '506',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'https://lit.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature',
+    data: '{"authMethod":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODRlNzFlMzYtZTc5ZS00MjNjLTk5Y2EtMDNmNGMwM2RiYzNlIiwiZW1haWwiOiJkdWozOXh6MDUxZjU2NjE0MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NywiZXhwIjoxNzI4NTA5NTg3fQ.j2UHE3_32ya_rJtTx5B_1uWF9P8NmWihxlnLuB-r8kk","authMethodType":"0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482"},"pubKey":"0x048613b42a37876c4a10fdd6ecbc25f8983ebbe247edd413c6ee18ef7bb18df26dc60b2dc6cc33a6ebedea8b64f9e50b63c49be6264a1bf62899c3941e87a51510"}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '506',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'lit.tria.so',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'lit.tria.so',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      autoSelectFamilyAttemptedAddresses: [Array],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 44392,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 10015,
+        [Symbol(triggerId)]: 10013
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /api/v1/lit/v6/wrapped-key/generate-session-signature HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'User-Agent: axios/1.7.3\r\n' +
+      'Content-Length: 506\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: lit.tria.so\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 35,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/v1/lit/v6/wrapped-key/generate-session-signature',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 500,
+      statusMessage: 'Internal Server Error',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://lit.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 28,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'lit.tria.so',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 506,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://lit.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 500,
+    statusText: 'Internal Server Error',
+    headers: Object [AxiosHeaders] {
+      date: 'Wed, 02 Oct 2024 21:33:24 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '44',
+      connection: 'keep-alive',
+      'x-powered-by': 'Express',
+      vary: 'Origin',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'dapp',
+      etag: 'W/"2c-BllQpqkX6+hcYleosIzaymD3XoM"',
+      'cf-cache-status': 'DYNAMIC',
+      'report-to': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=g27%2FBOHLSK4UfQXF9P%2BIm3%2FAQIkY7uxDgd%2BIIY3GlXv2RvhW5jf%2FZCiZSw2DssPc5EStzNZc6EzHWoM5P%2Fx9S%2Budlg3c55DP3q2FGYMug%2BOLut7pGHJUxCdtw9EDmunDThf2AKehAAHE"}],"group":"cf-nel","max_age":604800}',
+      nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}',
+      server: 'cloudflare',
+      'cf-ray': '8cc7cf4dedf0a72f-DEL'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'post',
+      url: 'https://lit.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature',
+      data: '{"authMethod":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiODRlNzFlMzYtZTc5ZS00MjNjLTk5Y2EtMDNmNGMwM2RiYzNlIiwiZW1haWwiOiJkdWozOXh6MDUxZjU2NjE0MkB5b3BtYWlsLmNvbSIsImlhdCI6MTcyNzkwNDc4NywiZXhwIjoxNzI4NTA5NTg3fQ.j2UHE3_32ya_rJtTx5B_1uWF9P8NmWihxlnLuB-r8kk","authMethodType":"0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482"},"pubKey":"0x048613b42a37876c4a10fdd6ecbc25f8983ebbe247edd413c6ee18ef7bb18df26dc60b2dc6cc33a6ebedea8b64f9e50b63c49be6264a1bf62899c3941e87a51510"}'
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '506',
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'POST /api/v1/lit/v6/wrapped-key/generate-session-signature HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'User-Agent: axios/1.7.3\r\n' +
+        'Content-Length: 506\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: lit.tria.so\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/v1/lit/v6/wrapped-key/generate-session-signature',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'lit.tria.so',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: { success: true, message: 'read ECONNRESET' }
+  }
+}
+worker error, id: 1 ReferenceError [Error]: res is not defined
+    at /Users/jatinsmac/Desktop/Tria/LoadTesting/LIT/processor.js:164:44
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

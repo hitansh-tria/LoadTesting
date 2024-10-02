@@ -133,13 +133,13 @@ module.exports = {
       });
   },
   getCreateDIDData: (context, events, done) => {
-    const litNodeClient = new LitNodeClientNodeJs({
-      alertWhenUnauthorized: false,
-      //litNetwork: "datil-test",
-      rpcUrl:'https://rpc-chronicle-yellowstone-testnet-9qgmzfcohk.t.conduit.xyz/EQDCLvbyg7eqh3BD4Zh3wo9ySG2RSRkWZ',
-      litNetwork: 'datil',
-      debug: false,
-    });
+    // const litNodeClient = new LitNodeClientNodeJs({
+    //   alertWhenUnauthorized: false,
+    //   //litNetwork: "datil-test",
+    //   rpcUrl:'https://rpc-chronicle-yellowstone-testnet-9qgmzfcohk.t.conduit.xyz/EQDCLvbyg7eqh3BD4Zh3wo9ySG2RSRkWZ',
+    //   litNetwork: 'datil',
+    //   debug: false,
+    // });
 
     const authMethod = {
       accessToken: context.vars.accessToken,
@@ -148,30 +148,30 @@ module.exports = {
     };
     const triaName = `${context.vars.username}@tria`;
 
-    litNodeClient.connect().then(() => {
+    // litNodeClient.connect().then(() => {
       getCreateDIDData(
         triaName,
         context.vars.PKPData,
         authMethod,
-        litNodeClient
+        // litNodeClient
       )
         .then((DIDData) => {
           context.vars.DIDData = DIDData;
           done();
         })
         .catch((error) => {
-          const res = Array.from(litNodeClient.getRequestIds());
+          // const res = Array.from(litNodeClient.getRequestIds());
           const requestId = JSON.stringify(res[res.length - 1]);
           logErrorToFile(error, requestId);
           done(new Error("CreateDID Data not successful. Ending scenario."));
         });
-    })
-    .catch((error) => {
-          const res = Array.from(litNodeClient.getRequestIds());
-          const requestId = JSON.stringify(res[res.length - 1]);
-          logErrorToFile(error, requestId);
-          done(new Error("LITConnect not successful. Ending scenario."));
-        });
+    // })
+    // .catch((error) => {
+    //       const res = Array.from(litNodeClient.getRequestIds());
+    //       const requestId = JSON.stringify(res[res.length - 1]);
+    //       logErrorToFile(error, requestId);
+    //       done(new Error("LITConnect not successful. Ending scenario."));
+    //     });
   },
   captureResponse: (requestParams, response, context, ee, next) => {
     const statusCode = response.statusCode;

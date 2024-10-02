@@ -5,7 +5,7 @@ const {
 } = require("@lit-protocol/auth-helpers");
 
 const { customAuthLAIPFS, customAuthLAIPFSBse64Code } = require("./constants");
-const { relayerUrl } = require("./../constant");
+const { relayerUrl, litProxy } = require("./../constant");
 const axios = require("axios");
 
 const getSessionSigForLitAction = async ({
@@ -17,7 +17,7 @@ const getSessionSigForLitAction = async ({
   const {
     data: { capacityDelegationAuthSig },
   } = await axios.post(
-    `https://lit.development.tria.so/api/v1/lit/v6/delegate-auth-sig`,
+    `${litProxy}/api/v1/lit/v6/delegate-auth-sig`,
     {
       delegateeAddress: pkp.ethAddress,
     }
