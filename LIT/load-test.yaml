@@ -41,6 +41,8 @@ scenarios:
           capture:
             - json: "$.accessToken"
               as: "accessToken"
+            - json: "$.queueId"
+              as: "queueId"
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
       # - function: "connectSocket" # Call the function to connect the socket

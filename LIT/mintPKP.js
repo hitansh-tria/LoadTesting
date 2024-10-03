@@ -7,7 +7,7 @@ const { relayerUrl } = require("./constant");
 const { ethers } = require("ethers");
 const { pullTxHashByQueueId } = require("./utils/utils");
 
-const mintPKP = async (authMethod) => {
+const mintPKP = async (queueId,authMethod) => {
   try {
     // console.log(authMethod);
     const provider = new Email({
@@ -24,10 +24,11 @@ const mintPKP = async (authMethod) => {
       permittedAuthMethodScopes: [[AuthMethodScope.SignAnything]],
     };
 
-    let { queueId, uuid } = await provider.mintPKPThroughRelayer(
-      authMethod,
-      options
-    );
+    // let { queueId, uuid } = await provider.mintPKPThroughRelayer(
+    //   authMethod,
+    //   options
+    // );
+    
     //const { txHash: requestId, queueId: queueIdFromSockets } = await waitForSocketResponse(socket,queueId);
     const { txHash: requestId, queueId: mintPKPqueueIdFromSockets } =
       await pullTxHashByQueueId(queueId);
@@ -42,7 +43,7 @@ const mintPKP = async (authMethod) => {
       pkpPublicKey,
       pkpTokenId,
       error,
-    } = await provider.relay.pollRequestUntilTerminalState(requestId, uuid);
+    } = await provider.relay.pollRequestUntilTerminalState(requestId);
     if (status !== "Succeeded") {
       throw new Error("Minting failed");
     }

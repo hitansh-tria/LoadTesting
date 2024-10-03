@@ -121,8 +121,8 @@ module.exports = {
       // userOauthId: "d74p2b24zl@smykwb.com",
       // userKey: "d74p2b24zl@smykwb.com",
     };
-
-    mintPKP(authMethod)
+    let queueId =  context.vars.queueId;
+    mintPKP(queueId,authMethod)
       .then((PKPData) => {
         context.vars.PKPData = PKPData;
         done();

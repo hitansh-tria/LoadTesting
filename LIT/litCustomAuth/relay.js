@@ -87,7 +87,6 @@ class LitRelay {
    */
   async pollRequestUntilTerminalState(
     requestId,
-    uuid,
     pollInterval = 15000,
     maxPollCount = 20
   ) {
@@ -95,7 +94,7 @@ class LitRelay {
     try {
       for (let i = 0; i < maxPollCount; i++) {
          response = await axios.get(
-          `${this.relayUrl}/auth/status/${requestId}?uuid=${uuid}`,
+          `${this.relayUrl}/auth/status/${requestId}`,
           {
             headers: {
               'api-key': this.relayApiKey,
