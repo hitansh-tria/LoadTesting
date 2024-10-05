@@ -23,15 +23,24 @@ function writeResponse(url, statusCode, body) {
   fs.writeFileSync(loc, csvRow, { flag: "a" });
 }
 
-function logErrorToFile(error, requestId) {
-//  const logFilePath = path.join(__dirname, 'error.log');
-  const logFilePath = errPath;
-  const timestamp = new Date().toISOString();
-  const errorMessage = `${requestId} - ${timestamp} - ${error.message} - ${error.stack}\n`;
+// function logErrorToFile(error, requestId) {
+// //  const logFilePath = path.join(__dirname, 'error.log');
+//   const logFilePath = errPath;
+//   const timestamp = new Date().toISOString();
+//   const errorMessage = `${requestId} - ${timestamp} - ${error.message} - ${error.stack}\n`;
 
-  fs.appendFile(logFilePath, errorMessage, (err) => {
+//   fs.appendFile(logFilePath, errorMessage, (err) => {
+//     if (err) {
+//       console.error('Failed to write error to log file:', err);
+//     }
+//   });
+// }
+
+function logErrorToFile(url, statusCode, message) {
+  const logMessage = `${new Date().toISOString()} | URL: ${url} | Status: ${statusCode} | Error: ${message}\n`;
+  fs.appendFile(logFilePath, logMessage, (err) => {
     if (err) {
-      console.error('Failed to write error to log file:', err);
+      console.error('Failed to write to log file', err);
     }
   });
 }
@@ -129,6 +138,12 @@ module.exports = {
       })
       .catch((error) => {
         console.log("Blocker ===== Processor Error", error);
+        const requestUrl = error.config ? error.config.url : 'Unknown URL';
+        const statusCode = error.response ? error.response.status : 'No status code';
+        const errorMessage = error.message || 'Unknown error';
+    
+        // Log the error details
+        logErrorToFile(requestUrl, statusCode, errorMessage);
         done(new Error(`"MINT PKP not successful. Ending scenario. ${error.message}`));
       });
   },
@@ -160,6 +175,12 @@ module.exports = {
           done();
         })
         .catch((error) => {
+          const requestUrl = error.config ? error.config.url : 'Unknown URL';
+          const statusCode = error.response ? error.response.status : 'No status code';
+          const errorMessage = error.message || 'Unknown error';
+      
+          // Log the error details
+          logErrorToFile(requestUrl, statusCode, errorMessage);
           // const res = Array.from(litNodeClient.getRequestIds());
           //const requestId = JSON.stringify(res[res.length - 1]);
           //logErrorToFile(error, requestId);
