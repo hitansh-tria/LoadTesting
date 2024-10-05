@@ -17,7 +17,7 @@ const { relayerUrl } = require("./constant");
 const s3 = new AWS.S3();
 const bucketName = "artilleryio-test-data-741878071414-us-west-1";
 //const objectKey = 'responses.csv';
-
+const logFilePath = path.join(__dirname, 'error_log.txt');
 function writeResponse(url, statusCode, body) {
   const csvRow = `"${url}","${statusCode}","${JSON.stringify(body)}"\n`;
   fs.writeFileSync(loc, csvRow, { flag: "a" });
