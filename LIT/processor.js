@@ -36,8 +36,8 @@ function writeResponse(url, statusCode, body) {
 //   });
 // }
 
-function logErrorToFile(url, statusCode, message, data) {
-  const logMessage = `${new Date().toISOString()} | URL: ${url} | Status: ${statusCode} | Error: ${message} | Request Data: ${data}\n`;
+function logErrorToFile(url, statusCode, message, requestId) {
+  const logMessage = `${new Date().toISOString()} | URL: ${url} | Status: ${statusCode} | Error: ${message} | Request ID: ${requestId}\n`;
   fs.appendFile(logFilePath, logMessage, (err) => {
     if (err) {
       console.error('Failed to write to log file', err);
@@ -178,9 +178,17 @@ module.exports = {
           const requestUrl = error.config ? error.config.url : 'Unknown URL';
           const statusCode = error.response ? error.response.status : 'No status code';
           const errorMessage = error.message || 'Unknown error';
-      
+          let requestId = 'No requestId';
+          if (error.config && error.config.data) {
+            try {
+              const requestData = JSON.parse(error.config.data); // Assuming the data is in JSON format
+              requestId = requestData.requestId || 'No requestId'; // Extract requestId if available
+            } catch (parseError) {
+              console.error('Failed to parse request data', parseError);
+            }
+          }
           // Log the error details
-          logErrorToFile(requestUrl, statusCode, errorMessage);
+          logErrorToFile(requestUrl, statusCode, errorMessage, requestId);
           // const res = Array.from(litNodeClient.getRequestIds());
           //const requestId = JSON.stringify(res[res.length - 1]);
           //logErrorToFile(error, requestId);

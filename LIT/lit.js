@@ -9,8 +9,10 @@ class LitService {
 
     async generateSessionSig(payload) {
         try {
+            const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
             const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/generate-session-signature`, {
-                ...payload
+                ...payload,
+                requestId: randomEightDigitNumber
             });
             return data;
         } catch (err) {
@@ -31,8 +33,10 @@ class LitService {
 
     async generateWrappedKeys(payload) {
         try {
+            const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
             const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/generate`, {
-                ...payload
+                ...payload,
+                requestId: randomEightDigitNumber
             });
             return data;
         } catch (err) {
@@ -42,8 +46,10 @@ class LitService {
 
     async signMessageWithWrappedKey(payload) {
         try {
+            const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
             const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/sign-message`, {
-                ...payload
+                ...payload,
+                requestId: randomEightDigitNumber
             });
             return data;
         } catch (err) {
