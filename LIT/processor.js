@@ -36,8 +36,8 @@ function writeResponse(url, statusCode, body) {
 //   });
 // }
 
-function logErrorToFile(url, statusCode, message) {
-  const logMessage = `${new Date().toISOString()} | URL: ${url} | Status: ${statusCode} | Error: ${message}\n`;
+function logErrorToFile(url, statusCode, message, data) {
+  const logMessage = `${new Date().toISOString()} | URL: ${url} | Status: ${statusCode} | Error: ${message} | Request Data: ${data}\n`;
   fs.appendFile(logFilePath, logMessage, (err) => {
     if (err) {
       console.error('Failed to write to log file', err);
@@ -141,9 +141,9 @@ module.exports = {
         const requestUrl = error.config ? error.config.url : 'Unknown URL';
         const statusCode = error.response ? error.response.status : 'No status code';
         const errorMessage = error.message || 'Unknown error';
-    
+        const requestData = error.config && error.config.data ? error.config.data : 'No request data';
         // Log the error details
-        logErrorToFile(requestUrl, statusCode, errorMessage);
+        logErrorToFile(requestUrl, statusCode, errorMessage, requestData);
         done(new Error(`"MINT PKP not successful. Ending scenario. ${error.message}`));
       });
   },
