@@ -75,7 +75,7 @@ module.exports = {
   getRandomUsername: (context, events, done) => {
     const randomName = (Math.random() + 1).toString(36).substring(2);
     const randomNum = Math.floor(Math.random() * 1000000);
-    context.vars.username = `${randomName}${randomNum}`;
+    context.vars.username = `load0x${randomName}${randomNum}`;
     return done();
   },
   connectSocket: function (context, events, done) {
