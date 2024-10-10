@@ -41,14 +41,17 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
     });
 
     const {
-      generatedPrivateKey: {
+      generateEncryptedPrivateKey: {
         generatedPublicKey,
         id: evmId,
         pkpAddress,
-        signedMessage: { signature: evmSignature }
+        signMessage: { signature: evmSignature }
       }
     } = evmResult
-    const {generatedPublicKey: {id: solanaId}, signedMessage: { signature: solanaSignature }} = solanaResult;
+    const {
+      generateEncryptedPrivateKey: {generatedPublicKey: {id: solanaId}},
+      signMessage: {signature: solanaSignature}
+    } = solanaResult;
 
     const wrappedEthAddress = await ethers.utils.computeAddress(generatedPublicKey);
     if(pkpAddress !== pkpData.ethAddress) {
