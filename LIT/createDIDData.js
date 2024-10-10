@@ -1,10 +1,7 @@
-const { api, config } = require("@lit-protocol/wrapped-keys");
-const { litActionRepository } = require("@lit-protocol/wrapped-keys-lit-actions");
+const {api} = require("@lit-protocol/wrapped-keys");
 const ethers = require("ethers");
-const {generatePrivateKey, signMessageWithEncryptedKey} = api;
+const {batchGeneratePrivateKeys} = api;
 const {getSessionSigForLitAction} = require("./utils/utils");
-
-//config.setLitActionsCode(litActionRepository);
 
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {
@@ -40,13 +37,16 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
       ]
     });
 
+    console.log('evmResult', evmResult);
+    console.log('solanaResult', solanaResult);
+
     const {
       generateEncryptedPrivateKey: {
         generatedPublicKey,
         id: evmId,
         pkpAddress,
-        signMessage: { signature: evmSignature }
-      }
+      },
+      signMessage: {signature: evmSignature}
     } = evmResult
     const {
       generateEncryptedPrivateKey: {generatedPublicKey: {id: solanaId}},
@@ -54,22 +54,22 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
     } = solanaResult;
 
     const wrappedEthAddress = await ethers.utils.computeAddress(generatedPublicKey);
-    if(pkpAddress !== pkpData.ethAddress) {
+    if (pkpAddress !== pkpData.ethAddress) {
       throw new Error('pkpAddress is not equal to ethAddress');
     }
     const evmAddress = wrappedEthAddress;
 
     console.log("signatures", {evmSignature, solanaSignature});
     console.log("ids", {evmId, solanaId});
-    //const recoverAddress = ethers.utils.verifyMessage(evmsignature, JSON.stringify(evmMessage));
+    const recoverAddress = ethers.utils.verifyMessage(JSON.stringify(message), evmSignature);
 
-    // if(recoverAddress !== wrappedEthAddress) {
-    //   throw new Error('recoverAddress is not equal to wrappedEthAddress');
-    // }
+    if(recoverAddress !== wrappedEthAddress) {
+      throw new Error('recoverAddress is not equal to wrappedEthAddress');
+    }
     const evmChainData = {
       address: evmAddress,
-      message: evmMessage,
-      signature:evmSignature,
+      message,
+      signature: evmSignature,
     };
 
     const args = {
@@ -79,7 +79,7 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
       accessToken: authMethod.accessToken,
       fromClientId: "e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b"
     };
-    console.log("args",args);
+    console.log("args", args);
     return args;
   } catch (err) {
     console.log(err);
@@ -87,4 +87,4 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
   }
 };
 
-module.exports= {getCreateDIDData}
+module.exports = {getCreateDIDData}
