@@ -1,9 +1,9 @@
 config:
   target: "https://api.test.tria.so"
   phases:
-    - duration: 60
+    - duration: 1
       arrivalRate: 1
-      rampTo: 10
+      rampTo: 1
 #      arrivalCount: 1
   processor: "./processor.js"
   variables:

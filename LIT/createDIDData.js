@@ -35,46 +35,53 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
     
     // <---this--->
     const startTime2 = Date.now(); // Start time measurement
-    const { generatedWrappedKeys } = await litService.generateWrappedKeys({ chains: wrappedKeySupportedChain, sessionSig });
-    logExecutionTime('generateWrappedKeys', startTime2); // Log execution time
-
-    console.log("generatedWrappedKeys", generatedWrappedKeys);
-    const network = "evm";
-    let wrappedKey = generatedWrappedKeys.filter(
-      (wrappedKey) => wrappedKey.network === network
-    );
-    console.log("wrappedKey", wrappedKey);
-    
-    const wrappedEthAddress = await ethers.utils.computeAddress(wrappedKey[0].generatedPublicKey);
-    const evmAddress = wrappedEthAddress;
     const evmMessage = {
-      address: evmAddress,
+      address: "This sign for create DID",
       timestamp: new Date().getTime(),
     };
+    const {generatedPublicKey, evmSignature} = await litService.bathcGenerateWrappedKeys({sessionSig, message: evmMessage});
+    console.log({generatedPublicKey, evmSignature});
+    // const { generatedWrappedKeys } = await litService.generateWrappedKeys({ chains: wrappedKeySupportedChain, sessionSig });
+    logExecutionTime('generateWrappedKeys', startTime2); // Log execution time
+
+    // console.log("generatedWrappedKeys", generatedWrappedKeys);
+    // const network = "evm";
+    // let wrappedKey = generatedWrappedKeys.filter(
+    //   (wrappedKey) => wrappedKey.network === network
+    // );
+    // console.log("wrappedKey", wrappedKey);
+    
+    // const wrappedEthAddress = await ethers.utils.computeAddress(wrappedKey[0].generatedPublicKey);
+    const wrappedEthAddress = await ethers.utils.computeAddress(generatedPublicKey);
+    const evmAddress = wrappedEthAddress;
+    // const evmMessage = {
+    //   address: evmAddress,
+    //   timestamp: new Date().getTime(),
+    // };
     
     // <---this--->
-    const startTime3 = Date.now(); // Start time measurement
-    const evmsignaturePromise = litService.signMessageWithWrappedKey({
-      message: JSON.stringify(evmMessage),
-      network: 'evm',
-      wrappedKeyId: wrappedKey[0].id,
-      sessionSig
-    });
+    // const startTime3 = Date.now(); // Start time measurement
+    // const evmsignaturePromise = litService.signMessageWithWrappedKey({
+    //   message: JSON.stringify(evmMessage),
+    //   network: 'evm',
+    //   wrappedKeyId: wrappedKey[0].id,
+    //   sessionSig
+    // });
     // const solanaSignaturePromise = litService.signMessageWithWrappedKey({
     //   message: JSON.stringify(evmMessage),
     //   network: 'solana',
     //   wrappedKeyId: generatedWrappedKeys[1].id,
     //   sessionSig
     // });
-    const [evmsignature, solanaSignature] = await Promise.all([evmsignaturePromise]);
-    logExecutionTime('signMessageWithWrappedKey', startTime3); // Log execution time
+    // const [evmsignature, solanaSignature] = await Promise.all([evmsignaturePromise]);
+    // logExecutionTime('signMessageWithWrappedKey', startTime3); // Log execution time
 
-    console.log("signature", evmsignature);
+    // console.log("signature", evmsignature);
     
     const evmChainData = {
       address: evmAddress,
       message: evmMessage,
-      signature: evmsignature.signature,
+      signature: evmSignature,
     };
 
     const args = {

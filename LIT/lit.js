@@ -54,7 +54,19 @@ class LitService {
             throw err;
         }
     }
-
+    async bathcGenerateWrappedKeys(payload) {
+        try {
+            const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
+            const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/batch-generation`, {
+                ...payload,
+                requestId: randomEightDigitNumber
+            });
+            return data;
+        } catch (err) {
+            throw err;
+        }
+    }
+    
     async signMessageWithWrappedKey(payload) {
         try {
             const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
