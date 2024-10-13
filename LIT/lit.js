@@ -20,11 +20,22 @@ class LitService {
         }
     }
 
-    async getWrappedKeys(payload) {
+    async generateSessionSig(payload) {
         try {
-            const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/get`, {
-                ...payload
+            const randomEightDigitNumber = Math.floor(10000000 + Math.random() * 90000000);
+            const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/generate-session-signature`, {
+                ...payload,
+                requestId: randomEightDigitNumber
             });
+            return data;
+        } catch (err) {
+            throw err;
+        }
+    }
+
+    async delayResponse() {
+        try {
+            const { data } = await axios.post(`${litProxy}/api/v1/lit/delayed-response`);
             return data;
         } catch (err) {
             throw err;
