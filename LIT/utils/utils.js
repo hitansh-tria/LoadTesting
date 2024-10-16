@@ -166,4 +166,6 @@ const pollRequestUntilTerminalState = async (mintPKPTxHash) => {
   } 
 }
 
-module.exports = { getSessionSigForLitAction, pullTxHashByQueueId, pollRequestUntilTerminalState };
+
+
+module.exports = { getSessionSigForLitAction, pullTxHashByQueueId, pollRequestUntilTerminalState};

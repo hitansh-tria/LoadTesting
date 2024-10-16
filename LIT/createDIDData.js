@@ -4,6 +4,7 @@ const { litActionRepository } = require("@lit-protocol/wrapped-keys-lit-actions"
 const ethers = require("ethers");
 const { generatePrivateKey, signMessageWithEncryptedKey } = api;
 const { getSessionSigForLitAction } = require("./utils/utils");
+const { sessionSig } = require("./utils/session");
 const { LitService } = require("./lit");
 
 const logExecutionTime = (label, startTime) => {
@@ -22,51 +23,54 @@ const logExecutionTime = (label, startTime) => {
 
 const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) => {
   try {
-    console.log("getCreateDIDData...");
+    //console.log("getCreateDIDData...");
 
     const litService = new LitService();
     
-    // <---this--->
-    const startTime1 = Date.now(); // Start time measurement
-    const { sessionSig } = await litService.generateSessionSig({ authMethod: authMethod, pubKey: pkpData.publicKey });
-    logExecutionTime('generateSessionSig', startTime1); // Log execution time
+    // // <---this--->
+    // const startTime1 = Date.now(); // Start time measurement
+    // const { sessionSig } = await litService.generateSessionSig({ authMethod: authMethod, pubKey: pkpData.publicKey });
+    // logExecutionTime('generateSessionSig', startTime1); // Log execution time
 
-    let wrappedKeySupportedChain = ["evm", "solana"];
+    // let wrappedKeySupportedChain = ["evm", "solana"];
     
-    // <---this--->
-    const startTime2 = Date.now(); // Start time measurement
+    // // <---this--->
+    // const startTime2 = Date.now(); // Start time measurement
     const evmMessage = {
       address: "This sign for create DID",
       timestamp: new Date().getTime(),
     };
-    const {wrappedKeys, evmSignature} = await litService.bathcGenerateWrappedKeys({sessionSig, message: evmMessage});
-    // console.log({generatedPublicKey, evmSignature});
-    // const { generatedWrappedKeys } = await litService.generateWrappedKeys({ chains: wrappedKeySupportedChain, sessionSig });
-    logExecutionTime('generateWrappedKeys', startTime2); // Log execution time
+    // const {wrappedKeys, evmSignature} = await litService.bathcGenerateWrappedKeys({sessionSig, message: evmMessage});
+    // // console.log({generatedPublicKey, evmSignature});
+    // // const { generatedWrappedKeys } = await litService.generateWrappedKeys({ chains: wrappedKeySupportedChain, sessionSig });
+    // logExecutionTime('generateWrappedKeys', startTime2); // Log execution time
 
-    // console.log("generatedWrappedKeys", generatedWrappedKeys);
-    const network = "evm";
-    let wrappedKey = wrappedKeys.filter(
-      (wrappedKey) => wrappedKey.network === network
-    );
-    console.log("wrappedKey", wrappedKey);
+    // // console.log("generatedWrappedKeys", generatedWrappedKeys);
+    // const network = "evm";
+    // let wrappedKey = wrappedKeys.filter(
+    //   (wrappedKey) => wrappedKey.network === network
+    // );
+    // console.log("wrappedKey", wrappedKey);
+    // console.log("sessionSig", sessionSig);
     
-    const wrappedEthAddress = await ethers.utils.computeAddress(wrappedKey[0].generatedPublicKey);
-    // const wrappedEthAddress = await ethers.utils.computeAddress(generatedPublicKey);
-    const evmAddress = wrappedEthAddress;
+    // const wrappedEthAddress = await ethers.utils.computeAddress(wrappedKey[0].generatedPublicKey);
+    // // const wrappedEthAddress = await ethers.utils.computeAddress(generatedPublicKey);
+    // const evmAddress = wrappedEthAddress;
     // const evmMessage = {
     //   address: evmAddress,
     //   timestamp: new Date().getTime(),
     // };
     
     // <---this--->
-    // const startTime3 = Date.now(); // Start time measurement
-    // const evmsignaturePromise = litService.signMessageWithWrappedKey({
-    //   message: JSON.stringify(evmMessage),
-    //   network: 'evm',
-    //   wrappedKeyId: wrappedKey[0].id,
-    //   sessionSig
-    // });
+    const startTime3 = Date.now(); // Start time measurement
+    const evmsignature = await litService.signMessageWithWrappedKey({
+      message: JSON.stringify(evmMessage),
+      network: 'evm',
+      wrappedKeyId: "e8b879d7-d85d-43ac-9b7e-bd57f465e58c",
+      sessionSig
+    });
+    logExecutionTime('signMessageWithWrappedKey', startTime3); // Log execution time
+    return evmsignature;
     // const solanaSignaturePromise = litService.signMessageWithWrappedKey({
     //   message: JSON.stringify(evmMessage),
     //   network: 'solana',
@@ -78,21 +82,21 @@ const getCreateDIDData = async (triaName, pkpData, authMethod, litNodeClient) =>
 
     // console.log("signature", evmsignature);
     
-    const evmChainData = {
-      address: evmAddress,
-      message: evmMessage,
-      signature: evmSignature,
-    };
+    // const evmChainData = {
+    //   address: evmAddress,
+    //   message: evmMessage,
+    //   signature: evmSignature,
+    // };
 
-    const args = {
-      did: triaName,
-      evmChainData: evmChainData,
-      nonEvmChainsData: [],
-      accessToken: authMethod.accessToken,
-      fromClientId: "e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b"
-    };
-    console.log("args", args);
-    return args;
+    // const args = {
+    //   did: triaName,
+    //   evmChainData: evmChainData,
+    //   nonEvmChainsData: [],
+    //   accessToken: authMethod.accessToken,
+    //   fromClientId: "e95a0ebc4cf97fdda343b471f47410e4:d3f4a2522ba2b408da4d897da4da2c75b0fb6ac216300e9b10a0ccdd2de8adc090ea129b2e3d031dd76bac4f0368edc5f737af62faac99c9348de855ec5c222be396c12d461225ed8e3c765e918b41e9bed51d0f49db82a3cd8eefa66ddf90e639ace441a59f:3e7bbf7393422b16beeaa530c2860a3b"
+    // };
+    // console.log("args", args);
+    // return args;
   } catch (err) {
     console.log(err);
     throw err;
