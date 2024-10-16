@@ -17,3 +17,4 @@
 2024-10-14T12:06:45.428Z | URL: https://lit.test.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature | Status: 502 | Error: Request failed with status code 502 | Request ID: 55440201
 2024-10-14T12:06:46.467Z | URL: https://lit.test.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature | Status: 502 | Error: Request failed with status code 502 | Request ID: 28541579
 2024-10-14T12:06:46.859Z | URL: https://lit.test.tria.so/api/v1/lit/v6/wrapped-key/generate-session-signature | Status: 502 | Error: Request failed with status code 502 | Request ID: 12424365
+2024-10-16T09:42:53.281Z | URL: Unknown URL | Status: No status code | Error: generatedPublicKey is not defined | Request ID: No requestId
