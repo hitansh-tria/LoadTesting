@@ -46,6 +46,7 @@ scenarios:
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
       # - function: "connectSocket" # Call the function to connect the socket
+      - think: 2
       - function: "checkAccessTokenAndContinue"
       - post:
           url: "/api/v2/did/check"
@@ -68,6 +69,7 @@ scenarios:
           afterResponse: "captureResponse"
       - log: "Name recommendations: {{ recommendations }}"
       - function: "checkAvailabilityStatusSuccessAndContinue"
+      - think: 2
       - function: "mintPKP"
       - log: "Minting done"
       - log: "Running getPKP"
