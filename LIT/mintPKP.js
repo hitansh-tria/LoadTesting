@@ -6,7 +6,7 @@ const io = require("socket.io-client");
 const { relayerUrl } = require("./constant");
 const { ethers } = require("ethers");
 const { pullTxHashByQueueId } = require("./utils/utils");
-
+const {pollRequestUntilTerminalState} = require("./utils/utils.js");
 const mintPKP = async (queueId,authMethod) => {
   try {
     // console.log(authMethod);
@@ -35,7 +35,17 @@ const mintPKP = async (queueId,authMethod) => {
     // if(queueId !== queueIdFromSockets) {
     //   throw new Error("Minting succecced, keys undefine");
     // }
-    const {
+    // const {
+    //   //@ts-ignore
+    //   queueId: delegateTxQueueId,
+    //   status,
+    //   pkpEthAddress,
+    //   pkpPublicKey,
+    //   pkpTokenId,
+    //   error,
+    // } = await provider.relay.pollRequestUntilTerminalState(requestId);
+
+     const {
       //@ts-ignore
       queueId: delegateTxQueueId,
       status,
@@ -43,7 +53,9 @@ const mintPKP = async (queueId,authMethod) => {
       pkpPublicKey,
       pkpTokenId,
       error,
-    } = await provider.relay.pollRequestUntilTerminalState(requestId);
+    } = await pollRequestUntilTerminalState(requestId);
+    
+
     if (status !== "Succeeded") {
       throw new Error("Minting failed");
     }
