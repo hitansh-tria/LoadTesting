@@ -91,6 +91,17 @@ class LitService {
         }
     }
 
+    async getWrappedKeys(payload) {
+        try {
+            const { data } = await axios.post(`${litProxy}/api/v1/lit/v6/wrapped-key/get`, {
+                ...payload
+            });
+            return data;
+        } catch (err) {
+            throw err;
+        }
+    }
+
 
     async getEncryptedKey(payload) {
         try {

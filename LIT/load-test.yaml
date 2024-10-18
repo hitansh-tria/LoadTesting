@@ -1,95 +1,51 @@
 config:
   target: "https://api.test.tria.so"
   phases:
-    - duration: 1
+    - duration: 60
       arrivalRate: 1
-      rampTo: 1
-#      arrivalCount: 1
-  processor: "./processor.js"
+      rampTo: 10
+  processor: "./processor.js"  # Ensure the path is correct
   variables:
     fromClientId: "7fc81e4118d1f8f59d48d513a63d561b:f7c89203ddf5487b1e55a00f68188912d66069cb078ab0611f5148c3395d1014fcebec4f1438bc328b2ad1d8b8b332684a668bca6f2786c55b2f4927299b1732833c3b1acaa44ced896abc4d22e4da18e080484519f960a1349ebda84278ae199b7df9117c1e:3dab23f16dad0832f359421744e7f0b0"
     origin: "https://tria-demo-staging.vercel.app"
     otp: "7R9K3P5A1Q"
   http:
-    timeout: 60
+    timeout: 60  # Ensure this is an appropriate timeout for your scenario
+  logLevel: debug
 scenarios:
   - flow:
-      # - function: "getRandomUsername"
-      # - log: "Generated username: {{ username }}"
-      # - post:
-      #     url: "/api/v2/auth/initiate-otp"
-      #     json:
-      #       email: "{{ username }}@yopmail.com"
-      #       origin: "{{ origin }}"
-      #       fromClientId: "{{ fromClientId }}"
-      #     headers:
-      #       Content-Type: "application/json"
-      #     capture:
-      #       - json: "$.success"
-      #         as: "initiateOTPSuccess"
-      #     afterResponse: "captureResponse"
-      # - log: "Initiate OTP executed"
-      # - function: "checkInitiateOTPSuccessAndContinue"
-      # - post:
-      #     url: "/api/v2/auth/verify-otp"
-      #     json:
-      #       otp: "{{ otp }}"
-      #       email: "{{ username }}@yopmail.com"
-      #       fromClientId: "{{ fromClientId }}"
-      #     headers:
-      #       Content-Type: "application/json"
-      #     capture:
-      #       - json: "$.accessToken"
-      #         as: "accessToken"
-      #       - json: "$.queueId"
-      #         as: "queueId"
-      #     afterResponse: "captureResponse"
-      # - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
-      # # - function: "connectSocket" # Call the function to connect the socket
-      # - think: 2
-      # - function: "checkAccessTokenAndContinue"
-      # - post:
-      #     url: "/api/v2/did/check"
-      #     json:
-      #       did: "{{ username }}@tria"
-      #     headers:
-      #       Content-Type: "application/json"
-      #     capture:
-      #       - json: "$.response.availabilityStatus"
-      #         as: "availabilityStatus"
-      #     afterResponse: "captureResponse"
-      # - log: "Check DID response: {{ availabilityStatus }}"
-      # - get:
-      #     url: "/api/v2/get-name-recommendation"
-      #     qs:
-      #       name: "{{ username }}"
-      #     capture:
-      #       - json: "$.data"
-      #         as: "recommendations"
-      #     afterResponse: "captureResponse"
-      # - log: "Name recommendations: {{ recommendations }}"
-      # - function: "checkAvailabilityStatusSuccessAndContinue"
-      # - think: 2
-      # - function: "mintPKP"
-      # - log: "Minting done"
-      # - log: "Running getPKP"
-      # - function: "getPKP"
-      - function: "getCreateDIDData"
-      # - log: "DID Data Generated"
-      # - log: "{{ DIDData }}"
-      # - log: "Bearer {{ accessToken }}"
-      # - post:
-      #     url: "/api/v1/did/create"
-      #     json: "{{ DIDData }}"
-      #     headers:
-      #       Content-Type: "application/json"
-      #       Authorization: "Bearer {{ accessToken }}"
-      #     capture:
-      #       - json: "$"
-      #         as: "Status"
-      #     afterResponse: "captureResponse"
-      # - log: "Create DID response: {{ Status }}"
+      - post:
+          url: "/api/v2/auth/initiate-otp"
+          json:
+            email: "load0x5nvbs6mccn339766@yopmail.com"
+            origin: "{{ origin }}"
+            fromClientId: "{{ fromClientId }}"
+          headers:
+            Content-Type: "application/json"
+          capture:
+            - json: "$.success"
+              as: "initiateOTPSuccess"
+          # afterResponse: "captureResponse"
+      - function: "checkInitiateOTPSuccessAndContinue"
+      - log: "Initiate OTP executed Successfully"
+      - post:
+          url: "/api/v2/auth/verify-otp"
+          json:
+            otp: "{{ otp }}"
+            email: "load0x5nvbs6mccn339766@yopmail.com"
+            fromClientId: "{{ fromClientId }}"
+          headers:
+            Content-Type: "application/json"
+          capture:
+            - json: "$.accessToken"
+              as: "accessToken"
+          # afterResponse: "captureResponse"
+      - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
+      - function: "getPKP"
+      - function: "generateSessionSig"
+      - function: "getWrappedKeys"
 
+# Uncomment when you want to enable after-test actions
 #after:
 #  flow:
 #    - log: "Uploading Data to S3"

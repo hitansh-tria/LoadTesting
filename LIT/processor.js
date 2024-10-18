@@ -2,7 +2,6 @@ const { getPKPs } = require("./fetchPKP.js");
 const { mintPKP } = require("./mintPKP.js");
 const { getCreateDIDData } = require("./createDIDData.js");
 const { Email } = require("./litCustomAuth/Providers/emailProvider.js");
-const AWS = require("aws-sdk");
 const fs = require("fs");
 const path = require("path");
 //const loc = "/tmp/responses.csv"; //To be used when running through AWS Lambda
@@ -13,9 +12,8 @@ const io = require("socket.io-client");
 const { LitNodeClientNodeJs } = require("@lit-protocol/lit-node-client-nodejs");
 const jose = require("jose");
 const { relayerUrl } = require("./constant");
+const { LitService } = require("./lit");
 
-const s3 = new AWS.S3();
-const bucketName = "artilleryio-test-data-741878071414-us-west-1";
 //const objectKey = 'responses.csv';
 const logFilePath = path.join(__dirname, 'error_log.txt');
 function writeResponse(url, statusCode, body) {
@@ -108,15 +106,59 @@ module.exports = {
       };
 
       getPKPs(authMethod)
-        .then(() => {
-          done();
+        .then((result) => {
+          //console.log("result", result);
+          if (result && result.length === 1) {
+            context.vars.pkpData = result[0];
+            return done();
+          } else {
+            return done(new Error("GET PKP not successful. PKP length not equal to 1"));
+          }
         })
         .catch((error) => {
           return done(new Error("GET PKP not successful. Ending scenario."));
         });
-      return done();
     } catch (error) {
       return done(new Error("GET PKP not successful. Ending scenario."));
+    }
+  },
+  generateSessionSig: async (context, events) => {
+    try {
+      console.log("generateSessionSig");
+      const authMethod = {
+        accessToken: context.vars.accessToken,
+        authMethodType:
+          "0xf8d39b7f3ec30f4bd2e45e0d545c83f64f8364a2c53765ca42ccf9bf7cde3482",
+        // accessToken:
+        //   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMGIyNDIwYTctYzBmNy00YTlmLWFlN2UtMGMyODA5NDU3M2FjIiwiZW1haWwiOiJkNzRwMmIyNHpsQHNteWt3Yi5jb20iLCJpYXQiOjE3MjU3MTAxMDgsImV4cCI6MTcyNjMxNDkwOH0.k7oWdFfpVzvDS-psFXBYZGTIbJdbCUt-KuFOGFx_yr8",
+        // userOauthId: "d74p2b24zl@smykwb.com",
+        // userKey: "d74p2b24zl@smykwb.com",
+      };
+      const litService = new LitService();
+    
+      const { sessionSig } = await litService.generateSessionSig({ authMethod: authMethod, pubKey: context.vars.pkpData.publicKey });
+      context.vars.sessionSig = sessionSig;
+      return;
+    } catch (err) {
+      console.log(err.message);
+      throw new Error("GenerateSessionSig not successful. Ending scenario.");
+    }
+  },
+  getWrappedKeys: async (context, events) => {
+    try {
+      console.log("getWrappedKeys");
+      const litService = new LitService();
+      const { existingWrappedKeys: wrappedKeys } =
+        await litService.getWrappedKeys({ sessionSig: context.vars.sessionSig });
+      if (wrappedKeys.length === 2) {
+        //console.log(wrappedKeys);
+        return;
+      } else {
+        throw new Error("getWrappedKeys not successful. lenght not equal to 2");
+      }
+    } catch (err) {
+      console.log(err);
+      throw new Error("getWrappedKeys not successful. Ending scenario.");
     }
   },
   mintPKP: (context, events, done) => {
@@ -130,8 +172,8 @@ module.exports = {
       // userOauthId: "d74p2b24zl@smykwb.com",
       // userKey: "d74p2b24zl@smykwb.com",
     };
-    let queueId =  context.vars.queueId;
-    mintPKP(queueId,authMethod)
+    let queueId = context.vars.queueId;
+    mintPKP(queueId, authMethod)
       .then((PKPData) => {
         context.vars.PKPData = PKPData;
         done();
@@ -164,36 +206,36 @@ module.exports = {
     const triaName = `${context.vars.username}@tria`;
 
     // litNodeClient.connect().then(() => {
-      getCreateDIDData(
-        triaName,
-        context.vars.PKPData,
-        authMethod,
-        // litNodeClient
-      )
-        .then((DIDData) => {
-          context.vars.DIDData = DIDData;
-          done();
-        })
-        .catch((error) => {
-          const requestUrl = error.config ? error.config.url : 'Unknown URL';
-          const statusCode = error.response ? error.response.status : 'No status code';
-          const errorMessage = error.message || 'Unknown error';
-          let requestId = 'No requestId';
-          if (error.config && error.config.data) {
-            try {
-              const requestData = JSON.parse(error.config.data); // Assuming the data is in JSON format
-              requestId = requestData.requestId || 'No requestId'; // Extract requestId if available
-            } catch (parseError) {
-              console.error('Failed to parse request data', parseError);
-            }
+    getCreateDIDData(
+      triaName,
+      context.vars.PKPData,
+      authMethod,
+      // litNodeClient
+    )
+      .then((DIDData) => {
+        context.vars.DIDData = DIDData;
+        done();
+      })
+      .catch((error) => {
+        const requestUrl = error.config ? error.config.url : 'Unknown URL';
+        const statusCode = error.response ? error.response.status : 'No status code';
+        const errorMessage = error.message || 'Unknown error';
+        let requestId = 'No requestId';
+        if (error.config && error.config.data) {
+          try {
+            const requestData = JSON.parse(error.config.data); // Assuming the data is in JSON format
+            requestId = requestData.requestId || 'No requestId'; // Extract requestId if available
+          } catch (parseError) {
+            console.error('Failed to parse request data', parseError);
           }
-          // Log the error details
-          logErrorToFile(requestUrl, statusCode, errorMessage, requestId);
-          // const res = Array.from(litNodeClient.getRequestIds());
-          //const requestId = JSON.stringify(res[res.length - 1]);
-          //logErrorToFile(error, requestId);
-          done(new Error(error.message ?? "CreateDID Data not successful. Ending scenario."));
-        });
+        }
+        // Log the error details
+        logErrorToFile(requestUrl, statusCode, errorMessage, requestId);
+        // const res = Array.from(litNodeClient.getRequestIds());
+        //const requestId = JSON.stringify(res[res.length - 1]);
+        //logErrorToFile(error, requestId);
+        done(new Error(error.message ?? "CreateDID Data not successful. Ending scenario."));
+      });
     // })
     // .catch((error) => {
     //       const res = Array.from(litNodeClient.getRequestIds());
@@ -203,6 +245,7 @@ module.exports = {
     //     });
   },
   captureResponse: (requestParams, response, context, ee, next) => {
+    console.log(response.body);
     const statusCode = response.statusCode;
     //    if (statusCode != 200) {
     const url = requestParams.url;

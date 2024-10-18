@@ -8,7 +8,7 @@ const getPKPs = async (authMethod) => {
     const allPKPs = await provider.fetchPKPsThroughRelayer(authMethod);
     return allPKPs;
   } catch (err) {
-//    console.log(err)
+    console.log(err)
     throw err;
   }
 };
