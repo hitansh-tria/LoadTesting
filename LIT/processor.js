@@ -154,11 +154,12 @@ module.exports = {
         //console.log(wrappedKeys);
         return;
       } else {
-        throw new Error("getWrappedKeys not successful. lenght not equal to 2");
+        console.log(wrappedKeys);
+        throw new Error(`getWrappedKeys not successful. lenght of ${wrappedKeys.length}`);
       }
     } catch (err) {
       console.log(err);
-      throw new Error("getWrappedKeys not successful. Ending scenario.");
+      throw err;
     }
   },
   mintPKP: (context, events, done) => {
