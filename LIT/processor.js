@@ -245,13 +245,15 @@ module.exports = {
     //       done(new Error("LITConnect not successful. Ending scenario."));
     //     });
   },
-  captureResponse: (requestParams, response, context, ee, next) => {
+  captureResponse: async (requestParams, response, context, ee, next) => {
     // console.log(response);
     const statusCode = response.statusCode;
     //    if (statusCode != 200) {
     const url = requestParams.url;
     const body = response.body;
-
+    if(url==='https://api.test.tria.so/api/v2/auth/verify-otp' && !response.body.isDIDExist) {
+      throw new Error("DID not exists");
+    }
     writeResponse(url, statusCode, body);
     //    }
     return next();

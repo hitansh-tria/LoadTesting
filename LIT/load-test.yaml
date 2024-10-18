@@ -44,6 +44,8 @@ scenarios:
           capture:
             - json: "$.accessToken"
               as: "accessToken"
+            - json: "$.isDIDExist"
+              as: "isDIDExist"
           afterResponse: "captureResponse"
       - log: "Access Token acquired from Verify OTP for {{ email }}: {{ accessToken }}"
       - function: "getPKP"
