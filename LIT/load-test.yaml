@@ -1,10 +1,14 @@
 config:
   target: "https://api.test.tria.so"
   phases:
-    - duration: 60
+    - duration: 1
       arrivalRate: 1
-      rampTo: 10
+      rampTo: 1
   processor: "./processor.js"  # Ensure the path is correct
+  payload:
+    path: "./emails.csv"  # Path to your CSV file containing emails
+    fields:
+      - email
   variables:
     fromClientId: "7fc81e4118d1f8f59d48d513a63d561b:f7c89203ddf5487b1e55a00f68188912d66069cb078ab0611f5148c3395d1014fcebec4f1438bc328b2ad1d8b8b332684a668bca6f2786c55b2f4927299b1732833c3b1acaa44ced896abc4d22e4da18e080484519f960a1349ebda84278ae199b7df9117c1e:3dab23f16dad0832f359421744e7f0b0"
     origin: "https://tria-demo-staging.vercel.app"
@@ -14,10 +18,11 @@ config:
   logLevel: debug
 scenarios:
   - flow:
+      - log: "Using email: {{ email }}"  # Log the email being used
       - post:
           url: "/api/v2/auth/initiate-otp"
           json:
-            email: "load0x5nvbs6mccn339766@yopmail.com"
+            email: "{{ email }}"  # Use the email from the CSV
             origin: "{{ origin }}"
             fromClientId: "{{ fromClientId }}"
           headers:
@@ -25,28 +30,22 @@ scenarios:
           capture:
             - json: "$.success"
               as: "initiateOTPSuccess"
-          # afterResponse: "captureResponse"
+          afterResponse: "captureResponse"
+      - log: "Initiate OTP executed successfully for {{ email }}"
       - function: "checkInitiateOTPSuccessAndContinue"
-      - log: "Initiate OTP executed Successfully"
       - post:
           url: "/api/v2/auth/verify-otp"
           json:
             otp: "{{ otp }}"
-            email: "load0x5nvbs6mccn339766@yopmail.com"
+            email: "{{ email }}"
             fromClientId: "{{ fromClientId }}"
           headers:
             Content-Type: "application/json"
           capture:
             - json: "$.accessToken"
               as: "accessToken"
-          # afterResponse: "captureResponse"
-      - log: "Access Token acquired from Verify OTP: {{ accessToken }}"
+          afterResponse: "captureResponse"
+      - log: "Access Token acquired from Verify OTP for {{ email }}: {{ accessToken }}"
       - function: "getPKP"
       - function: "generateSessionSig"
       - function: "getWrappedKeys"
-
-# Uncomment when you want to enable after-test actions
-#after:
-#  flow:
-#    - log: "Uploading Data to S3"
-#    - function: "uploadToS3"

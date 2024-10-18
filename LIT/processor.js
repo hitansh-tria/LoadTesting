@@ -245,7 +245,7 @@ module.exports = {
     //     });
   },
   captureResponse: (requestParams, response, context, ee, next) => {
-    console.log(response.body);
+    // console.log(response);
     const statusCode = response.statusCode;
     //    if (statusCode != 200) {
     const url = requestParams.url;
